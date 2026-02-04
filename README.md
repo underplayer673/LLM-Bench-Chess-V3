@@ -27,10 +27,7 @@ This engine allows researchers to observe:
 
 ## 🛠 3. Installation
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/llm-chess-arena.git
-   cd llm-chess-arena
+1. download the repository
 2. Install dependencies:
    ```bash
    pip install python-chess pyperclip colorama
