@@ -31,16 +31,12 @@ This engine allows researchers to observe:
    ```bash
    git clone https://github.com/yourusername/llm-chess-arena.git
    cd llm-chess-arena
-Install dependencies:
-
-Bash
-
-pip install python-chess pyperclip colorama
-Run the manager:
-
-Bash
-
-python arena.py
+2. Install dependencies:
+   ```bash
+   pip install python-chess pyperclip colorama
+3. Run the manager:
+    ```bash   
+   python arena.py
 📖 4. Tournament Workflow
 Setup: Add your model names to the PARTICIPANTS list inside arena.py.
 The Pipeline:
@@ -51,6 +47,3 @@ Validation: The engine checks move legality instantly. If the AI "hallucinates,"
 Final Standings: After 3 rounds, the engine generates a final_standings.json leaderboard.
 📜 5. The Story Behind the Project
 This project was born from a casual chess match against my grandmother. I was using a "state-of-the-art" AI to assist, and it unexpectedly hung its Queen for no reason. This inspired me to build a system that objectively measures whether these "superintelligences" can actually follow rigid rules under pressure.
-
-📄 6. License
-Distributed under the MIT License. Feel free to use, modify, and share your tournament results!
