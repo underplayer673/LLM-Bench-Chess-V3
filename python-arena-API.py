@@ -48,10 +48,10 @@ def suppress_stderr():
 # ==========================================
 
 KEYS = {
-    "GOOGLE":     "Paste your API",
-    "COHERE":     "Paste your API",
-    "OPENROUTER": "Paste your API",
-    "SAMBANOVA":  "Paste your API",
+    "GOOGLE":     "null", # Enter your key
+    "COHERE":     "null", # Enter your key
+    "OPENROUTER": "null", # Enter your key
+    "SAMBANOVA":  "null", # Enter your key
 }
 
 os.environ["GEMINI_API_KEY"] = KEYS["GOOGLE"]
@@ -69,11 +69,29 @@ class GameMode(Enum):
 
 CURRENT_MODE = GameMode.PREMIUM
 
+class SelectionSubMode(Enum):
+    BALANCED_MAX = "balanced"
+    FULL_MAX = "fullmax"
+    CLASSIC = "classic"
+
+class OpenRouterMode(Enum):
+    AUTO = "auto"
+    CUSTOM = "custom"
+
+CURRENT_SELECTION_SUBMODE = SelectionSubMode.FULL_MAX
+CURRENT_OPENROUTER_MODE = OpenRouterMode.CUSTOM
+
 MODE_DESCRIPTIONS = {
     GameMode.USER: "Basic: just FEN, ask for move. Fast but dumb. NOT recommended.",
     GameMode.ECONOMY: "Smart single call with piece lists. Good balance.",
     GameMode.PREMIUM: "Two-stage: AI thinks first, then outputs move. BEST quality. DEFAULT.",
     GameMode.TERMINATOR: "Shows legal moves to AI. Strongest but unfair. NOT recommended.",
+}
+
+SELECTION_SUBMODE_DESCRIPTIONS = {
+    SelectionSubMode.BALANCED_MAX: "Prefer strong models first, then use the rest if needed.",
+    SelectionSubMode.FULL_MAX: "Prefer the strongest and newest experimental models first, then use the rest.",
+    SelectionSubMode.CLASSIC: "On every move, scan the full roster from smartest to weakest and skip failures immediately.",
 }
 
 # ==========================================
@@ -84,41 +102,70 @@ PROVIDER_CHAINS = {
     "Team Google": {
         "provider": "google",
         "chain": [
-            {"name": "Gemini 2.5 Flash",        "model": "gemini/gemini-2.5-flash"},
-            {"name": "Gemini 3.0 Flash Preview", "model": "gemini/gemini-3-flash-preview"},
-            {"name": "Gemini 2.5 Flash Lite",    "model": "gemini/gemini-2.5-flash-lite"},
-            {"name": "Gemma 3 27B",              "model": "gemini/gemma-3-27b-it"},
-            {"name": "Gemma 3 4B",               "model": "gemini/gemma-3-4b-it"},
+            {"name": "Gemini 3.1 Pro Preview",      "model": "gemini/gemini-3.1-pro-preview",                 "balanced": True,  "full_max": True,  "experimental": True},
+            {"name": "Gemini 3.0 Pro Preview",      "model": "gemini/gemini-3-pro-preview",                   "balanced": True,  "full_max": True,  "experimental": True},
+            {"name": "Gemini 3.0 Flash Preview",    "model": "gemini/gemini-3-flash-preview",                 "balanced": True,  "full_max": True,  "experimental": True},
+            {"name": "Gemini 2.5 Pro",              "model": "gemini/gemini-2.5-pro",                         "balanced": True,  "full_max": True},
+            {"name": "Gemini 2.5 Flash",            "model": "gemini/gemini-2.5-flash",                       "balanced": True,  "full_max": False},
+            {"name": "Gemini 3 Pro Image Prev",     "model": "gemini/gemini-3-pro-image-preview",             "balanced": False, "full_max": True,  "experimental": True},
+            {"name": "Gemini 3.1 Flash Image Prev", "model": "gemini/gemini-3.1-flash-image-preview",         "balanced": False, "full_max": True,  "experimental": True},
+            {"name": "Gemini 2.5 Flash Image",      "model": "gemini/gemini-2.5-flash-image",                 "balanced": False, "full_max": False},
+            {"name": "Gemini 2.5 Flash Lite",       "model": "gemini/gemini-2.5-flash-lite",                  "balanced": True,  "full_max": False},
+            {"name": "Gemini 2.0 Flash",            "model": "gemini/gemini-2.0-flash",                       "balanced": False, "full_max": False},
+            {"name": "Gemini 2.0 Flash Lite",       "model": "gemini/gemini-2.0-flash-lite",                  "balanced": False, "full_max": False},
+            {"name": "Gemma 3 27B (Google)",        "model": "gemini/gemma-3-27b-it",                         "balanced": True,  "full_max": False},
+            {"name": "Gemma 3 4B (Google)",         "model": "gemini/gemma-3-4b-it",                          "balanced": False, "full_max": False},
+            {"name": "Gemma 3 1B (Google)",         "model": "gemini/gemma-3-1b-it",                          "balanced": False, "full_max": False},
         ],
     },
     "Team SambaNova": {
         "provider": "samba",
         "chain": [
-            {"name": "DeepSeek V3",              "model": "DeepSeek-V3-0324"},
-            {"name": "DeepSeek R1",              "model": "DeepSeek-R1"},
-            {"name": "DeepSeek R1 Distill 70B",  "model": "DeepSeek-R1-Distill-Llama-70B"},
-            {"name": "Qwen3 32B",                "model": "Qwen3-32B"},
-            {"name": "Llama 3.3 70B",            "model": "Meta-Llama-3.3-70B-Instruct"},
-            {"name": "Llama 3.1 8B",             "model": "Meta-Llama-3.1-8B-Instruct"},
+            {"name": "Samba DeepSeek V3.1",           "model": "DeepSeek-V3.1",                                 "balanced": True,  "full_max": True,  "experimental": True},
+            {"name": "Samba Llama 4 Maverick",        "model": "Llama-4-Maverick-17B-128E-Instruct",            "balanced": True,  "full_max": True},
+            {"name": "Samba DeepSeek V3",             "model": "DeepSeek-V3-0324",                              "balanced": True,  "full_max": True},
+            {"name": "Samba Qwen3 32B",               "model": "Qwen3-32B",                                     "balanced": True,  "full_max": False},
+            {"name": "Samba Llama 3.3 70B",           "model": "Meta-Llama-3.3-70B-Instruct",                   "balanced": True,  "full_max": False},
+            {"name": "Samba DeepSeek R1 Distill 70B", "model": "DeepSeek-R1-Distill-Llama-70B",                 "balanced": False, "full_max": False},
+            {"name": "Samba Llama 3.1 8B",            "model": "Meta-Llama-3.1-8B-Instruct",                    "balanced": False, "full_max": False},
         ],
     },
     "Team Cohere": {
         "provider": "cohere",
         "chain": [
-            {"name": "Command A",               "model": "cohere/command-a-03-2025"},
-            {"name": "Command R+",              "model": "cohere/command-r-plus-08-2024"},
-            {"name": "Command R7B",             "model": "cohere/command-r7b-12-2024"},
-            {"name": "Command Nightly",         "model": "cohere/command-nightly"},
-            {"name": "Aya Expanse 32B",         "model": "cohere/c4ai-aya-expanse-32b"},
+            {"name": "Command A Reasoning",        "model": "cohere/command-a-reasoning-08-2025",             "balanced": True,  "full_max": True,  "experimental": True},
+            {"name": "Command A 03-2025",         "model": "cohere/command-a-03-2025",                       "balanced": True,  "full_max": True},
+            {"name": "Command A Vision",          "model": "cohere/command-a-vision-07-2025",                "balanced": True,  "full_max": False},
+            {"name": "Command R+ 08-2024",        "model": "cohere/command-r-plus-08-2024",                  "balanced": True,  "full_max": False},
+            {"name": "Command R 08-2024",         "model": "cohere/command-r-08-2024",                       "balanced": True,  "full_max": False},
+            {"name": "Command Nightly",           "model": "cohere/command-nightly",                         "balanced": True,  "full_max": False, "experimental": True},
+            {"name": "Aya Expanse 32B",           "model": "cohere/c4ai-aya-expanse-32b",                    "balanced": False, "full_max": False},
+            {"name": "Command A Translate",       "model": "cohere/command-a-translate-08-2025",             "balanced": False, "full_max": False},
+            {"name": "Aya Vision 32B",            "model": "cohere/c4ai-aya-vision-32b",                     "balanced": False, "full_max": False},
+            {"name": "Command R7B 12-2024",       "model": "cohere/command-r7b-12-2024",                     "balanced": False, "full_max": False},
+            {"name": "Aya Expanse 8B",            "model": "cohere/c4ai-aya-expanse-8b",                     "balanced": False, "full_max": False},
+            {"name": "Aya Vision 8B",             "model": "cohere/c4ai-aya-vision-8b",                      "balanced": False, "full_max": False},
         ],
     },
     "Team OpenRouter": {
         "provider": "or",
         "chain": [
-            {"name": "OR Llama 3.3 70B",        "model": "openrouter/meta-llama/llama-3.3-70b-instruct:free"},
-            {"name": "OR Gemma 3 27B",          "model": "openrouter/google/gemma-3-27b-it:free"},
-            {"name": "Trinity Large",           "model": "openrouter/arcee-ai/trinity-large-preview:free"},
-            {"name": "Trinity Mini",            "model": "openrouter/arcee-ai/trinity-mini:free"},
+            {"name": "OR Free Auto-Router",         "model": "openrouter/openrouter/free",                                         "router": True,  "balanced": True,  "full_max": True},
+            {"name": "OR Hermes 3 405B Free",      "model": "openrouter/nousresearch/hermes-3-llama-3.1-405b:free",               "balanced": True,  "full_max": True,  "experimental": True},
+            {"name": "OR Trinity Large Free",      "model": "openrouter/arcee-ai/trinity-large-preview:free",                     "balanced": True,  "full_max": True,  "experimental": True},
+            {"name": "OR Llama 3.3 70B Free",      "model": "openrouter/meta-llama/llama-3.3-70b-instruct:free",                  "balanced": True,  "full_max": True},
+            {"name": "OR Mistral Small 3.1 Free",  "model": "openrouter/mistralai/mistral-small-3.1-24b-instruct:free",          "balanced": True,  "full_max": False},
+            {"name": "OR Gemma 3 27B Free",        "model": "openrouter/google/gemma-3-27b-it:free",                              "balanced": True,  "full_max": False},
+            {"name": "OR Qwen3 Coder Free",        "model": "openrouter/qwen/qwen3-coder:free",                                   "balanced": True,  "full_max": False},
+            {"name": "OR Trinity Mini Free",       "model": "openrouter/arcee-ai/trinity-mini:free",                              "balanced": False, "full_max": False},
+            {"name": "OR Gemma 3 12B Free",        "model": "openrouter/google/gemma-3-12b-it:free",                              "balanced": False, "full_max": False},
+            {"name": "OR Step 3.5 Flash Free",     "model": "openrouter/stepfun/step-3.5-flash:free",                             "balanced": False, "full_max": False},
+            {"name": "OR Gemma 3 4B Free",         "model": "openrouter/google/gemma-3-4b-it:free",                               "balanced": False, "full_max": False},
+            {"name": "OR Qwen3 4B Free",           "model": "openrouter/qwen/qwen3-4b:free",                                      "balanced": False, "full_max": False},
+            {"name": "OR Llama 3.2 3B Free",       "model": "openrouter/meta-llama/llama-3.2-3b-instruct:free",                   "balanced": False, "full_max": False},
+            {"name": "OR Nemotron Nano 9B V2 Free","model": "openrouter/nvidia/nemotron-nano-9b-v2:free",                         "balanced": False, "full_max": False},
+            {"name": "OR Dolphin Mistral Venice",  "model": "openrouter/cognitivecomputations/dolphin-mistral-24b-venice-edition:free", "balanced": False, "full_max": False},
+            {"name": "OR Liquid 2.5 1.2B Free",    "model": "openrouter/liquid/lfm-2.5-1.2b-instruct:free",                       "balanced": False, "full_max": False},
         ],
     },
 }
@@ -148,10 +195,43 @@ class ProviderTeam:
     def current_model_name(self):
         return self.current_model["name"]
 
-    def get_best_available(self):
-        """Get strongest available model (lowest index that's not exhausted)."""
+    def _base_ranked_indices(self):
+        indices = list(range(len(self.chain)))
+        if self.provider == "or":
+            router = [i for i, model in enumerate(self.chain) if model.get("router")]
+            non_router = [i for i in indices if i not in router]
+            if CURRENT_OPENROUTER_MODE == OpenRouterMode.AUTO:
+                return router or indices
+            indices = non_router or indices
+
+        if CURRENT_SELECTION_SUBMODE == SelectionSubMode.CLASSIC:
+            return indices
+
+        if CURRENT_SELECTION_SUBMODE == SelectionSubMode.FULL_MAX:
+            preferred = [i for i in indices if self.chain[i].get("full_max")]
+        else:
+            preferred = [i for i in indices if self.chain[i].get("balanced")]
+
+        remaining = [i for i in indices if i not in preferred]
+        return preferred + remaining
+
+    def get_ranked_indices(self):
         now = time.time()
-        for i in range(len(self.chain)):
+        available = []
+        blocked = []
+        for i in self._base_ranked_indices():
+            expiry = self.exhausted_until.get(i, 0)
+            if expiry and expiry >= now:
+                blocked.append(i)
+            else:
+                self.exhausted_until.pop(i, None)
+                available.append(i)
+        return available + blocked
+
+    def get_best_available(self):
+        """Get the best currently available model according to the active submode."""
+        now = time.time()
+        for i in self.get_ranked_indices():
             if i not in self.exhausted_until or self.exhausted_until[i] < now:
                 self.exhausted_until.pop(i, None)
                 if i != self.current_index:
@@ -164,16 +244,16 @@ class ProviderTeam:
                 return self.current_model
         return None
 
-    def mark_exhausted(self, cooldown=300):
+    def mark_exhausted(self, cooldown=300, reason="exhausted"):
         old = self.current_model_name
         self.exhausted_until[self.current_index] = time.time() + cooldown
         now = time.time()
-        for i in range(len(self.chain)):
+        for i in self.get_ranked_indices():
             if i not in self.exhausted_until or self.exhausted_until[i] < now:
                 self.current_index = i
                 self.total_switches += 1
                 self.switch_log.append({"from": old, "to": self.current_model_name,
-                                        "reason": "exhausted",
+                                        "reason": reason,
                                         "time": datetime.datetime.now().isoformat()})
                 print(f"\n{Back.YELLOW}{Fore.BLACK} ⚡ {self.name}: {old} → {self.current_model_name} {Style.RESET_ALL}")
                 return True
@@ -229,14 +309,15 @@ def strip_think_tags(text):
 
 def api_call_with_failover(team, messages, telemetry, temperature=0.2, max_tokens=500):
     """Call API with automatic failover. Returns (content, model_name) or (None, None)."""
-    retries = 0
     # Give SambaNova (DeepSeek) more tokens for their <think> reasoning
     actual_max_tokens = max_tokens + 800 if team.provider == "samba" else max_tokens
-    
-    while retries < 10:
+
+    attempts = 0
+    max_attempts = max(len(team.chain) * 2, 10)
+    while attempts < max_attempts:
         active = team.get_best_available()
         if not active:
-            time.sleep(30)
+            time.sleep(15)
             active = team.get_best_available()
             if not active:
                 return None, None
@@ -245,26 +326,27 @@ def api_call_with_failover(team, messages, telemetry, temperature=0.2, max_token
                 resp = call_model_direct(team.provider, active["model"], messages,
                                          temperature=temperature, max_tokens=actual_max_tokens)
             content = resp.choices[0].message.content
+            if not content or not str(content).strip():
+                raise RuntimeError("empty response")
             # Strip <think> blocks from DeepSeek responses
             if team.provider == "samba":
                 content = strip_think_tags(content)
+                if not content:
+                    raise RuntimeError("empty response after think-strip")
             if active["name"] not in telemetry.models_used:
                 telemetry.models_used.append(active["name"])
             return content, active["name"]
         except Exception as e:
             err = str(e).lower()
             telemetry.api_errors += 1
-            retries += 1
+            attempts += 1
             is_limit = any(x in err for x in ["429","quota","rate limit","busy","resource_exhausted","too many","overloaded"])
-            if is_limit:
-                team.mark_exhausted(300)
-                telemetry.model_switches += 1
-            elif retries >= 3:
-                team.mark_exhausted(180)
-                telemetry.model_switches += 1
-                retries = 0
-            else:
-                time.sleep(5)
+            reason = "rate_limit_skip" if is_limit else "error_skip"
+            cooldown = 300 if is_limit else 120
+            team.mark_exhausted(cooldown, reason=reason)
+            telemetry.model_switches += 1
+            if not is_limit:
+                time.sleep(1)
     return None, None
 
 # ==========================================
@@ -670,10 +752,10 @@ def draw_banner():
     print(f"{Fore.CYAN}╔{'═'*78}╗")
     print(f"║ {Style.BRIGHT}{Fore.WHITE}    ♟️  LLM CHESS: PROVIDER TOURNAMENT v32.0  ♟️                              {Fore.CYAN}║")
     print(f"╠{'═'*78}╣")
-    print(f"║ {Fore.YELLOW}Mode: {CURRENT_MODE.value.upper():<10} | 4 Teams | Round Robin | 2-Stage AI                  {Fore.CYAN}║")
+    print(f"║ {Fore.YELLOW}Mode: {CURRENT_MODE.value.upper():<10} | Select: {CURRENT_SELECTION_SUBMODE.value.upper():<8} | OR: {CURRENT_OPENROUTER_MODE.value.upper():<6} {Fore.CYAN}║")
     print(f"║ {Fore.GREEN}Game:{Style.RESET_ALL} start test top teams logs                                              {Fore.CYAN}║")
-    print(f"║ {Fore.GREEN}Config:{Style.RESET_ALL} mode key addmodel rmmodel reset                                      {Fore.CYAN}║")
-    print(f"║ {Fore.GREEN}Info:{Style.RESET_ALL} modes help exit                                                        {Fore.CYAN}║")
+    print(f"║ {Fore.GREEN}Config:{Style.RESET_ALL} mode submode ormode key addmodel rmmodel reset                       {Fore.CYAN}║")
+    print(f"║ {Fore.GREEN}Info:{Style.RESET_ALL} modes teams help exit                                                  {Fore.CYAN}║")
     print(f"╚{'═'*78}╝{Style.RESET_ALL}")
 
 def print_board(board, name, color, num):
@@ -705,10 +787,14 @@ class TournamentManager:
         self._load_state_or_init()
 
     def _load_state_or_init(self):
+        global CURRENT_MODE, CURRENT_SELECTION_SUBMODE, CURRENT_OPENROUTER_MODE
         if Config.STATE_FILE.exists():
             try:
                 with open(Config.STATE_FILE) as f: data = json.load(f)
                 self.current_round = data["current_round"]
+                CURRENT_MODE = GameMode(data.get("current_mode", CURRENT_MODE.value))
+                CURRENT_SELECTION_SUBMODE = SelectionSubMode(data.get("selection_submode", CURRENT_SELECTION_SUBMODE.value))
+                CURRENT_OPENROUTER_MODE = OpenRouterMode(data.get("openrouter_mode", CURRENT_OPENROUTER_MODE.value))
                 self.teams = {k: TeamTelemetry.from_dict(v) for k,v in data.get("teams",{}).items() if k in TEAM_NAMES}
                 for pt in data.get("provider_teams",[]):
                     if pt["name"] in TEAM_NAMES: self.provider_teams[pt["name"]] = ProviderTeam.from_dict(pt)
@@ -728,6 +814,9 @@ class TournamentManager:
     def _save_state(self):
         with open(Config.STATE_FILE, "w") as f:
             json.dump({"current_round": self.current_round,
+                        "current_mode": CURRENT_MODE.value,
+                        "selection_submode": CURRENT_SELECTION_SUBMODE.value,
+                        "openrouter_mode": CURRENT_OPENROUTER_MODE.value,
                         "teams": {k:t.to_dict() for k,t in self.teams.items()},
                         "provider_teams": [pt.to_dict() for pt in self.provider_teams.values()],
                         "active_matches": [m.to_dict() for m in self.active_matches]}, f, indent=4)
@@ -808,8 +897,41 @@ class TournamentManager:
             print(f"  {marker} {m.value:<12} — {MODE_DESCRIPTIONS[m]}")
         choice = input(f"\nNew mode (user/economy/premium/terminator): ").strip().lower()
         for m in GameMode:
-            if m.value == choice: CURRENT_MODE = m; print(f"{Fore.GREEN}Mode: {m.value.upper()}{Style.RESET_ALL}"); return
+            if m.value == choice:
+                CURRENT_MODE = m
+                self._save_state()
+                print(f"{Fore.GREEN}Mode: {m.value.upper()}{Style.RESET_ALL}")
+                return
         print(f"{Fore.RED}Invalid mode.{Style.RESET_ALL}")
+
+    def _cmd_submode(self):
+        global CURRENT_SELECTION_SUBMODE
+        print(f"\n{Fore.YELLOW}Current selection submode: {CURRENT_SELECTION_SUBMODE.value.upper()}{Style.RESET_ALL}\n")
+        for sm in SelectionSubMode:
+            marker = "►" if sm == CURRENT_SELECTION_SUBMODE else " "
+            print(f"  {marker} {sm.value:<12} — {SELECTION_SUBMODE_DESCRIPTIONS[sm]}")
+        choice = input("\nNew submode (balanced/fullmax/classic): ").strip().lower()
+        for sm in SelectionSubMode:
+            if sm.value == choice:
+                CURRENT_SELECTION_SUBMODE = sm
+                self._save_state()
+                print(f"{Fore.GREEN}Selection submode: {sm.value.upper()}{Style.RESET_ALL}")
+                return
+        print(f"{Fore.RED}Invalid submode.{Style.RESET_ALL}")
+
+    def _cmd_ormode(self):
+        global CURRENT_OPENROUTER_MODE
+        print(f"\n{Fore.YELLOW}Current OpenRouter mode: {CURRENT_OPENROUTER_MODE.value.upper()}{Style.RESET_ALL}\n")
+        print("  ► auto   — Use OpenRouter's own free auto-router only." if CURRENT_OPENROUTER_MODE == OpenRouterMode.AUTO else "    auto   — Use OpenRouter's own free auto-router only.")
+        print("  ► custom — Use our ranked OpenRouter roster and failover." if CURRENT_OPENROUTER_MODE == OpenRouterMode.CUSTOM else "    custom — Use our ranked OpenRouter roster and failover.")
+        choice = input("\nOpenRouter mode (auto/custom): ").strip().lower()
+        for orm in OpenRouterMode:
+            if orm.value == choice:
+                CURRENT_OPENROUTER_MODE = orm
+                self._save_state()
+                print(f"{Fore.GREEN}OpenRouter mode: {orm.value.upper()}{Style.RESET_ALL}")
+                return
+        print(f"{Fore.RED}Invalid OpenRouter mode.{Style.RESET_ALL}")
 
     def _cmd_key(self):
         print(f"\n{Fore.YELLOW}API Keys:{Style.RESET_ALL}")
@@ -859,11 +981,17 @@ class TournamentManager:
             print(f"\n{Fore.CYAN}{tn} [{cfg['provider'].upper()}]:{Style.RESET_ALL}")
             for i, e in enumerate(cfg["chain"]):
                 mk = f"{Fore.GREEN}►{Style.RESET_ALL}" if i==ci else " "
+                tags = []
+                if e.get("router"): tags.append("router")
+                if e.get("experimental"): tags.append("exp")
+                if e.get("full_max"): tags.append("full")
+                elif e.get("balanced"): tags.append("bal")
                 ex = ""
                 if pt and i in pt.exhausted_until:
                     r = int(pt.exhausted_until[i]-time.time())
                     ex = f" {Fore.RED}({r}s){Style.RESET_ALL}" if r>0 else f" {Fore.GREEN}(ok){Style.RESET_ALL}"
-                print(f"  {mk} {i}. {e['name']:<28} {e['model']}{ex}")
+                label = f" [{'|'.join(tags)}]" if tags else ""
+                print(f"  {mk} {i}. {e['name']:<28} {e['model']}{label}{ex}")
 
     def _cmd_modes(self):
         print(f"\n{Fore.YELLOW}═══ GAME MODES ═══{Style.RESET_ALL}\n")
@@ -871,6 +999,16 @@ class TournamentManager:
             marker = f"{Fore.GREEN}► ACTIVE{Style.RESET_ALL}" if m==CURRENT_MODE else ""
             print(f"  {m.value.upper():<12} {marker}")
             print(f"    {MODE_DESCRIPTIONS[m]}\n")
+        print(f"{Fore.YELLOW}═══ SELECTION SUBMODES ═══{Style.RESET_ALL}\n")
+        for sm in SelectionSubMode:
+            marker = f"{Fore.GREEN}► ACTIVE{Style.RESET_ALL}" if sm==CURRENT_SELECTION_SUBMODE else ""
+            print(f"  {sm.value.upper():<12} {marker}")
+            print(f"    {SELECTION_SUBMODE_DESCRIPTIONS[sm]}\n")
+        print(f"{Fore.YELLOW}═══ OPENROUTER MODES ═══{Style.RESET_ALL}\n")
+        print(f"  AUTO{' ' * 8}{Fore.GREEN}► ACTIVE{Style.RESET_ALL}" if CURRENT_OPENROUTER_MODE == OpenRouterMode.AUTO else "  AUTO")
+        print("    Use OpenRouter's own free router only.\n")
+        print(f"  CUSTOM{' ' * 6}{Fore.GREEN}► ACTIVE{Style.RESET_ALL}" if CURRENT_OPENROUTER_MODE == OpenRouterMode.CUSTOM else "  CUSTOM")
+        print("    Use the ranked OpenRouter team roster with our failover order.\n")
 
     def _cmd_help(self):
         print(f"""
@@ -881,6 +1019,8 @@ class TournamentManager:
   {Fore.GREEN}teams{Style.RESET_ALL}      Show team rosters & status
   {Fore.GREEN}logs{Style.RESET_ALL}       Show recent illegal moves
   {Fore.GREEN}mode{Style.RESET_ALL}       Change game mode (user/economy/premium/terminator)
+  {Fore.GREEN}submode{Style.RESET_ALL}    Change model selection submode (balanced/fullmax/classic)
+  {Fore.GREEN}ormode{Style.RESET_ALL}     Change OpenRouter mode (auto/custom)
   {Fore.GREEN}modes{Style.RESET_ALL}      Explain all modes
   {Fore.GREEN}key{Style.RESET_ALL}        Change API key
   {Fore.GREEN}addmodel{Style.RESET_ALL}   Add model to a team
@@ -890,13 +1030,13 @@ class TournamentManager:
 """)
 
     def run_main_loop(self):
-        global CURRENT_MODE
+        global CURRENT_MODE, CURRENT_SELECTION_SUBMODE, CURRENT_OPENROUTER_MODE
         show_menu = True
         while True:
             if show_menu:
                 draw_banner()
                 st = "NEW" if not self.active_matches else f"ROUND {self.current_round}"
-                print(f"{Fore.GREEN}Status: {st} | Mode: {CURRENT_MODE.value.upper()}{Style.RESET_ALL}")
+                print(f"{Fore.GREEN}Status: {st} | Mode: {CURRENT_MODE.value.upper()} | Select: {CURRENT_SELECTION_SUBMODE.value.upper()} | OR: {CURRENT_OPENROUTER_MODE.value.upper()}{Style.RESET_ALL}")
                 while True:
                     cmd = input(f"\n{Fore.CYAN}> {Style.RESET_ALL}").strip().lower()
                     if not cmd: continue
@@ -913,6 +1053,8 @@ class TournamentManager:
                                 print(f"{Fore.RED}• {l.strip()}{Style.RESET_ALL}")
                         else: print("No errors yet.")
                     elif cmd=="mode": self._cmd_mode()
+                    elif cmd=="submode": self._cmd_submode()
+                    elif cmd=="ormode": self._cmd_ormode()
                     elif cmd=="modes": self._cmd_modes()
                     elif cmd=="key": self._cmd_key()
                     elif cmd=="addmodel": self._cmd_addmodel()
