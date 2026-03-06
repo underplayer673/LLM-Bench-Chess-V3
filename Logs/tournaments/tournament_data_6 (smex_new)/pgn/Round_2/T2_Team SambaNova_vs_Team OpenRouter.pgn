@@ -1,0 +1,11 @@
+[Event "Provider Tournament R2"]
+[Site "LLM Chess v32.0"]
+[Date "2026-03-06"]
+[Round "?"]
+[White "Team SambaNova"]
+[Black "Team OpenRouter"]
+[Result "1-0"]
+[Termination "DQ"]
+
+1. e4 { {Samba DeepSeek V3.1 } 1-0
+

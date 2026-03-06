@@ -1,0 +1,11 @@
+[Event "Provider Tournament Round 1"]
+[Site "LLM Chess v31.0"]
+[Date "2026-02-07"]
+[Round "?"]
+[White "Team Google"]
+[Black "Team SambaNova"]
+[Result "0-1"]
+[Termination "Disqualification"]
+
+1. e4 { {Gemini 2.5 Flash } 1... e5 { {DeepSeek V3 } 2. Nf3 { {Gemini 2.5 Flash } 2... Nc6 { {DeepSeek V3 } 3. Bb5 { {Gemini 2.5 Flash } 3... a6 { {DeepSeek V3 } 0-1
+

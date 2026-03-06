@@ -1,0 +1,11 @@
+[Event "Provider Tournament Round 1"]
+[Site "LLM Chess v31.1"]
+[Date "2026-02-07"]
+[Round "?"]
+[White "Team Google"]
+[Black "Team SambaNova"]
+[Result "1-0"]
+[Termination "Disqualification"]
+
+1. e4 { {Gemini 2.5 Flash } 1... e5 { {DeepSeek V3 } 2. Nf3 { {Gemini 2.5 Flash } 2... Nc6 { {DeepSeek V3 } 3. Bb5 { {Gemini 2.5 Flash } 3... a6 { {DeepSeek V3 } 4. a4 { {Gemini 2.5 Flash } 4... Bb4 { {DeepSeek V3 } 5. c3 { {Gemini 2.5 Flash } 5... Ba5 { {DeepSeek V3 } 6. d4 { {Gemini 3.0 Flash Preview } 6... exd4 { {DeepSeek V3 } 7. Nxd4 { {Gemini 3.0 Flash Preview } 7... Nxd4 { {DeepSeek V3 } 8. Qxd4 { {Gemini 3.0 Flash Preview } 8... Nf6 { {DeepSeek V3 } 9. e5 { {Gemini 3.0 Flash Preview } 9... Bb6 { {DeepSeek V3 } 10. Qf4 { {Gemini 3.0 Flash Preview } 10... Bc5 { {DeepSeek V3 } 11. Nd2 { {Gemini 3.0 Flash Preview } 11... O-O { {DeepSeek V3 } 12. exf6 { {Gemini 3.0 Flash Preview } 12... Qxf6 { {DeepSeek V3 } 13. Qxf6 { {Gemini 3.0 Flash Preview } 13... gxf6 { {DeepSeek V3 } 14. Ne4 { {Gemini 3.0 Flash Preview } 14... Bb6 { {DeepSeek V3 } 15. Bc6 { {Gemini 3.0 Flash Preview } 15... Bc5 { {DeepSeek V3 } 16. Bxd7 { {Gemini 3.0 Flash Preview } 16... a5 { {DeepSeek R1 Distill 70B } 17. Bd2 { {Gemini 3.0 Flash Preview } 17... Bxd7 { {DeepSeek R1 Distill 70B } 18. Nxf6+ { {Gemini 2.5 Flash Lite } 18... Kh8 { {Qwen3 32B } 19. g4 { {Gemma 3 27B } 19... b5 { {Llama 3.3 70B } 20. h3 { {Gemma 3 27B } 20... b4 { {Llama 3.3 70B } 21. g5 { {Gemma 3 27B } 21... Ra7 { {Llama 3.3 70B } 22. g6 { {Gemma 3 27B } 22... h6 { {Llama 3.3 70B } 23. g7+ { {Gemma 3 27B } 1-0
+

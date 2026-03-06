@@ -1,0 +1,155 @@
+{
+    "current_round": 3,
+    "teams": {
+        "Team Google": {
+            "name": "Team Google",
+            "points": 0.0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 3,
+            "total_moves": 3,
+            "total_think_time": 5.36600923538208,
+            "api_errors": 0,
+            "model_switches": 0,
+            "models_used": [
+                "Gemini 2.5 Flash"
+            ],
+            "played_opponents": [
+                "Team SambaNova",
+                "Team Cohere",
+                "Team OpenRouter"
+            ],
+            "color_history": [
+                "W",
+                "W",
+                "W"
+            ],
+            "is_disqualified": true
+        },
+        "Team SambaNova": {
+            "name": "Team SambaNova",
+            "points": 1.0,
+            "wins": 1,
+            "draws": 0,
+            "losses": 2,
+            "total_moves": 5,
+            "total_think_time": 8.124414205551147,
+            "api_errors": 0,
+            "model_switches": 0,
+            "models_used": [
+                "DeepSeek V3"
+            ],
+            "played_opponents": [
+                "Team Google",
+                "Team OpenRouter",
+                "Team Cohere"
+            ],
+            "color_history": [
+                "B",
+                "W",
+                "W"
+            ],
+            "is_disqualified": true
+        },
+        "Team Cohere": {
+            "name": "Team Cohere",
+            "points": 2.0,
+            "wins": 2,
+            "draws": 0,
+            "losses": 1,
+            "total_moves": 16,
+            "total_think_time": 33.01556420326233,
+            "api_errors": 0,
+            "model_switches": 0,
+            "models_used": [
+                "Command A"
+            ],
+            "played_opponents": [
+                "Team OpenRouter",
+                "Team Google",
+                "Team SambaNova"
+            ],
+            "color_history": [
+                "W",
+                "B",
+                "B"
+            ],
+            "is_disqualified": true
+        },
+        "Team OpenRouter": {
+            "name": "Team OpenRouter",
+            "points": 3.0,
+            "wins": 3,
+            "draws": 0,
+            "losses": 0,
+            "total_moves": 18,
+            "total_think_time": 47.706154346466064,
+            "api_errors": 0,
+            "model_switches": 0,
+            "models_used": [
+                "Trinity Large"
+            ],
+            "played_opponents": [
+                "Team Cohere",
+                "Team SambaNova",
+                "Team Google"
+            ],
+            "color_history": [
+                "B",
+                "B",
+                "B"
+            ],
+            "is_disqualified": false
+        }
+    },
+    "provider_teams": [
+        {
+            "name": "Team Google",
+            "current_index": 0,
+            "exhausted_until": {},
+            "switch_log": [],
+            "total_switches": 0
+        },
+        {
+            "name": "Team SambaNova",
+            "current_index": 0,
+            "exhausted_until": {},
+            "switch_log": [],
+            "total_switches": 0
+        },
+        {
+            "name": "Team Cohere",
+            "current_index": 0,
+            "exhausted_until": {},
+            "switch_log": [],
+            "total_switches": 0
+        },
+        {
+            "name": "Team OpenRouter",
+            "current_index": 0,
+            "exhausted_until": {},
+            "switch_log": [],
+            "total_switches": 0
+        }
+    ],
+    "active_matches": [
+        {
+            "table_id": 1,
+            "round_num": 3,
+            "white": "Team Google",
+            "black": "Team OpenRouter",
+            "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+            "state": "Completed",
+            "annotations": []
+        },
+        {
+            "table_id": 2,
+            "round_num": 3,
+            "white": "Team SambaNova",
+            "black": "Team Cohere",
+            "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+            "state": "Completed",
+            "annotations": []
+        }
+    ]
+}

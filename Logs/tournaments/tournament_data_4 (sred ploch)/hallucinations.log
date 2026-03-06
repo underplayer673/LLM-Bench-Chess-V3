@@ -1,0 +1,36 @@
+[2026-02-07 14:44:24.171256] Team OpenRouter:Trinity Large | FEN: r1bqr1k1/2ppbppp/p1n2n2/1p2p3/4P3/1B1P1N2/PPPN1PPP/R1BQR1K1 b - - 2 9 | Nc5
+[2026-02-07 14:44:27.349983] Team OpenRouter:Trinity Large | FEN: r1bqr1k1/2ppbppp/p1n2n2/1p2p3/4P3/1B1P1N2/PPPN1PPP/R1BQR1K1 b - - 2 9 | Nc4
+[2026-02-07 14:44:41.760207] Team Google:Gemma 3 27B | FEN: r3kb1r/pp2qppp/3pbn2/n3p3/3NP3/2N1BP2/PPPQB1PP/R3K2R w KQkq - 3 10 | e5
+[2026-02-07 14:44:54.622063] Team Google:Gemma 3 27B | FEN: r3kb1r/pp2qppp/3pbn2/n3p3/3NP3/2N1BP2/PPPQB1PP/R3K2R w KQkq - 3 10 | Nf3
+[2026-02-07 14:45:02.922222] Team Google:Gemma 3 27B | FEN: r3kb1r/pp2qppp/3pbn2/n3p3/3NP3/2N1BP2/PPPQB1PP/R3K2R w KQkq - 3 10 | Nf3
+[2026-02-07 14:45:12.295880] Team Google:Gemma 3 27B | FEN: r3kb1r/pp2qppp/3pbn2/n3p3/3NP3/2N1BP2/PPPQB1PP/R3K2R w KQkq - 3 10 | d4
+[2026-02-07 14:45:25.779727] Team Cohere:Command A | FEN: r2qr1k1/1bppbppp/p1n2n2/1p2p3/4P3/1B1P1N2/PPPN1PPP/R1BQR1K1 w - - 3 10 | e5
+[2026-02-07 14:45:29.424510] Team Cohere:Command A | FEN: r2qr1k1/1bppbppp/p1n2n2/1p2p3/4P3/1B1P1N2/PPPN1PPP/R1BQR1K1 w - - 3 10 | Nf3
+[2026-02-07 14:45:44.616559] Team SambaNova:Llama 3.1 8B | FEN: r3kb1r/pp2qppp/3pbn2/nB2p3/3NP3/2N1BP2/PPPQ2PP/R3K2R b KQkq - 4 10 | Nc4
+[2026-02-07 14:45:45.437293] Team SambaNova:Llama 3.1 8B | FEN: r3kb1r/pp2qppp/3pbn2/nB2p3/3NP3/2N1BP2/PPPQ2PP/R3K2R b KQkq - 4 10 | Na5
+[2026-02-07 14:46:05.632325] Team Google:Gemma 3 27B | FEN: r3kb1r/pp2qppp/2npbn2/1B2p3/3NP3/2N1BP2/PPPQ2PP/R3K2R w KQkq - 5 11 | e5
+[2026-02-07 14:46:16.440605] Team Google:Gemma 3 27B | FEN: r3kb1r/pp2qppp/2npbn2/1B2p3/3NP3/2N1BP2/PPPQ2PP/R3K2R w KQkq - 5 11 | Nf3
+[2026-02-07 14:46:28.615659] Team Google:Gemma 3 27B | FEN: r3kb1r/pp2qppp/2npbn2/1B2p3/3NP3/2N1BP2/PPPQ2PP/R3K2R w KQkq - 5 11 | Nf3
+[2026-02-07 14:46:43.639503] Team Google:Gemma 3 27B | FEN: r3kb1r/pp2qppp/2npbn2/1B2p3/3NP3/2N1BP2/PPPQ2PP/R3K2R w KQkq - 5 11 | Nf3
+[2026-02-07 14:46:53.226587] Team Google:Gemma 3 27B | FEN: r3kb1r/pp2qppp/2npbn2/1B2p3/3NP3/2N1BP2/PPPQ2PP/R3K2R w KQkq - 5 11 | Nf3
+[2026-02-07 14:47:51.407166] Team Cohere:Command A | FEN: r2qr1k1/1bp1bppp/p1n5/1p1np3/8/1B1P1N2/PPP2PPP/R1BQRNK1 w - - 0 12 | cxd5
+[2026-02-07 14:48:06.649642] Team Cohere:Command A | FEN: r2qr1k1/1bp1bppp/p1n5/1p1np3/8/1B1P1N2/PPP2PPP/R1BQRNK1 w - - 0 12 | e4
+[2026-02-07 14:48:23.489393] Team OpenRouter:Trinity Large | FEN: r2qr1k1/1bp1bppp/p1n5/1p1Bp3/8/3P1N2/PPP2PPP/R1BQRNK1 b - - 0 12 | Nxd5
+[2026-02-07 14:48:36.654548] Team Google:Gemma 3 4B | FEN: r3kb1r/1p2qppp/2npbn2/p3p3/3NP3/2NBBP2/PPPQ2PP/2R1K2R w Kkq - 0 13 | Qxa5
+[2026-02-07 14:48:39.754938] Team Google:Gemma 3 4B | FEN: r3kb1r/1p2qppp/2npbn2/p3p3/3NP3/2NBBP2/PPPQ2PP/2R1K2R w Kkq - 0 13 | Qxa5
+[2026-02-07 14:48:42.615473] Team Google:Gemma 3 4B | FEN: r3kb1r/1p2qppp/2npbn2/p3p3/3NP3/2NBBP2/PPPQ2PP/2R1K2R w Kkq - 0 13 | Qxa5
+[2026-02-07 14:48:45.433219] Team Google:Gemma 3 4B | FEN: r3kb1r/1p2qppp/2npbn2/p3p3/3NP3/2NBBP2/PPPQ2PP/2R1K2R w Kkq - 0 13 | Rc2
+[2026-02-07 14:48:48.485396] Team Google:Gemma 3 4B | FEN: r3kb1r/1p2qppp/2npbn2/p3p3/3NP3/2NBBP2/PPPQ2PP/2R1K2R w Kkq - 0 13 | Bg7
+[2026-02-07 14:54:06.946016] Team OpenRouter:Trinity Large | FEN: r3r1k1/1bp2ppp/p1nb4/1p2q3/2PP4/8/PP3PPP/R1BQRNK1 b - - 0 15 | Bf4
+[2026-02-07 14:54:13.426682] Team OpenRouter:Trinity Large | FEN: r3r1k1/1bp2ppp/p1nb4/1p2q3/2PP4/8/PP3PPP/R1BQRNK1 b - - 0 15 | Bxh2
+[2026-02-07 14:54:30.374727] Team OpenRouter:Trinity Large | FEN: r3r1k1/1bp2ppp/p2b4/npP1q3/3P4/8/PP3PPP/R1BQRNK1 b - - 0 16 | Nxc5
+[2026-02-07 14:54:45.731014] Team OpenRouter:Trinity Large | FEN: r3r1k1/1bp2ppp/p1Pb4/1p2q3/2nP4/8/PP3PPP/R1BQRNK1 b - - 0 17 | Nxd6
+[2026-02-07 14:54:54.695087] Team Cohere:Command R+ | FEN: r3r1k1/1bp2ppp/p1Pb4/1p2q3/3P4/n7/PP3PPP/R1BQRNK1 w - - 1 18 | bxc3
+[2026-02-07 14:54:57.920754] Team Cohere:Command R+ | FEN: r3r1k1/1bp2ppp/p1Pb4/1p2q3/3P4/n7/PP3PPP/R1BQRNK1 w - - 1 18 | Bxb7
+[2026-02-07 14:55:00.758024] Team Cohere:Command R+ | FEN: r3r1k1/1bp2ppp/p1Pb4/1p2q3/3P4/n7/PP3PPP/R1BQRNK1 w - - 1 18 | c7
+[2026-02-07 14:55:03.829144] Team Cohere:Command R+ | FEN: r3r1k1/1bp2ppp/p1Pb4/1p2q3/3P4/n7/PP3PPP/R1BQRNK1 w - - 1 18 | Qxa3
+[2026-02-07 14:55:07.597004] Team Cohere:Command R+ | FEN: r3r1k1/1bp2ppp/p1Pb4/1p2q3/3P4/n7/PP3PPP/R1BQRNK1 w - - 1 18 | Bc3
+[2026-02-07 14:55:17.480774] Team Cohere:Command R7B | FEN: r3r1k1/1bp2ppp/p1Pb4/1p1Pq3/8/8/PP3PPP/RnBQRNK1 w - - 1 19 | Nf3
+[2026-02-07 14:55:18.776860] Team Cohere:Command R7B | FEN: r3r1k1/1bp2ppp/p1Pb4/1p1Pq3/8/8/PP3PPP/RnBQRNK1 w - - 1 19 | Nc3
+[2026-02-07 14:59:01.024780] Team SambaNova:Llama 3.1 8B | FEN: rnbqk2r/pppp1ppp/4pn2/8/2PP4/P1b5/1P2PPPP/R1BQKBNR w KQkq - 0 5 | Nf3
+[2026-02-07 14:59:01.807706] Team SambaNova:Llama 3.1 8B | FEN: rnbqk2r/pppp1ppp/4pn2/8/2PP4/P1b5/1P2PPPP/R1BQKBNR w KQkq - 0 5 | e3

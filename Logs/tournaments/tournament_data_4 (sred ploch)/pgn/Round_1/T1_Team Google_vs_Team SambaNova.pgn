@@ -1,0 +1,11 @@
+[Event "Provider Tournament R1"]
+[Site "LLM Chess v32.0"]
+[Date "2026-02-07"]
+[Round "?"]
+[White "Team Google"]
+[Black "Team SambaNova"]
+[Result "0-1"]
+[Termination "DQ"]
+
+1. e4 { {Gemma 3 27B } 1... c5 { {DeepSeek R1 Distill 70B } 2. Nf3 { {Gemma 3 27B } 2... Nc6 { {Llama 3.3 70B } 3. d4 { {Gemma 3 27B } 3... cxd4 { {Llama 3.3 70B } 4. Nxd4 { {Gemma 3 27B } 4... e5 { {Llama 3.3 70B } 5. Nc3 { {Gemma 3 27B } 5... Nf6 { {Llama 3.3 70B } 6. Be2 { {Gemma 3 27B } 6... d6 { {Llama 3.3 70B } 7. Be3 { {Gemma 3 27B } 7... Qe7 { {Llama 3.3 70B } 8. f3 { {Gemma 3 27B } 8... Be6 { {Llama 3.3 70B } 9. Qd2 { {Gemma 3 27B } 9... Na5 { {Llama 3.3 70B } 10. Bb5+ { {Gemma 3 27B } 10... Nc6 { {Llama 3.1 8B } 11. Bd3 { {Gemma 3 4B } 11... a6 { {Llama 3.1 8B } 12. Rc1 { {Gemma 3 4B } 12... a5 { {Llama 3.1 8B } 0-1
+

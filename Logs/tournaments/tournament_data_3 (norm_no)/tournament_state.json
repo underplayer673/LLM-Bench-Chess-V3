@@ -1,0 +1,390 @@
+{
+    "current_round": 3,
+    "teams": {
+        "Team Google": {
+            "name": "Team Google",
+            "points": 3.0,
+            "wins": 3,
+            "draws": 0,
+            "losses": 0,
+            "total_moves": 52,
+            "total_think_time": 202.5624394416809,
+            "api_errors": 5,
+            "model_switches": 7,
+            "illegal_moves": 37,
+            "models_used": [
+                "Gemini 2.5 Flash",
+                "Gemini 3.0 Flash Preview",
+                "Gemini 2.5 Flash Lite",
+                "Gemma 3 27B"
+            ],
+            "played_opponents": [
+                "Team SambaNova",
+                "Team Cohere",
+                "Team OpenRouter"
+            ],
+            "color_history": [
+                "W",
+                "W",
+                "W"
+            ],
+            "is_disqualified": false
+        },
+        "Team SambaNova": {
+            "name": "Team SambaNova",
+            "points": 0.0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 3,
+            "total_moves": 22,
+            "total_think_time": 127.12074637413025,
+            "api_errors": 2,
+            "model_switches": 7,
+            "illegal_moves": 47,
+            "models_used": [
+                "DeepSeek V3",
+                "DeepSeek R1",
+                "DeepSeek R1 Distill 70B",
+                "Qwen3 32B",
+                "Llama 3.3 70B",
+                "Llama 3.1 8B"
+            ],
+            "played_opponents": [
+                "Team Google",
+                "Team OpenRouter",
+                "Team Cohere"
+            ],
+            "color_history": [
+                "B",
+                "W",
+                "W"
+            ],
+            "is_disqualified": true
+        },
+        "Team Cohere": {
+            "name": "Team Cohere",
+            "points": 1.0,
+            "wins": 1,
+            "draws": 0,
+            "losses": 2,
+            "total_moves": 31,
+            "total_think_time": 131.7175064086914,
+            "api_errors": 3,
+            "model_switches": 6,
+            "illegal_moves": 48,
+            "models_used": [
+                "Command A",
+                "Command R+",
+                "Command R7B"
+            ],
+            "played_opponents": [
+                "Team OpenRouter",
+                "Team Google",
+                "Team SambaNova"
+            ],
+            "color_history": [
+                "W",
+                "B",
+                "B"
+            ],
+            "is_disqualified": true
+        },
+        "Team OpenRouter": {
+            "name": "Team OpenRouter",
+            "points": 2.0,
+            "wins": 2,
+            "draws": 0,
+            "losses": 1,
+            "total_moves": 58,
+            "total_think_time": 219.26610136032104,
+            "api_errors": 9,
+            "model_switches": 6,
+            "illegal_moves": 45,
+            "models_used": [
+                "OR Llama 3.3 70B",
+                "Trinity Large"
+            ],
+            "played_opponents": [
+                "Team Cohere",
+                "Team SambaNova",
+                "Team Google"
+            ],
+            "color_history": [
+                "B",
+                "B",
+                "B"
+            ],
+            "is_disqualified": true
+        }
+    },
+    "provider_teams": [
+        {
+            "name": "Team Google",
+            "current_index": 2,
+            "exhausted_until": {
+                "3": 1770459070.965527,
+                "0": 1770458771.2203186,
+                "1": 1770458816.4001951
+            },
+            "switch_log": [
+                {
+                    "from": "Gemini 2.5 Flash",
+                    "to": "Gemini 3.0 Flash Preview",
+                    "reason": "rate_limit",
+                    "time": "2026-02-07T12:43:15.180215"
+                },
+                {
+                    "from": "Gemini 3.0 Flash Preview",
+                    "to": "Gemini 2.5 Flash",
+                    "reason": "rate_limit",
+                    "time": "2026-02-07T12:48:21.725158"
+                },
+                {
+                    "from": "Gemini 2.5 Flash",
+                    "to": "Gemini 2.5 Flash Lite",
+                    "reason": "rate_limit",
+                    "time": "2026-02-07T12:48:24.952902"
+                },
+                {
+                    "from": "Gemini 2.5 Flash Lite",
+                    "to": "Gemma 3 27B",
+                    "reason": "rate_limit",
+                    "time": "2026-02-07T12:49:04.697274"
+                },
+                {
+                    "from": "Gemma 3 27B",
+                    "to": "Gemini 2.5 Flash",
+                    "reason": "rate_limit",
+                    "time": "2026-02-07T13:01:10.965530"
+                },
+                {
+                    "from": "Gemini 2.5 Flash",
+                    "to": "Gemini 3.0 Flash Preview",
+                    "reason": "rate_limit",
+                    "time": "2026-02-07T13:01:11.220323"
+                },
+                {
+                    "from": "Gemini 3.0 Flash Preview",
+                    "to": "Gemini 2.5 Flash Lite",
+                    "reason": "rate_limit",
+                    "time": "2026-02-07T13:01:56.400199"
+                }
+            ],
+            "total_switches": 7
+        },
+        {
+            "name": "Team SambaNova",
+            "current_index": 0,
+            "exhausted_until": {
+                "1": 1770458243.7013485,
+                "2": 1770458326.1937268,
+                "3": 1770458368.786237,
+                "4": 1770458472.5245934,
+                "5": 1770458475.6946573,
+                "0": 1770458238.4708178
+            },
+            "switch_log": [
+                {
+                    "from": "DeepSeek V3",
+                    "to": "DeepSeek R1",
+                    "reason": "rate_limit",
+                    "time": "2026-02-07T12:46:58.503106"
+                },
+                {
+                    "from": "DeepSeek R1",
+                    "to": "DeepSeek R1 Distill 70B",
+                    "reason": "rate_limit",
+                    "time": "2026-02-07T12:47:23.701351"
+                },
+                {
+                    "from": "DeepSeek R1 Distill 70B",
+                    "to": "Qwen3 32B",
+                    "reason": "rate_limit",
+                    "time": "2026-02-07T12:48:46.193731"
+                },
+                {
+                    "from": "Qwen3 32B",
+                    "to": "Llama 3.3 70B",
+                    "reason": "rate_limit",
+                    "time": "2026-02-07T12:49:28.786241"
+                },
+                {
+                    "from": "Llama 3.3 70B",
+                    "to": "Llama 3.1 8B",
+                    "reason": "rate_limit",
+                    "time": "2026-02-07T12:51:12.524598"
+                },
+                {
+                    "from": "Llama 3.1 8B",
+                    "to": "DeepSeek V3",
+                    "reason": "recovery",
+                    "time": "2026-02-07T12:52:15.695455"
+                }
+            ],
+            "total_switches": 5
+        },
+        {
+            "name": "Team Cohere",
+            "current_index": 0,
+            "exhausted_until": {
+                "1": 1770458701.7264476,
+                "2": 1770458402.4630425,
+                "3": 1770458402.6609373,
+                "4": 1770458402.841532,
+                "0": 1770458738.6090808
+            },
+            "switch_log": [
+                {
+                    "from": "Command A",
+                    "to": "Command R+",
+                    "reason": "rate_limit",
+                    "time": "2026-02-07T12:45:13.096404"
+                },
+                {
+                    "from": "Command R+",
+                    "to": "Command R7B",
+                    "reason": "rate_limit",
+                    "time": "2026-02-07T12:55:01.726451"
+                },
+                {
+                    "from": "Command R7B",
+                    "to": "Command Nightly",
+                    "reason": "rate_limit",
+                    "time": "2026-02-07T12:55:02.463047"
+                },
+                {
+                    "from": "Command Nightly",
+                    "to": "Aya Expanse 32B",
+                    "reason": "rate_limit",
+                    "time": "2026-02-07T12:55:02.660946"
+                },
+                {
+                    "from": "Aya Expanse 32B",
+                    "to": "Command A",
+                    "reason": "recovery",
+                    "time": "2026-02-07T12:55:32.842112"
+                }
+            ],
+            "total_switches": 4
+        },
+        {
+            "name": "Team OpenRouter",
+            "current_index": 3,
+            "exhausted_until": {
+                "2": 1770459132.5976028,
+                "0": 1770458833.3268645,
+                "1": 1770458725.7370622,
+                "3": 1770458845.9818356
+            },
+            "switch_log": [
+                {
+                    "from": "OR Llama 3.3 70B",
+                    "to": "OR Gemma 3 27B",
+                    "reason": "rate_limit",
+                    "time": "2026-02-07T12:52:53.712264"
+                },
+                {
+                    "from": "OR Gemma 3 27B",
+                    "to": "Trinity Large",
+                    "reason": "rate_limit",
+                    "time": "2026-02-07T12:53:06.420974"
+                },
+                {
+                    "from": "Trinity Large",
+                    "to": "OR Llama 3.3 70B",
+                    "reason": "rate_limit",
+                    "time": "2026-02-07T13:02:12.597607"
+                },
+                {
+                    "from": "OR Llama 3.3 70B",
+                    "to": "OR Gemma 3 27B",
+                    "reason": "rate_limit",
+                    "time": "2026-02-07T13:02:13.326867"
+                },
+                {
+                    "from": "OR Gemma 3 27B",
+                    "to": "Trinity Mini",
+                    "reason": "rate_limit",
+                    "time": "2026-02-07T13:02:25.737067"
+                }
+            ],
+            "total_switches": 5
+        }
+    ],
+    "active_matches": [
+        {
+            "table_id": 1,
+            "round_num": 3,
+            "white": "Team Google",
+            "black": "Team OpenRouter",
+            "fen": "r2qr1k1/3p1ppQ/p7/2p5/1pPB4/2n3NP/PP2B1P1/2R3K1 b - - 0 28",
+            "state": "Completed",
+            "annotations": [
+                "{Gemma 3 27B}",
+                "{Trinity Large}",
+                "{Gemma 3 27B}",
+                "{Trinity Large}",
+                "{Gemma 3 27B}",
+                "{Trinity Large}",
+                "{Gemma 3 27B}",
+                "{Trinity Large}",
+                "{Gemma 3 27B}",
+                "{Trinity Large}",
+                "{Gemma 3 27B}",
+                "{Trinity Large}",
+                "{Gemma 3 27B}",
+                "{Trinity Large}",
+                "{Gemma 3 27B}",
+                "{Trinity Large}",
+                "{Gemma 3 27B}",
+                "{Trinity Large}",
+                "{Gemma 3 27B}",
+                "{Trinity Large}",
+                "{Gemma 3 27B}",
+                "{Trinity Large}",
+                "{Gemma 3 27B}",
+                "{Trinity Large}",
+                "{Gemma 3 27B}",
+                "{Trinity Large}",
+                "{Gemma 3 27B}",
+                "{Trinity Large}",
+                "{Gemma 3 27B}",
+                "{Trinity Large}",
+                "{Gemma 3 27B}",
+                "{Trinity Large}",
+                "{Gemma 3 27B}",
+                "{Trinity Large}",
+                "{Gemma 3 27B}",
+                "{Trinity Large}",
+                "{Gemma 3 27B}",
+                "{Trinity Large}",
+                "{Gemma 3 27B}",
+                "{Trinity Large}",
+                "{Gemma 3 27B}",
+                "{Trinity Large}",
+                "{Gemma 3 27B}",
+                "{Trinity Large}",
+                "{Gemma 3 27B}",
+                "{Trinity Large}",
+                "{Gemma 3 27B}",
+                "{Trinity Large}",
+                "{Gemini 3.0 Flash Preview}",
+                "{Trinity Large}",
+                "{Gemini 3.0 Flash Preview}",
+                "{Trinity Large}",
+                "{Gemini 3.0 Flash Preview}",
+                "{Trinity Large}",
+                "{Gemini 2.5 Flash Lite}"
+            ]
+        },
+        {
+            "table_id": 2,
+            "round_num": 3,
+            "white": "Team SambaNova",
+            "black": "Team Cohere",
+            "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+            "state": "Completed",
+            "annotations": []
+        }
+    ]
+}

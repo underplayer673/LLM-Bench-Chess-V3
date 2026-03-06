@@ -1,0 +1,10 @@
+[Event "Provider Tournament R1"]
+[Site "LLM Chess v32.0"]
+[Date "2026-02-09"]
+[Round "?"]
+[White "Team Cohere"]
+[Black "Team OpenRouter"]
+[Result "1-0"]
+
+1. e4 { {Command A } 1... e5 { {OR Llama 3.3 70B } 2. Nf3 { {Command A } 2... Nc6 { {OR Llama 3.3 70B } 3. Bb5 { {Command A } 3... a6 { {OR Llama 3.3 70B } 4. Ba4 { {Command A } 4... Nf6 { {OR Llama 3.3 70B } 5. O-O { {Command A } 5... b5 { {OR Llama 3.3 70B } 6. Bb3 { {Command A } 6... Be7 { {OR Llama 3.3 70B } 7. Re1 { {Command A } 7... d6 { {OR Llama 3.3 70B } 8. c3 { {Command A } 8... Na5 { {OR Llama 3.3 70B } 9. d4 { {Command A } 9... Nd7 { {OR Llama 3.3 70B } 10. Nbd2 { {Command A } 10... f6 { {OR Gemma 3 27B } 11. d5 { {Command A } 11... c6 { {OR Gemma 3 27B } 12. Nc4 { {Command A } 12... Bb7 { {OR Gemma 3 27B } 13. dxc6 { {Command A } 13... Nxc6 { {OR Gemma 3 27B } 14. Bg5 { {Command R+ } 14... Qb6 { {OR Gemma 3 27B } 15. Bxf6 { {Command R+ } 15... gxf6 { {OR Gemma 3 27B } 16. Nxd6+ { {Command Nightly } 16... Kf8 { {OR Gemma 3 27B } 17. Nxe5 { {Command Nightly } 17... fxe5 { {Trinity Large } 18. Qh5 { {Command A } 18... Bf6 { {Trinity Large } 19. Qf7# { {Command A } 1-0
+

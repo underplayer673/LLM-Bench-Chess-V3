@@ -1,0 +1,11 @@
+[Event "Provider Tournament R2"]
+[Site "LLM Chess v32.0"]
+[Date "2026-03-06"]
+[Round "?"]
+[White "Team Google"]
+[Black "Team Cohere"]
+[Result "1-0"]
+[Termination "DQ"]
+
+1. e4 { {Gemini 2.5 Flash } 1... e6 { {Command A Vision } 2. d4 { {Gemini 2.5 Flash } 2... Nc6 { {Command A Vision } 3. Nc3 { {Gemini 2.5 Flash Lite } 3... Nf6 { {Command A Vision } 4. Nd5 { {Gemma 3 27B (Google) } 4... Nxd5 { {Command A Vision } 5. exd5 { {Gemma 3 27B (Google) } 5... Nxd4 { {Command A Vision } 6. Qe2 { {Gemma 3 4B (Google) } 6... Nxe2 { {Command A Vision } 7. Bxe2 { {Gemma 3 4B (Google) } 7... Qe7 { {Command A Vision } 8. Bc4 { {Gemma 3 4B (Google) } 8... exd5+ { {Command A 03-2025 } 9. Kd2 { {Gemma 3 27B (Google) } 1-0
+

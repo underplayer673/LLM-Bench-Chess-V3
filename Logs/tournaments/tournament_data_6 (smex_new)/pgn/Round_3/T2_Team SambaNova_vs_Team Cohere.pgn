@@ -1,0 +1,11 @@
+[Event "Provider Tournament R3"]
+[Site "LLM Chess v32.0"]
+[Date "2026-03-06"]
+[Round "?"]
+[White "Team SambaNova"]
+[Black "Team Cohere"]
+[Result "0-1"]
+[Termination "DQ"]
+
+1. e4 { {Samba DeepSeek V3.1 } 1... e5 { {Command A Vision } 2. Nc3 { {Samba Llama 4 Maverick } 2... Nf6 { {Command A Vision } 3. Nf3 { {Samba Llama 4 Maverick } 3... Nc6 { {Command A Vision } 4. Bc4 { {Samba Llama 4 Maverick } 4... d6 { {Command A Vision } 5. d3 { {Samba Llama 4 Maverick } 5... Be7 { {Command A 03-2025 } 6. Bg5 { {Samba Llama 4 Maverick } 6... O-O { {Command A 03-2025 } 7. d4 { {Samba DeepSeek V3 } 7... d5 { {Command A Vision } 8. exd5 { {Samba DeepSeek V3 } 8... Qxd5 { {Command A Vision } 9. Be2 { {Samba DeepSeek V3 } 9... Qe4 { {Command A Vision } 10. Qd3 { {Samba DeepSeek V3 } 10... Nd5 { {Command A Vision } 11. Bxe7 { {Samba DeepSeek V3 } 11... Nf6 { {Command A Vision } 12. Bc5 { {Samba DeepSeek V3 } 12... Ne7 { {Command A Vision } 13. O-O { {Samba DeepSeek V3 } 13... c6 { {Command R+ 08-2024 } 14. Qe3 { {Samba DeepSeek V3 } 14... Qxe3 { {Command R+ 08-2024 } 15. fxe3 { {Samba DeepSeek V3 } 15... Re8 { {Command R 08-2024 } 16. Rf2 { {Samba DeepSeek V3 } 16... Nd7 { {Command A 03-2025 } 17. Bb4 { {Samba DeepSeek V3 } 17... a5 { {Command A 03-2025 } 18. Bc5 { {Samba Qwen3 32B } 18... Nb6 { {Command A 03-2025 } 19. a4 { {Samba Llama 3.3 70B } 19... e4 { {Command A 03-2025 } 20. Nd2 { {Samba Llama 3.3 70B } 20... f5 { {Command A 03-2025 } 21. d5 { {Samba Llama 3.3 70B } 21... cxd5 { {Command A 03-2025 } 22. b3 { {Samba Llama 3.3 70B } 22... d4 { {Command A 03-2025 } 23. exd4 { {Samba DeepSeek V3 } 23... e3 { {Command A 03-2025 } 24. Nde4 { {Samba Qwen3 32B } 24... Nc6 { {Command A Vision } 25. b4 { {Samba Llama 3.3 70B } 25... Nxd4 { {Command A Vision } 26. Bxd4 { {Samba Llama 3.3 70B } 26... Re6 { {Command A Vision } 27. Rf3 { {Samba Llama 3.3 70B } 27... Nd7 { {Command A Vision } 28. b5 { {Samba Llama 3.3 70B } 28... f4 { {Command A Vision } 29. g3 { {Samba Llama 3.3 70B } 29... Nf6 { {Command A Vision } 30. Bxf6 { {Samba Qwen3 32B } 30... gxf6 { {Command A Vision } 31. gxf4 { {Samba Llama 3.3 70B } 31... f5 { {Command A Vision } 32. h4 { {Samba Llama 3.1 8B } 32... h6 { {Command A 03-2025 } 33. h5 { {Samba Llama 3.1 8B } 33... Re8 { {Command A 03-2025 } 0-1
+

@@ -1,0 +1,480 @@
+{
+    "current_round": 3,
+    "teams": {
+        "Team Google": {
+            "name": "Team Google",
+            "points": 1.0,
+            "wins": 0,
+            "draws": 2,
+            "losses": 3,
+            "total_moves": 12,
+            "total_think_time": 186.1036684513092,
+            "api_errors": 9,
+            "model_switches": 12,
+            "illegal_moves": 14,
+            "stage1_calls": 26,
+            "stage2_calls": 26,
+            "models_used": [
+                "Gemma 3 27B",
+                "Gemma 3 4B"
+            ],
+            "played_opponents": [
+                "Team SambaNova",
+                "Team Cohere",
+                "Team OpenRouter"
+            ],
+            "color_history": [
+                "W",
+                "W",
+                "W"
+            ],
+            "is_disqualified": true
+        },
+        "Team SambaNova": {
+            "name": "Team SambaNova",
+            "points": 2.0,
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "total_moves": 18,
+            "total_think_time": 82.27905869483948,
+            "api_errors": 15,
+            "model_switches": 16,
+            "illegal_moves": 4,
+            "stage1_calls": 22,
+            "stage2_calls": 22,
+            "models_used": [
+                "DeepSeek R1 Distill 70B",
+                "Llama 3.3 70B",
+                "Llama 3.1 8B"
+            ],
+            "played_opponents": [
+                "Team Google",
+                "Team OpenRouter",
+                "Team Cohere"
+            ],
+            "color_history": [
+                "B",
+                "W",
+                "W"
+            ],
+            "is_disqualified": true
+        },
+        "Team Cohere": {
+            "name": "Team Cohere",
+            "points": 3.0,
+            "wins": 2,
+            "draws": 2,
+            "losses": 1,
+            "total_moves": 18,
+            "total_think_time": 124.85137677192688,
+            "api_errors": 6,
+            "model_switches": 6,
+            "illegal_moves": 11,
+            "stage1_calls": 35,
+            "stage2_calls": 35,
+            "models_used": [
+                "Command A",
+                "Command R+",
+                "Command R7B"
+            ],
+            "played_opponents": [
+                "Team OpenRouter",
+                "Team Google",
+                "Team SambaNova"
+            ],
+            "color_history": [
+                "W",
+                "B",
+                "B"
+            ],
+            "is_disqualified": true
+        },
+        "Team OpenRouter": {
+            "name": "Team OpenRouter",
+            "points": 4.0,
+            "wins": 3,
+            "draws": 2,
+            "losses": 0,
+            "total_moves": 24,
+            "total_think_time": 193.95985507965088,
+            "api_errors": 17,
+            "model_switches": 9,
+            "illegal_moves": 7,
+            "stage1_calls": 31,
+            "stage2_calls": 31,
+            "models_used": [
+                "Trinity Large"
+            ],
+            "played_opponents": [
+                "Team Cohere",
+                "Team SambaNova",
+                "Team Google"
+            ],
+            "color_history": [
+                "B",
+                "B",
+                "B"
+            ],
+            "is_disqualified": false
+        }
+    },
+    "provider_teams": [
+        {
+            "name": "Team Google",
+            "current_index": 2,
+            "exhausted_until": {
+                "3": 1770465413.2268825,
+                "4": 1770465528.4856582,
+                "0": 1770465288.9580357,
+                "1": 1770465289.2094765,
+                "2": 1770465739.8243148
+            },
+            "switch_log": [
+                {
+                    "from": "Gemini 2.5 Flash",
+                    "to": "Gemini 3.0 Flash Preview",
+                    "reason": "exhausted",
+                    "time": "2026-02-07T14:39:42.887282"
+                },
+                {
+                    "from": "Gemini 3.0 Flash Preview",
+                    "to": "Gemini 2.5 Flash Lite",
+                    "reason": "exhausted",
+                    "time": "2026-02-07T14:39:43.139630"
+                },
+                {
+                    "from": "Gemini 2.5 Flash Lite",
+                    "to": "Gemma 3 27B",
+                    "reason": "exhausted",
+                    "time": "2026-02-07T14:39:43.362827"
+                },
+                {
+                    "from": "Gemma 3 27B",
+                    "to": "Gemini 2.5 Flash",
+                    "reason": "best_available",
+                    "time": "2026-02-07T14:44:48.069490"
+                },
+                {
+                    "from": "Gemini 2.5 Flash",
+                    "to": "Gemini 3.0 Flash Preview",
+                    "reason": "exhausted",
+                    "time": "2026-02-07T14:44:48.329352"
+                },
+                {
+                    "from": "Gemini 3.0 Flash Preview",
+                    "to": "Gemini 2.5 Flash Lite",
+                    "reason": "exhausted",
+                    "time": "2026-02-07T14:44:48.584521"
+                },
+                {
+                    "from": "Gemini 2.5 Flash Lite",
+                    "to": "Gemma 3 27B",
+                    "reason": "exhausted",
+                    "time": "2026-02-07T14:44:48.812810"
+                },
+                {
+                    "from": "Gemma 3 27B",
+                    "to": "Gemma 3 4B",
+                    "reason": "exhausted",
+                    "time": "2026-02-07T14:46:53.226889"
+                },
+                {
+                    "from": "Gemma 3 4B",
+                    "to": "Gemini 2.5 Flash",
+                    "reason": "best_available",
+                    "time": "2026-02-07T14:49:48.486127"
+                },
+                {
+                    "from": "Gemini 2.5 Flash",
+                    "to": "Gemini 3.0 Flash Preview",
+                    "reason": "exhausted",
+                    "time": "2026-02-07T14:49:48.958039"
+                },
+                {
+                    "from": "Gemini 3.0 Flash Preview",
+                    "to": "Gemini 2.5 Flash Lite",
+                    "reason": "exhausted",
+                    "time": "2026-02-07T14:49:49.209480"
+                }
+            ],
+            "total_switches": 9
+        },
+        {
+            "name": "Team SambaNova",
+            "current_index": 5,
+            "exhausted_until": {
+                "0": 1770465776.0202036,
+                "1": 1770465778.3906813,
+                "2": 1770465782.0724738,
+                "3": 1770465785.6654003,
+                "4": 1770465787.858175,
+                "5": 1770466312.2817452
+            },
+            "switch_log": [
+                {
+                    "from": "DeepSeek V3",
+                    "to": "DeepSeek R1",
+                    "reason": "exhausted",
+                    "time": "2026-02-07T14:40:01.652859"
+                },
+                {
+                    "from": "DeepSeek R1",
+                    "to": "DeepSeek R1 Distill 70B",
+                    "reason": "exhausted",
+                    "time": "2026-02-07T14:40:03.889897"
+                },
+                {
+                    "from": "DeepSeek R1 Distill 70B",
+                    "to": "Qwen3 32B",
+                    "reason": "exhausted",
+                    "time": "2026-02-07T14:40:51.299841"
+                },
+                {
+                    "from": "Qwen3 32B",
+                    "to": "Llama 3.3 70B",
+                    "reason": "exhausted",
+                    "time": "2026-02-07T14:40:54.984036"
+                },
+                {
+                    "from": "Llama 3.3 70B",
+                    "to": "DeepSeek V3",
+                    "reason": "best_available",
+                    "time": "2026-02-07T14:45:36.286157"
+                },
+                {
+                    "from": "DeepSeek V3",
+                    "to": "DeepSeek R1",
+                    "reason": "exhausted",
+                    "time": "2026-02-07T14:45:38.921490"
+                },
+                {
+                    "from": "DeepSeek R1",
+                    "to": "Llama 3.3 70B",
+                    "reason": "exhausted",
+                    "time": "2026-02-07T14:45:41.135501"
+                },
+                {
+                    "from": "Llama 3.3 70B",
+                    "to": "Llama 3.1 8B",
+                    "reason": "exhausted",
+                    "time": "2026-02-07T14:45:44.230089"
+                },
+                {
+                    "from": "Llama 3.1 8B",
+                    "to": "DeepSeek R1 Distill 70B",
+                    "reason": "best_available",
+                    "time": "2026-02-07T14:47:09.031067"
+                },
+                {
+                    "from": "DeepSeek R1 Distill 70B",
+                    "to": "Qwen3 32B",
+                    "reason": "exhausted",
+                    "time": "2026-02-07T14:47:13.024582"
+                },
+                {
+                    "from": "Qwen3 32B",
+                    "to": "Llama 3.1 8B",
+                    "reason": "exhausted",
+                    "time": "2026-02-07T14:47:16.630296"
+                },
+                {
+                    "from": "Llama 3.1 8B",
+                    "to": "DeepSeek V3",
+                    "reason": "best_available",
+                    "time": "2026-02-07T14:57:53.379556"
+                },
+                {
+                    "from": "DeepSeek V3",
+                    "to": "DeepSeek R1",
+                    "reason": "exhausted",
+                    "time": "2026-02-07T14:57:56.020206"
+                },
+                {
+                    "from": "DeepSeek R1",
+                    "to": "DeepSeek R1 Distill 70B",
+                    "reason": "exhausted",
+                    "time": "2026-02-07T14:57:58.390685"
+                },
+                {
+                    "from": "DeepSeek R1 Distill 70B",
+                    "to": "Qwen3 32B",
+                    "reason": "exhausted",
+                    "time": "2026-02-07T14:58:02.072478"
+                },
+                {
+                    "from": "Qwen3 32B",
+                    "to": "Llama 3.3 70B",
+                    "reason": "exhausted",
+                    "time": "2026-02-07T14:58:05.665404"
+                },
+                {
+                    "from": "Llama 3.3 70B",
+                    "to": "Llama 3.1 8B",
+                    "reason": "exhausted",
+                    "time": "2026-02-07T14:58:07.858179"
+                }
+            ],
+            "total_switches": 14
+        },
+        {
+            "name": "Team Cohere",
+            "current_index": 4,
+            "exhausted_until": {
+                "0": 1770465486.6500156,
+                "1": 1770465907.5973577,
+                "2": 1770465618.972894,
+                "3": 1770465619.168687,
+                "4": 1770466009.3656914
+            },
+            "switch_log": [
+                {
+                    "from": "Command A",
+                    "to": "Command R+",
+                    "reason": "exhausted",
+                    "time": "2026-02-07T14:48:06.650021"
+                },
+                {
+                    "from": "Command R+",
+                    "to": "Command R7B",
+                    "reason": "exhausted",
+                    "time": "2026-02-07T14:55:07.597362"
+                },
+                {
+                    "from": "Command R7B",
+                    "to": "Command Nightly",
+                    "reason": "exhausted",
+                    "time": "2026-02-07T14:55:18.972896"
+                },
+                {
+                    "from": "Command Nightly",
+                    "to": "Aya Expanse 32B",
+                    "reason": "exhausted",
+                    "time": "2026-02-07T14:55:19.168689"
+                }
+            ],
+            "total_switches": 4
+        },
+        {
+            "name": "Team OpenRouter",
+            "current_index": 2,
+            "exhausted_until": {
+                "1": 1770465684.8483722,
+                "0": 1770465814.4641767
+            },
+            "switch_log": [
+                {
+                    "from": "OR Llama 3.3 70B",
+                    "to": "OR Gemma 3 27B",
+                    "reason": "exhausted",
+                    "time": "2026-02-07T14:40:14.072026"
+                },
+                {
+                    "from": "OR Gemma 3 27B",
+                    "to": "Trinity Large",
+                    "reason": "exhausted",
+                    "time": "2026-02-07T14:40:20.656957"
+                },
+                {
+                    "from": "Trinity Large",
+                    "to": "OR Gemma 3 27B",
+                    "reason": "best_available",
+                    "time": "2026-02-07T14:43:35.278799"
+                },
+                {
+                    "from": "OR Gemma 3 27B",
+                    "to": "Trinity Large",
+                    "reason": "exhausted",
+                    "time": "2026-02-07T14:43:48.268150"
+                },
+                {
+                    "from": "Trinity Large",
+                    "to": "OR Llama 3.3 70B",
+                    "reason": "best_available",
+                    "time": "2026-02-07T14:45:48.225331"
+                },
+                {
+                    "from": "OR Llama 3.3 70B",
+                    "to": "Trinity Large",
+                    "reason": "exhausted",
+                    "time": "2026-02-07T14:45:49.439836"
+                },
+                {
+                    "from": "Trinity Large",
+                    "to": "OR Gemma 3 27B",
+                    "reason": "best_available",
+                    "time": "2026-02-07T14:47:19.519218"
+                },
+                {
+                    "from": "OR Gemma 3 27B",
+                    "to": "Trinity Large",
+                    "reason": "exhausted",
+                    "time": "2026-02-07T14:47:32.227539"
+                },
+                {
+                    "from": "Trinity Large",
+                    "to": "OR Llama 3.3 70B",
+                    "reason": "best_available",
+                    "time": "2026-02-07T14:53:27.198304"
+                },
+                {
+                    "from": "OR Llama 3.3 70B",
+                    "to": "OR Gemma 3 27B",
+                    "reason": "exhausted",
+                    "time": "2026-02-07T14:53:28.156817"
+                },
+                {
+                    "from": "OR Gemma 3 27B",
+                    "to": "Trinity Large",
+                    "reason": "exhausted",
+                    "time": "2026-02-07T14:53:34.660941"
+                },
+                {
+                    "from": "Trinity Large",
+                    "to": "OR Gemma 3 27B",
+                    "reason": "best_available",
+                    "time": "2026-02-07T14:58:11.034807"
+                },
+                {
+                    "from": "OR Gemma 3 27B",
+                    "to": "Trinity Large",
+                    "reason": "exhausted",
+                    "time": "2026-02-07T14:58:24.848375"
+                },
+                {
+                    "from": "Trinity Large",
+                    "to": "OR Llama 3.3 70B",
+                    "reason": "best_available",
+                    "time": "2026-02-07T14:58:33.628665"
+                },
+                {
+                    "from": "OR Llama 3.3 70B",
+                    "to": "Trinity Large",
+                    "reason": "exhausted",
+                    "time": "2026-02-07T14:58:34.464180"
+                }
+            ],
+            "total_switches": 9
+        }
+    ],
+    "active_matches": [
+        {
+            "table_id": 1,
+            "round_num": 3,
+            "white": "Team Google",
+            "black": "Team OpenRouter",
+            "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+            "state": "Completed",
+            "annotations": []
+        },
+        {
+            "table_id": 2,
+            "round_num": 3,
+            "white": "Team SambaNova",
+            "black": "Team Cohere",
+            "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+            "state": "Completed",
+            "annotations": []
+        }
+    ]
+}

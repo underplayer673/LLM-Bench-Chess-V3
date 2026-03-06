@@ -1,0 +1,11 @@
+[Event "Provider Tournament R1"]
+[Site "LLM Chess v32.0"]
+[Date "2026-02-09"]
+[Round "?"]
+[White "Team Google"]
+[Black "Team SambaNova"]
+[Result "0-1"]
+[Termination "DQ"]
+
+1. e4 { {Gemini 2.5 Flash Lite } 1... e5 { {DeepSeek V3 } 2. Nf3 { {Gemini 2.5 Flash Lite } 2... Nc6 { {DeepSeek V3 } 3. Bc4 { {Gemini 2.5 Flash Lite } 3... Nf6 { {DeepSeek V3 } 4. Ng5 { {Gemini 2.5 Flash Lite } 4... d5 { {DeepSeek V3 } 5. Bxd5 { {Gemini 2.5 Flash Lite } 5... Nxd5 { {DeepSeek V3 } 6. exd5 { {Gemini 2.5 Flash Lite } 6... Qe7 { {DeepSeek V3 } 7. d6 { {Gemini 2.5 Flash Lite } 7... Nd4 { {DeepSeek V3 } 8. Qe2 { {Gemini 2.5 Flash Lite } 8... Nxc2+ { {DeepSeek V3 } 9. Kd1 { {Gemma 3 27B } 9... Ne3+ { {DeepSeek V3 } 0-1
+
