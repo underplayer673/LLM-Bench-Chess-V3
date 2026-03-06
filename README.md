@@ -44,3 +44,4 @@ Validation: The engine checks move legality instantly. If the AI "hallucinates,"
 Final Standings: After 3 rounds, the engine generates a final_standings.json leaderboard.
 📜 5. The Story Behind the Project
 This project was born from a casual chess match against my grandmother. I was using a "state-of-the-art" AI to assist, and it unexpectedly hung its Queen for no reason. This inspired me to build a system that objectively measures whether these "superintelligences" can actually follow rigid rules under pressure.
+The outcome of a match depends not only on the chess engine but also on the current load on data centers worldwide, your API quota allocations, and which model comes online at the last minute. You might see a perfect game between the flagships, or you might witness the server crash, a 1.2B model seizes control, and accidentally loses the queen.
