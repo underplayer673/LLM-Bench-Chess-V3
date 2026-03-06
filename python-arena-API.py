@@ -1,4 +1,4 @@
-"""
+    """
 LLM CHESS: PROVIDER TOURNAMENT (v32.0 — DEFINITIVE EDITION)
 Author: Senior Python Dev & Netrogaty
 
@@ -66,6 +66,7 @@ class GameMode(Enum):
     ECONOMY = "economy"     # Single smart call — good
     PREMIUM = "premium"     # Two-stage: think + extract — best (default)
     TERMINATOR = "terminator"  # Shows legal moves — not recommended
+    ULTRA_TERMINATOR = "ultra-terminator"  # Premium think/extract with legal moves
 
 CURRENT_MODE = GameMode.PREMIUM
 
@@ -86,6 +87,7 @@ MODE_DESCRIPTIONS = {
     GameMode.ECONOMY: "Smart single call with piece lists. Good balance.",
     GameMode.PREMIUM: "Two-stage: AI thinks first, then outputs move. BEST quality. DEFAULT.",
     GameMode.TERMINATOR: "Shows legal moves to AI. Strongest but unfair. NOT recommended.",
+    GameMode.ULTRA_TERMINATOR: "Premium think + extract, but with legal moves shown. Strongest practical mode.",
 }
 
 SELECTION_SUBMODE_DESCRIPTIONS = {
@@ -442,6 +444,25 @@ def build_prompt_premium_think(board, color):
     return [{"role": "system", "content": sys_msg},
             {"role": "user", "content": "\n".join(user_lines)}]
 
+def build_prompt_ultra_terminator_think(board, color, failed=None):
+    """ULTRA TERMINATOR mode, Stage 1: Think with legal moves visible."""
+    cb = chess.WHITE if color == "White" else chess.BLACK
+    legal = get_legal_moves_str(board)
+    sys_msg = (f"You are a chess grandmaster playing as {color}. "
+               "You are given the legal moves list. Pick the strongest move from that list only. "
+               "Explain your reasoning in 2-3 sentences, then clearly state the final move.")
+    user_lines = [f"Move {board.fullmove_number}. You are {color.upper()}.",
+                  "", f"YOUR pieces:", get_piece_list(board, cb),
+                  "", f"OPPONENT:", get_piece_list(board, not cb),
+                  "", get_status(board), "", f"Game: {get_history(board)}",
+                  "", f"LEGAL MOVES: {legal}"]
+    ol = get_opp_last(board)
+    if ol: user_lines.append(f"\nOpponent just played: {ol}")
+    if failed: user_lines.append(f"\nDo NOT choose these failed moves: {', '.join(failed)}")
+    user_lines.append("\nAnalyze and choose the best legal move:")
+    return [{"role": "system", "content": sys_msg},
+            {"role": "user", "content": "\n".join(user_lines)}]
+
 def build_prompt_premium_extract(analysis_text, color, failed=None):
     """PREMIUM mode, Stage 2: Extract just the move from analysis."""
     msg = (f"You analyzed a chess position as {color} and wrote:\n"
@@ -491,8 +512,22 @@ def clean_tok(val):
     ic = "O-O" in r.upper() or "0-0" in r.upper()
     return r if (ic or (hf and hr)) else ""
 
+def normalize_promotion(move_text):
+    if not move_text:
+        return ""
+    m = re.match(r'^([a-h](?:x[a-h])?[18])=?([qrbnQRBN])([+#]?)$', move_text.strip())
+    if not m:
+        return ""
+    prefix, piece, suffix = m.groups()
+    return f"{prefix}={piece.upper()}{suffix}"
+
 def extract_move(text, opp_last=None):
     def echo(m): return opp_last and m == opp_last
+
+    # P0: Pawn promotion must win over broader parsers
+    for promo in reversed(re.findall(r'\b([a-h](?:x[a-h])?[18]=?[qrbnQRBN][+#]?)\b', text)):
+        c = normalize_promotion(promo)
+        if c and not echo(c): return c
 
     # P1: MOVE: tag
     for t in reversed(re.findall(r'(?:MOVE|Move|move)\s*:\s*\*?\*?\s*([A-Za-z0-9+#=xO-]+)', text)):
@@ -618,6 +653,8 @@ class ChessMatch:
 
                 if mode == GameMode.PREMIUM:
                     raw = self._premium_move(team, tel, color, temp, failed, opp_last)
+                elif mode == GameMode.ULTRA_TERMINATOR:
+                    raw = self._ultra_terminator_move(team, tel, color, temp, failed, opp_last)
                 elif mode == GameMode.TERMINATOR:
                     raw = self._single_move(team, tel, color, temp, failed, opp_last, terminator=True)
                 elif mode == GameMode.USER:
@@ -678,6 +715,30 @@ class ChessMatch:
         if raw: return raw
 
         # Fallback: parse stage 1 analysis
+        raw = extract_move(content1, opp_last)
+        if raw: return raw
+
+        return broad_scan(content1, self.board)
+
+    def _ultra_terminator_move(self, team, tel, color, temp, failed, opp_last):
+        """Two-stage: Premium reasoning, but with legal moves shown up front."""
+        msgs1 = build_prompt_ultra_terminator_think(self.board, color, failed)
+        content1, mn1 = api_call_with_failover(team, msgs1, tel, temperature=temp, max_tokens=500)
+        if not content1: return None
+        tel.stage1_calls += 1
+
+        print(f"\n{Fore.CYAN}🧠 ULTRA THINK [{mn1}]:{Style.RESET_ALL} {content1[:150].replace(chr(10),' ')}...")
+
+        msgs2 = build_prompt_premium_extract(content1, color, failed)
+        content2, mn2 = api_call_with_failover(team, msgs2, tel, temperature=0.0, max_tokens=15)
+        if not content2: return None
+        tel.stage2_calls += 1
+
+        print(f"{Fore.GREEN}📤 ULTRA EXTRACT [{mn2}]:{Style.RESET_ALL} '{content2.strip()}'")
+
+        raw = extract_move(content2, opp_last)
+        if raw: return raw
+
         raw = extract_move(content1, opp_last)
         if raw: return raw
 
@@ -895,7 +956,7 @@ class TournamentManager:
         for m in GameMode:
             marker = "►" if m == CURRENT_MODE else " "
             print(f"  {marker} {m.value:<12} — {MODE_DESCRIPTIONS[m]}")
-        choice = input(f"\nNew mode (user/economy/premium/terminator): ").strip().lower()
+        choice = input(f"\nNew mode (user/economy/premium/terminator/ultra-terminator): ").strip().lower()
         for m in GameMode:
             if m.value == choice:
                 CURRENT_MODE = m
@@ -1018,7 +1079,7 @@ class TournamentManager:
   {Fore.GREEN}top{Style.RESET_ALL}        Show leaderboard
   {Fore.GREEN}teams{Style.RESET_ALL}      Show team rosters & status
   {Fore.GREEN}logs{Style.RESET_ALL}       Show recent illegal moves
-  {Fore.GREEN}mode{Style.RESET_ALL}       Change game mode (user/economy/premium/terminator)
+  {Fore.GREEN}mode{Style.RESET_ALL}       Change game mode (user/economy/premium/terminator/ultra-terminator)
   {Fore.GREEN}submode{Style.RESET_ALL}    Change model selection submode (balanced/fullmax/classic)
   {Fore.GREEN}ormode{Style.RESET_ALL}     Change OpenRouter mode (auto/custom)
   {Fore.GREEN}modes{Style.RESET_ALL}      Explain all modes
@@ -1095,3 +1156,4 @@ class TournamentManager:
 
 if __name__ == "__main__":
     TournamentManager().run_main_loop()
+
