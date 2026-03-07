@@ -1,0 +1,22 @@
+{
+    "GOOGLE": "EMPTY_KEY",
+    "COHERE": "EMPTY_KEY",
+    "OPENROUTER": "EMPTY_KEY",
+    "SAMBANOVA": "EMPTY_KEY",
+    "OPENAI": "EMPTY_KEY",
+    "ANTHROPIC": "EMPTY_KEY",
+    "GROK": "EMPTY_KEY",
+    "GROQ": "EMPTY_KEY",
+    "GITHUB": "EMPTY_KEY",
+    "HF": "EMPTY_KEY",
+    "LM_STUDIO": "http://localhost:1234/v1",
+    "CEREBRAS": "EMPTY_KEY",
+    "MISTRAL": "EMPTY_KEY",
+    "CLOUDFLARE": "EMPTY_KEY",
+    "TOGETHER": "EMPTY_KEY",
+    "FIREWORKS": "EMPTY_KEY",
+    "NVIDIA": "EMPTY_KEY",
+    "AI21": "EMPTY_KEY",
+    "GLHF": "EMPTY_KEY",
+    "POLZA": "EMPTY_KEY"
+}
