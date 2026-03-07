@@ -1,0 +1,25 @@
+{
+    "CHECK_PAID_MODELS": false,
+    "ENABLED_PROVIDERS": {
+        "openai": false,
+        "anthropic": false,
+        "groq": false,
+        "grok": false,
+        "hf": false,
+        "github": true,
+        "together": false,
+        "fireworks": false,
+        "mistral": false,
+        "cerebras": true,
+        "cloudflare": false,
+        "nvidia": false,
+        "ai21": false,
+        "glhf": false,
+        "lms": false,
+        "google": true,
+        "cohere": false,
+        "samba": true,
+        "or": true,
+        "polza": false
+    }
+}
