@@ -1,0 +1,504 @@
+{
+    "tournament_cycle": 2,
+    "continuous_tournaments": true,
+    "team_elo": [
+        {
+            "name": "Team OpenRouter",
+            "elo": 1232.8266299881886,
+            "games": 6,
+            "wins": 3,
+            "draws": 3,
+            "losses": 0
+        },
+        {
+            "name": "Team Google",
+            "elo": 1221.636591917063,
+            "games": 6,
+            "wins": 2,
+            "draws": 4,
+            "losses": 0
+        },
+        {
+            "name": "Team Cerebras",
+            "elo": 1210.4694576465233,
+            "games": 6,
+            "wins": 2,
+            "draws": 3,
+            "losses": 1
+        },
+        {
+            "name": "Team GitHub",
+            "elo": 1135.067320448225,
+            "games": 6,
+            "wins": 0,
+            "draws": 0,
+            "losses": 6
+        }
+    ],
+    "teams": [
+        {
+            "name": "Team GitHub",
+            "points": 0.0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 3,
+            "total_moves": 0,
+            "total_think_time": 0.0,
+            "api_errors": 2,
+            "model_switches": 3,
+            "illegal_moves": 0,
+            "stage1_calls": 0,
+            "stage2_calls": 0,
+            "models_used": [],
+            "played_opponents": [
+                "Team Google",
+                "Team OpenRouter",
+                "Team Cerebras"
+            ],
+            "color_history": [
+                "B",
+                "W",
+                "W"
+            ],
+            "is_disqualified": true
+        },
+        {
+            "name": "Team Cerebras",
+            "points": 1.5,
+            "wins": 1,
+            "draws": 1,
+            "losses": 1,
+            "total_moves": 114,
+            "total_think_time": 161.21729016304016,
+            "api_errors": 0,
+            "model_switches": 0,
+            "illegal_moves": 3,
+            "stage1_calls": 117,
+            "stage2_calls": 117,
+            "models_used": [
+                "Cerebras Llama3.1 8B"
+            ],
+            "played_opponents": [
+                "Team OpenRouter",
+                "Team Google",
+                "Team GitHub"
+            ],
+            "color_history": [
+                "W",
+                "B",
+                "B"
+            ],
+            "is_disqualified": false
+        },
+        {
+            "name": "Team Google",
+            "points": 2.0,
+            "wins": 1,
+            "draws": 2,
+            "losses": 0,
+            "total_moves": 184,
+            "total_think_time": 1524.1557924747467,
+            "api_errors": 78,
+            "model_switches": 78,
+            "illegal_moves": 10,
+            "stage1_calls": 194,
+            "stage2_calls": 194,
+            "models_used": [
+                "Gemma 3 27B (Google)"
+            ],
+            "played_opponents": [
+                "Team GitHub",
+                "Team Cerebras",
+                "Team OpenRouter"
+            ],
+            "color_history": [
+                "W",
+                "W",
+                "W"
+            ],
+            "is_disqualified": false
+        },
+        {
+            "name": "Team OpenRouter",
+            "points": 2.5,
+            "wins": 2,
+            "draws": 1,
+            "losses": 0,
+            "total_moves": 129,
+            "total_think_time": 2012.880398273468,
+            "api_errors": 0,
+            "model_switches": 0,
+            "illegal_moves": 8,
+            "stage1_calls": 137,
+            "stage2_calls": 137,
+            "models_used": [
+                "OR Trinity Large Free"
+            ],
+            "played_opponents": [
+                "Team Cerebras",
+                "Team GitHub",
+                "Team Google"
+            ],
+            "color_history": [
+                "B",
+                "B",
+                "B"
+            ],
+            "is_disqualified": false
+        }
+    ],
+    "models": [
+        {
+            "key": "Team Google::Gemma 3 27B (Google)::gemini/gemma-3-27b-it",
+            "team": "Team Google",
+            "name": "Gemma 3 27B (Google)",
+            "model": "gemini/gemma-3-27b-it",
+            "elo": 1221.172370947441,
+            "games": 6,
+            "wins": 2,
+            "draws": 4,
+            "losses": 0
+        },
+        {
+            "key": "Team OpenRouter::OR Trinity Large Free::openrouter/arcee-ai/trinity-large-preview:free",
+            "team": "Team OpenRouter",
+            "name": "OR Trinity Large Free",
+            "model": "openrouter/arcee-ai/trinity-large-preview:free",
+            "elo": 1212.6918301319186,
+            "games": 4,
+            "wins": 1,
+            "draws": 3,
+            "losses": 0
+        },
+        {
+            "key": "Team Google::Gemma 3 4B (Google)::gemini/gemma-3-4b-it",
+            "team": "Team Google",
+            "name": "Gemma 3 4B (Google)",
+            "model": "gemini/gemma-3-4b-it",
+            "elo": 1200.1079976565575,
+            "games": 2,
+            "wins": 0,
+            "draws": 2,
+            "losses": 0
+        },
+        {
+            "key": "Team GitHub::GitHub GPT-4o::github/gpt-4o",
+            "team": "Team GitHub",
+            "name": "GitHub GPT-4o",
+            "model": "github/gpt-4o",
+            "elo": 1200.0,
+            "games": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0
+        },
+        {
+            "key": "Team Google::Gemini 3.1 Pro Preview::gemini/gemini-3.1-pro-preview",
+            "team": "Team Google",
+            "name": "Gemini 3.1 Pro Preview",
+            "model": "gemini/gemini-3.1-pro-preview",
+            "elo": 1200.0,
+            "games": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0
+        },
+        {
+            "key": "Team Google::Gemini 3.0 Pro Preview::gemini/gemini-3-pro-preview",
+            "team": "Team Google",
+            "name": "Gemini 3.0 Pro Preview",
+            "model": "gemini/gemini-3-pro-preview",
+            "elo": 1200.0,
+            "games": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0
+        },
+        {
+            "key": "Team Google::Gemini 3.0 Flash Preview::gemini/gemini-3-flash-preview",
+            "team": "Team Google",
+            "name": "Gemini 3.0 Flash Preview",
+            "model": "gemini/gemini-3-flash-preview",
+            "elo": 1200.0,
+            "games": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0
+        },
+        {
+            "key": "Team Google::Gemini 2.5 Pro::gemini/gemini-2.5-pro",
+            "team": "Team Google",
+            "name": "Gemini 2.5 Pro",
+            "model": "gemini/gemini-2.5-pro",
+            "elo": 1200.0,
+            "games": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0
+        },
+        {
+            "key": "Team Google::Gemini 2.5 Flash::gemini/gemini-2.5-flash",
+            "team": "Team Google",
+            "name": "Gemini 2.5 Flash",
+            "model": "gemini/gemini-2.5-flash",
+            "elo": 1200.0,
+            "games": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0
+        },
+        {
+            "key": "Team Google::Gemini 3 Pro Image Prev::gemini/gemini-3-pro-image-preview",
+            "team": "Team Google",
+            "name": "Gemini 3 Pro Image Prev",
+            "model": "gemini/gemini-3-pro-image-preview",
+            "elo": 1200.0,
+            "games": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0
+        },
+        {
+            "key": "Team Google::Gemini 3.1 Flash Image Prev::gemini/gemini-3.1-flash-image-preview",
+            "team": "Team Google",
+            "name": "Gemini 3.1 Flash Image Prev",
+            "model": "gemini/gemini-3.1-flash-image-preview",
+            "elo": 1200.0,
+            "games": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0
+        },
+        {
+            "key": "Team Google::Gemini 2.5 Flash Image::gemini/gemini-2.5-flash-image",
+            "team": "Team Google",
+            "name": "Gemini 2.5 Flash Image",
+            "model": "gemini/gemini-2.5-flash-image",
+            "elo": 1200.0,
+            "games": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0
+        },
+        {
+            "key": "Team Google::Gemini 2.5 Flash Lite::gemini/gemini-2.5-flash-lite",
+            "team": "Team Google",
+            "name": "Gemini 2.5 Flash Lite",
+            "model": "gemini/gemini-2.5-flash-lite",
+            "elo": 1200.0,
+            "games": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0
+        },
+        {
+            "key": "Team Google::Gemini 2.0 Flash::gemini/gemini-2.0-flash",
+            "team": "Team Google",
+            "name": "Gemini 2.0 Flash",
+            "model": "gemini/gemini-2.0-flash",
+            "elo": 1200.0,
+            "games": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0
+        },
+        {
+            "key": "Team Google::Gemini 2.0 Flash Lite::gemini/gemini-2.0-flash-lite",
+            "team": "Team Google",
+            "name": "Gemini 2.0 Flash Lite",
+            "model": "gemini/gemini-2.0-flash-lite",
+            "elo": 1200.0,
+            "games": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0
+        },
+        {
+            "key": "Team Google::Gemma 3 1B (Google)::gemini/gemma-3-1b-it",
+            "team": "Team Google",
+            "name": "Gemma 3 1B (Google)",
+            "model": "gemini/gemma-3-1b-it",
+            "elo": 1200.0,
+            "games": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0
+        },
+        {
+            "key": "Team OpenRouter::OR Free Auto-Router::openrouter/openrouter/free",
+            "team": "Team OpenRouter",
+            "name": "OR Free Auto-Router",
+            "model": "openrouter/openrouter/free",
+            "elo": 1200.0,
+            "games": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0
+        },
+        {
+            "key": "Team OpenRouter::OR Hermes 3 405B Free::openrouter/nousresearch/hermes-3-llama-3.1-405b:free",
+            "team": "Team OpenRouter",
+            "name": "OR Hermes 3 405B Free",
+            "model": "openrouter/nousresearch/hermes-3-llama-3.1-405b:free",
+            "elo": 1200.0,
+            "games": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0
+        },
+        {
+            "key": "Team OpenRouter::OR Llama 3.3 70B Free::openrouter/meta-llama/llama-3.3-70b-instruct:free",
+            "team": "Team OpenRouter",
+            "name": "OR Llama 3.3 70B Free",
+            "model": "openrouter/meta-llama/llama-3.3-70b-instruct:free",
+            "elo": 1200.0,
+            "games": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0
+        },
+        {
+            "key": "Team OpenRouter::OR Mistral Small 3.1 Free::openrouter/mistralai/mistral-small-3.1-24b-instruct:free",
+            "team": "Team OpenRouter",
+            "name": "OR Mistral Small 3.1 Free",
+            "model": "openrouter/mistralai/mistral-small-3.1-24b-instruct:free",
+            "elo": 1200.0,
+            "games": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0
+        },
+        {
+            "key": "Team OpenRouter::OR Gemma 3 27B Free::openrouter/google/gemma-3-27b-it:free",
+            "team": "Team OpenRouter",
+            "name": "OR Gemma 3 27B Free",
+            "model": "openrouter/google/gemma-3-27b-it:free",
+            "elo": 1200.0,
+            "games": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0
+        },
+        {
+            "key": "Team OpenRouter::OR Qwen3 Coder Free::openrouter/qwen/qwen3-coder:free",
+            "team": "Team OpenRouter",
+            "name": "OR Qwen3 Coder Free",
+            "model": "openrouter/qwen/qwen3-coder:free",
+            "elo": 1200.0,
+            "games": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0
+        },
+        {
+            "key": "Team OpenRouter::OR Trinity Mini Free::openrouter/arcee-ai/trinity-mini:free",
+            "team": "Team OpenRouter",
+            "name": "OR Trinity Mini Free",
+            "model": "openrouter/arcee-ai/trinity-mini:free",
+            "elo": 1200.0,
+            "games": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0
+        },
+        {
+            "key": "Team OpenRouter::OR Step 3.5 Flash Free::openrouter/stepfun/step-3.5-flash:free",
+            "team": "Team OpenRouter",
+            "name": "OR Step 3.5 Flash Free",
+            "model": "openrouter/stepfun/step-3.5-flash:free",
+            "elo": 1200.0,
+            "games": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0
+        },
+        {
+            "key": "Team OpenRouter::OR Gemma 3 4B Free::openrouter/google/gemma-3-4b-it:free",
+            "team": "Team OpenRouter",
+            "name": "OR Gemma 3 4B Free",
+            "model": "openrouter/google/gemma-3-4b-it:free",
+            "elo": 1200.0,
+            "games": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0
+        },
+        {
+            "key": "Team OpenRouter::OR Qwen3 4B Free::openrouter/qwen/qwen3-4b:free",
+            "team": "Team OpenRouter",
+            "name": "OR Qwen3 4B Free",
+            "model": "openrouter/qwen/qwen3-4b:free",
+            "elo": 1200.0,
+            "games": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0
+        },
+        {
+            "key": "Team OpenRouter::OR Llama 3.2 3B Free::openrouter/meta-llama/llama-3.2-3b-instruct:free",
+            "team": "Team OpenRouter",
+            "name": "OR Llama 3.2 3B Free",
+            "model": "openrouter/meta-llama/llama-3.2-3b-instruct:free",
+            "elo": 1200.0,
+            "games": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0
+        },
+        {
+            "key": "Team OpenRouter::OR Nemotron Nano 9B V2 Free::openrouter/nvidia/nemotron-nano-9b-v2:free",
+            "team": "Team OpenRouter",
+            "name": "OR Nemotron Nano 9B V2 Free",
+            "model": "openrouter/nvidia/nemotron-nano-9b-v2:free",
+            "elo": 1200.0,
+            "games": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0
+        },
+        {
+            "key": "Team OpenRouter::OR Dolphin Mistral Venice::openrouter/cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
+            "team": "Team OpenRouter",
+            "name": "OR Dolphin Mistral Venice",
+            "model": "openrouter/cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
+            "elo": 1200.0,
+            "games": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0
+        },
+        {
+            "key": "Team OpenRouter::OR Liquid 2.5 1.2B Free::openrouter/liquid/lfm-2.5-1.2b-instruct:free",
+            "team": "Team OpenRouter",
+            "name": "OR Liquid 2.5 1.2B Free",
+            "model": "openrouter/liquid/lfm-2.5-1.2b-instruct:free",
+            "elo": 1200.0,
+            "games": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0
+        },
+        {
+            "key": "Team Cerebras::Cerebras Llama3.1 8B::cerebras/llama3.1-8b",
+            "team": "Team Cerebras",
+            "name": "Cerebras Llama3.1 8B",
+            "model": "cerebras/llama3.1-8b",
+            "elo": 1190.3025062318404,
+            "games": 4,
+            "wins": 0,
+            "draws": 3,
+            "losses": 1
+        },
+        {
+            "key": "Team GitHub::GitHub GPT-4o Mini::github/gpt-4o-mini",
+            "team": "Team GitHub",
+            "name": "GitHub GPT-4o Mini",
+            "model": "github/gpt-4o-mini",
+            "elo": 1188.414300586377,
+            "games": 1,
+            "wins": 0,
+            "draws": 0,
+            "losses": 1
+        }
+    ]
+}

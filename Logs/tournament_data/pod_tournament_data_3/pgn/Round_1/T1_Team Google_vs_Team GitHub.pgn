@@ -1,0 +1,11 @@
+[Event "Provider Tournament R1"]
+[Site "LLM Chess v32.0"]
+[Date "2026-03-07"]
+[Round "?"]
+[White "Team Google"]
+[Black "Team GitHub"]
+[Result "1-0"]
+[Termination "DQ"]
+
+1. e4 { {Gemma 3 27B (Google) } 1-0
+

@@ -1,0 +1,9 @@
+[2026-03-07 19:10:43.382051] Team Cerebras:Cerebras Llama3.1 8B | FEN: rnbqkb1r/pppppppp/5n2/8/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 2 2 | Nf3
+[2026-03-07 19:11:54.529013] Team Cerebras:Cerebras Llama3.1 8B | FEN: r1b1qb1r/pppppkp1/2n2n1p/8/8/2P5/PPQPPPPP/RNB1KB1R w KQ - 3 6 | Bc4
+[2026-03-07 19:12:27.801192] Team OpenRouter:OR Trinity Large Free | FEN: r1b1qb1r/pppppkp1/2n4p/8/2P1n3/8/PP1PPPPP/RNB1KB1R b KQ - 0 7 | Nxc4
+[2026-03-07 19:13:15.964669] Team OpenRouter:OR Trinity Large Free | FEN: r1b1qb1r/pppppkp1/3n3p/8/2Pn1B2/8/PP2PPPP/RN2KB1R b KQ - 1 9 | Nxf4
+[2026-03-07 19:13:25.854648] Team OpenRouter:OR Trinity Large Free | FEN: r1b1qb1r/pppppkp1/3n3p/8/2Pn1B2/8/PP2PPPP/RN2KB1R b KQ - 1 9 | Nf5
+[2026-03-07 19:15:09.823797] Team OpenRouter:OR Trinity Large Free | FEN: r1b1qb1r/pppppkp1/5n1p/6B1/2n5/3K4/PP2PPPP/RN3B1R b - - 5 14 | Nxg5
+[2026-03-07 19:15:36.810634] Team OpenRouter:OR Trinity Large Free | FEN: r1b1qb1r/pppppkp1/5n1p/6B1/2n5/3K4/PP2PPPP/RN3B1R b - - 5 14 | Nxf6
+[2026-03-07 19:18:01.534914] Team OpenRouter:OR Trinity Large Free | FEN: r1b2b1r/pp1p1kp1/2p4p/4p1q1/2K5/8/PP1NPnPP/R4BR1 b - - 1 21 | Qxg1
+[2026-03-07 19:18:14.804127] Team OpenRouter:OR Trinity Large Free | FEN: r1b2b1r/pp1p1kp1/2p4p/4p1q1/2K5/8/PP1NPnPP/R4BR1 b - - 1 21 | Qxg5
