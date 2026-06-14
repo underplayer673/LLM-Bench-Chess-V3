@@ -1,0 +1,11 @@
+[Event "Provider Tournament R3"]
+[Site "LLM Chess v32.0"]
+[Date "2026-02-09"]
+[Round "?"]
+[White "Team SambaNova"]
+[Black "Team Cohere"]
+[Result "1-0"]
+[Termination "DQ"]
+
+1. e4 { {DeepSeek R1 } 1... e5 { {Command A } 2. Nf3 { {DeepSeek R1 } 2... Nc6 { {Command A } 3. Bb5 { {DeepSeek R1 } 3... a6 { {Command A } 4. Ba4 { {DeepSeek R1 } 4... Nf6 { {Command A } 5. O-O { {DeepSeek R1 } 5... Be7 { {Command A } 6. Re1 { {DeepSeek R1 } 6... O-O { {Command A } 7. c3 { {DeepSeek R1 } 7... d5 { {Command A } 8. exd5 { {DeepSeek R1 Distill 70B } 8... Qxd5 { {Command A } 9. Nxe5 { {DeepSeek R1 Distill 70B } 9... Qxe5 { {Command A } 10. b4 { {Llama 3.1 8B } 10... Na5 { {Command A } 11. b5 { {Llama 3.1 8B } 11... Nc6 { {Command A } 12. Bc2 { {Llama 3.1 8B } 12... Qd5 { {Command A } 13. Bb3 { {Llama 3.1 8B } 13... Qe6 { {Command A } 14. a4 { {Llama 3.1 8B } 14... a5 { {Command A } 15. Qe2 { {Llama 3.1 8B } 15... Qd5 { {Command A } 16. c4 { {Llama 3.1 8B } 1-0
+

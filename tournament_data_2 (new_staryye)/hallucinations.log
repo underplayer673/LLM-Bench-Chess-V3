@@ -1,0 +1,31 @@
+[2026-02-07 12:32:31.957875] Team Google:Gemini 2.5 Flash | FEN: r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4 | Illegal: c6
+[2026-02-07 12:32:34.558405] Team Google:Gemini 2.5 Flash | FEN: r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4 | Illegal: a6
+[2026-02-07 12:32:37.470849] Team Google:Gemini 2.5 Flash | FEN: r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4 | Illegal: a6
+[2026-02-07 12:32:40.156240] Team Google:Gemini 2.5 Flash | FEN: r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4 | Illegal: a6
+[2026-02-07 12:32:42.841781] Team Google:Gemini 2.5 Flash | FEN: r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4 | Illegal: a6
+[2026-02-07 12:32:46.207848] Team Cohere:Command A | FEN: r1bqkbnr/pp1ppppp/2n5/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4 | Illegal: exd4
+[2026-02-07 12:32:50.601611] Team OpenRouter:Trinity Large | FEN: r1bqkbnr/pp1ppppp/2n5/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4 | Illegal: Bb4+
+[2026-02-07 12:33:23.646218] Team Cohere:Command A | FEN: r1bq1rk1/p2pbppp/1pn1pn2/8/4P3/2N2N2/PPP1BPPP/R1BQ1RK1 w - - 0 9 | Illegal: d4
+[2026-02-07 12:33:32.935424] Team Cohere:Command A | FEN: r1bq1rk1/p2p1ppp/1pn1pn2/6B1/1b2P3/2N2N2/PPP1BPPP/R2Q1RK1 w - - 2 10 | Illegal: c4
+[2026-02-07 12:33:34.349208] Team Cohere:Command A | FEN: r1bq1rk1/p2p1ppp/1pn1pn2/6B1/1b2P3/2N2N2/PPP1BPPP/R2Q1RK1 w - - 2 10 | Illegal: d4
+[2026-02-07 12:33:46.100723] Team OpenRouter:Trinity Large | FEN: r1bq1rk1/p2p1pp1/1pn1pn1p/8/1b2PB2/2N2N2/PPP1BPPP/R2QR1K1 b - - 1 11 | Illegal: Qd7
+[2026-02-07 12:33:51.460368] Team Cohere:Command A | FEN: r1bq1rk1/p2pbpp1/1pn1pn1p/8/4PB2/2N2N2/PPP1BPPP/R2QR1K1 w - - 2 12 | Illegal: Nxe6
+[2026-02-07 12:34:01.469434] Team Cohere:Command A | FEN: r1bq1rk1/p3bpp1/1pn1pn1p/3pP3/5B2/2N2N2/PPP1BPPP/R2QR1K1 w - d6 0 13 | Illegal: c4
+[2026-02-07 12:34:09.364849] Team OpenRouter:Trinity Large | FEN: r1bq1rk1/p3bpp1/1pn1pn1p/3NP3/5B2/5N2/PPP1BPPP/R2QR1K1 b - - 0 13 | Illegal: Bxd5
+[2026-02-07 12:34:25.940979] Team OpenRouter:Trinity Large | FEN: r1bq1rk1/p3bpp1/4pn1p/1p1NP3/3N1B2/2P5/PP2BPPP/R2QR1K1 b - - 0 15 | Illegal: bxa4
+[2026-02-07 12:34:27.238337] Team OpenRouter:Trinity Large | FEN: r1bq1rk1/p3bpp1/4pn1p/1p1NP3/3N1B2/2P5/PP2BPPP/R2QR1K1 b - - 0 15 | Illegal: Bxd4
+[2026-02-07 12:34:28.290570] Team OpenRouter:Trinity Large | FEN: r1bq1rk1/p3bpp1/4pn1p/1p1NP3/3N1B2/2P5/PP2BPPP/R2QR1K1 b - - 0 15 | Illegal: Bxd4
+[2026-02-07 12:34:34.369065] Team Cohere:Command A | FEN: r1bq1rk1/p3bpp1/4p2p/1p1nP3/3N1B2/2P5/PP2BPPP/R2QR1K1 w - - 0 16 | Illegal: Qxe6+
+[2026-02-07 12:34:35.774116] Team Cohere:Command A | FEN: r1bq1rk1/p3bpp1/4p2p/1p1nP3/3N1B2/2P5/PP2BPPP/R2QR1K1 w - - 0 16 | Illegal: cxd4
+[2026-02-07 12:34:44.199693] Team Cohere:Command A | FEN: r1bq1rk1/p3bpp1/4p2p/3nP3/1pPN1B2/8/PP2BPPP/R2QR1K1 w - - 0 17 | Illegal: cxb4
+[2026-02-07 12:34:45.473174] Team Cohere:Command A | FEN: r1bq1rk1/p3bpp1/4p2p/3nP3/1pPN1B2/8/PP2BPPP/R2QR1K1 w - - 0 17 | Illegal: Bxc6
+[2026-02-07 12:34:46.794201] Team Cohere:Command A | FEN: r1bq1rk1/p3bpp1/4p2p/3nP3/1pPN1B2/8/PP2BPPP/R2QR1K1 w - - 0 17 | Illegal: Bxb4
+[2026-02-07 12:34:48.306532] Team Cohere:Command A | FEN: r1bq1rk1/p3bpp1/4p2p/3nP3/1pPN1B2/8/PP2BPPP/R2QR1K1 w - - 0 17 | Illegal: Bb8
+[2026-02-07 12:34:50.301609] Team Cohere:Command A | FEN: r1bq1rk1/p3bpp1/4p2p/3nP3/1pPN1B2/8/PP2BPPP/R2QR1K1 w - - 0 17 | Illegal: e6
+[2026-02-07 12:35:02.646785] Team SambaNova:DeepSeek V3 | FEN: rnbqkb1r/pppppppp/5n2/8/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 2 2 | Illegal: Bg5
+[2026-02-07 12:35:03.282491] Team SambaNova:DeepSeek V3 | FEN: rnbqkb1r/pppppppp/5n2/8/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 2 2 | Illegal: Be2
+[2026-02-07 12:35:13.706578] Team SambaNova:DeepSeek V3 | FEN: r1bqkb1r/pppppppp/2n2n2/8/8/2N2N2/PPPPPPPP/R1BQKB1R w KQkq - 4 3 | Illegal: Bf4
+[2026-02-07 12:35:14.313473] Team SambaNova:DeepSeek V3 | FEN: r1bqkb1r/pppppppp/2n2n2/8/8/2N2N2/PPPPPPPP/R1BQKB1R w KQkq - 4 3 | Illegal: Bg5
+[2026-02-07 12:35:15.016588] Team SambaNova:DeepSeek V3 | FEN: r1bqkb1r/pppppppp/2n2n2/8/8/2N2N2/PPPPPPPP/R1BQKB1R w KQkq - 4 3 | Illegal: Bb5
+[2026-02-07 12:35:15.706793] Team SambaNova:DeepSeek V3 | FEN: r1bqkb1r/pppppppp/2n2n2/8/8/2N2N2/PPPPPPPP/R1BQKB1R w KQkq - 4 3 | Illegal: Bb2
+[2026-02-07 12:35:16.264089] Team SambaNova:DeepSeek V3 | FEN: r1bqkb1r/pppppppp/2n2n2/8/8/2N2N2/PPPPPPPP/R1BQKB1R w KQkq - 4 3 | Illegal: Be2

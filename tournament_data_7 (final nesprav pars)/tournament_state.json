@@ -1,0 +1,1445 @@
+{
+    "current_round": 3,
+    "current_mode": "ultra-terminator",
+    "selection_submode": "fullmax",
+    "openrouter_mode": "custom",
+    "teams": {
+        "Team Google": {
+            "name": "Team Google",
+            "points": 2.5,
+            "wins": 2,
+            "draws": 1,
+            "losses": 1,
+            "total_moves": 67,
+            "total_think_time": 614.7092325687408,
+            "api_errors": 87,
+            "model_switches": 88,
+            "illegal_moves": 12,
+            "stage1_calls": 63,
+            "stage2_calls": 63,
+            "models_used": [
+                "Gemini 2.5 Flash",
+                "Gemini 2.5 Flash Lite",
+                "Gemma 3 27B (Google)",
+                "Gemma 3 4B (Google)"
+            ],
+            "played_opponents": [
+                "Team SambaNova",
+                "Team Cohere",
+                "Team OpenRouter"
+            ],
+            "color_history": [
+                "W",
+                "W",
+                "W"
+            ],
+            "is_disqualified": false
+        },
+        "Team SambaNova": {
+            "name": "Team SambaNova",
+            "points": 1.5,
+            "wins": 1,
+            "draws": 1,
+            "losses": 2,
+            "total_moves": 15,
+            "total_think_time": 141.7473542690277,
+            "api_errors": 25,
+            "model_switches": 27,
+            "illegal_moves": 0,
+            "stage1_calls": 1,
+            "stage2_calls": 0,
+            "models_used": [
+                "Samba Qwen3 32B",
+                "Samba Llama 3.1 8B"
+            ],
+            "played_opponents": [
+                "Team Google",
+                "Team OpenRouter",
+                "Team Cohere"
+            ],
+            "color_history": [
+                "B",
+                "W",
+                "W"
+            ],
+            "is_disqualified": true
+        },
+        "Team Cohere": {
+            "name": "Team Cohere",
+            "points": 2.0,
+            "wins": 1,
+            "draws": 2,
+            "losses": 1,
+            "total_moves": 38,
+            "total_think_time": 93.7653419971466,
+            "api_errors": 19,
+            "model_switches": 22,
+            "illegal_moves": 5,
+            "stage1_calls": 1,
+            "stage2_calls": 1,
+            "models_used": [
+                "Command A 03-2025",
+                "Command A Vision"
+            ],
+            "played_opponents": [
+                "Team OpenRouter",
+                "Team Google",
+                "Team SambaNova"
+            ],
+            "color_history": [
+                "W",
+                "B",
+                "B"
+            ],
+            "is_disqualified": true
+        },
+        "Team OpenRouter": {
+            "name": "Team OpenRouter",
+            "points": 2.0,
+            "wins": 1,
+            "draws": 2,
+            "losses": 1,
+            "total_moves": 86,
+            "total_think_time": 673.6109299659729,
+            "api_errors": 25,
+            "model_switches": 27,
+            "illegal_moves": 9,
+            "stage1_calls": 58,
+            "stage2_calls": 58,
+            "models_used": [
+                "OR Trinity Large Free"
+            ],
+            "played_opponents": [
+                "Team Cohere",
+                "Team SambaNova",
+                "Team Google"
+            ],
+            "color_history": [
+                "B",
+                "B",
+                "B"
+            ],
+            "is_disqualified": true
+        }
+    },
+    "provider_teams": [
+        {
+            "name": "Team Google",
+            "current_index": 12,
+            "exhausted_until": {
+                "0": 1772811863.8294864,
+                "1": 1772811863.9433637,
+                "2": 1772811891.2631035,
+                "3": 1772811891.3715765,
+                "5": 1772811891.475235,
+                "6": 1772811891.5793378,
+                "4": 1772811891.818097,
+                "7": 1772811892.305549,
+                "8": 1772811892.5191607,
+                "9": 1772811892.6211221,
+                "10": 1772811892.7318504,
+                "11": 1772812276.8121326
+            },
+            "switch_log": [
+                {
+                    "from": "Gemini 3.1 Pro Preview",
+                    "to": "Gemini 3.0 Pro Preview",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T17:51:37.664476"
+                },
+                {
+                    "from": "Gemini 3.0 Pro Preview",
+                    "to": "Gemini 3.0 Flash Preview",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T17:51:37.814045"
+                },
+                {
+                    "from": "Gemini 3.0 Flash Preview",
+                    "to": "Gemini 2.5 Pro",
+                    "reason": "error_skip",
+                    "time": "2026-03-06T17:51:47.839080"
+                },
+                {
+                    "from": "Gemini 2.5 Pro",
+                    "to": "Gemini 3 Pro Image Prev",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T17:51:49.075643"
+                },
+                {
+                    "from": "Gemini 3 Pro Image Prev",
+                    "to": "Gemini 3.1 Flash Image Prev",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T17:51:49.189304"
+                },
+                {
+                    "from": "Gemini 3.1 Flash Image Prev",
+                    "to": "Gemini 2.5 Flash",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T17:51:49.308073"
+                },
+                {
+                    "from": "Gemini 2.5 Flash",
+                    "to": "Gemini 3.0 Flash Preview",
+                    "reason": "best_available",
+                    "time": "2026-03-06T17:53:50.316958"
+                },
+                {
+                    "from": "Gemini 3.0 Flash Preview",
+                    "to": "Gemini 2.5 Flash",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T17:53:50.697214"
+                },
+                {
+                    "from": "Gemini 2.5 Flash",
+                    "to": "Gemini 3.1 Pro Preview",
+                    "reason": "best_available",
+                    "time": "2026-03-06T17:58:20.102052"
+                },
+                {
+                    "from": "Gemini 3.1 Pro Preview",
+                    "to": "Gemini 3.0 Pro Preview",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T17:58:20.411722"
+                },
+                {
+                    "from": "Gemini 3.0 Pro Preview",
+                    "to": "Gemini 2.5 Pro",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T17:58:20.528153"
+                },
+                {
+                    "from": "Gemini 2.5 Pro",
+                    "to": "Gemini 3 Pro Image Prev",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T17:58:20.643466"
+                },
+                {
+                    "from": "Gemini 3 Pro Image Prev",
+                    "to": "Gemini 3.1 Flash Image Prev",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T17:58:20.763860"
+                },
+                {
+                    "from": "Gemini 3.1 Flash Image Prev",
+                    "to": "Gemini 2.5 Flash",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T17:58:20.887983"
+                },
+                {
+                    "from": "Gemini 2.5 Flash",
+                    "to": "Gemini 3.0 Flash Preview",
+                    "reason": "best_available",
+                    "time": "2026-03-06T17:59:00.356397"
+                },
+                {
+                    "from": "Gemini 3.0 Flash Preview",
+                    "to": "Gemini 2.5 Flash",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T17:59:00.780585"
+                },
+                {
+                    "from": "Gemini 2.5 Flash",
+                    "to": "Gemini 2.5 Flash Image",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T17:59:29.437384"
+                },
+                {
+                    "from": "Gemini 2.5 Flash Image",
+                    "to": "Gemini 2.5 Flash Lite",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T17:59:29.540411"
+                },
+                {
+                    "from": "Gemini 2.5 Flash Lite",
+                    "to": "Gemini 2.0 Flash",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T17:59:44.025279"
+                },
+                {
+                    "from": "Gemini 2.0 Flash",
+                    "to": "Gemini 2.0 Flash Lite",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T17:59:44.141467"
+                },
+                {
+                    "from": "Gemini 2.0 Flash Lite",
+                    "to": "Gemma 3 27B (Google)",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T17:59:44.244758"
+                },
+                {
+                    "from": "Gemma 3 27B (Google)",
+                    "to": "Gemma 3 4B (Google)",
+                    "reason": "error_skip",
+                    "time": "2026-03-06T18:00:22.786407"
+                },
+                {
+                    "from": "Gemma 3 4B (Google)",
+                    "to": "Gemini 3.1 Pro Preview",
+                    "reason": "best_available",
+                    "time": "2026-03-06T18:14:07.264718"
+                },
+                {
+                    "from": "Gemini 3.1 Pro Preview",
+                    "to": "Gemini 3.0 Pro Preview",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:14:07.575861"
+                },
+                {
+                    "from": "Gemini 3.0 Pro Preview",
+                    "to": "Gemini 3.0 Flash Preview",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:14:07.702052"
+                },
+                {
+                    "from": "Gemini 3.0 Flash Preview",
+                    "to": "Gemini 2.5 Pro",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:14:07.949109"
+                },
+                {
+                    "from": "Gemini 2.5 Pro",
+                    "to": "Gemini 3 Pro Image Prev",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:14:08.064826"
+                },
+                {
+                    "from": "Gemini 3 Pro Image Prev",
+                    "to": "Gemini 3.1 Flash Image Prev",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:14:08.174589"
+                },
+                {
+                    "from": "Gemini 3.1 Flash Image Prev",
+                    "to": "Gemini 2.5 Flash",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:14:08.287441"
+                },
+                {
+                    "from": "Gemini 2.5 Flash",
+                    "to": "Gemini 2.5 Flash Image",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:14:08.548796"
+                },
+                {
+                    "from": "Gemini 2.5 Flash Image",
+                    "to": "Gemini 2.5 Flash Lite",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:14:08.664785"
+                },
+                {
+                    "from": "Gemini 2.5 Flash Lite",
+                    "to": "Gemini 2.0 Flash",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:14:08.878527"
+                },
+                {
+                    "from": "Gemini 2.0 Flash",
+                    "to": "Gemini 2.0 Flash Lite",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:14:09.010626"
+                },
+                {
+                    "from": "Gemini 2.0 Flash Lite",
+                    "to": "Gemma 3 27B (Google)",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:14:09.123266"
+                },
+                {
+                    "from": "Gemma 3 27B (Google)",
+                    "to": "Gemini 3.1 Pro Preview",
+                    "reason": "best_available",
+                    "time": "2026-03-06T18:19:09.397028"
+                },
+                {
+                    "from": "Gemini 3.1 Pro Preview",
+                    "to": "Gemini 3.0 Pro Preview",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:19:09.709969"
+                },
+                {
+                    "from": "Gemini 3.0 Pro Preview",
+                    "to": "Gemini 3.0 Flash Preview",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:19:09.820698"
+                },
+                {
+                    "from": "Gemini 3.0 Flash Preview",
+                    "to": "Gemini 2.5 Pro",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:19:10.066966"
+                },
+                {
+                    "from": "Gemini 2.5 Pro",
+                    "to": "Gemini 3 Pro Image Prev",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:19:10.176205"
+                },
+                {
+                    "from": "Gemini 3 Pro Image Prev",
+                    "to": "Gemini 3.1 Flash Image Prev",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:19:10.294214"
+                },
+                {
+                    "from": "Gemini 3.1 Flash Image Prev",
+                    "to": "Gemini 2.5 Flash",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:19:10.405162"
+                },
+                {
+                    "from": "Gemini 2.5 Flash",
+                    "to": "Gemini 2.5 Flash Image",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:19:10.652280"
+                },
+                {
+                    "from": "Gemini 2.5 Flash Image",
+                    "to": "Gemini 2.5 Flash Lite",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:19:10.762110"
+                },
+                {
+                    "from": "Gemini 2.5 Flash Lite",
+                    "to": "Gemini 2.0 Flash",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:19:10.981832"
+                },
+                {
+                    "from": "Gemini 2.0 Flash",
+                    "to": "Gemini 2.0 Flash Lite",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:19:11.099744"
+                },
+                {
+                    "from": "Gemini 2.0 Flash Lite",
+                    "to": "Gemma 3 27B (Google)",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:19:11.209969"
+                },
+                {
+                    "from": "Gemma 3 27B (Google)",
+                    "to": "Gemma 3 4B (Google)",
+                    "reason": "error_skip",
+                    "time": "2026-03-06T18:20:33.055452"
+                },
+                {
+                    "from": "Gemma 3 4B (Google)",
+                    "to": "Gemma 3 27B (Google)",
+                    "reason": "best_available",
+                    "time": "2026-03-06T18:22:37.613495"
+                },
+                {
+                    "from": "Gemma 3 27B (Google)",
+                    "to": "Gemini 3.1 Pro Preview",
+                    "reason": "best_available",
+                    "time": "2026-03-06T18:24:11.845834"
+                },
+                {
+                    "from": "Gemini 3.1 Pro Preview",
+                    "to": "Gemini 3.0 Pro Preview",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:24:12.141427"
+                },
+                {
+                    "from": "Gemini 3.0 Pro Preview",
+                    "to": "Gemini 3.0 Flash Preview",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:24:12.243456"
+                },
+                {
+                    "from": "Gemini 3.0 Flash Preview",
+                    "to": "Gemini 2.5 Pro",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:24:12.484204"
+                },
+                {
+                    "from": "Gemini 2.5 Pro",
+                    "to": "Gemini 3 Pro Image Prev",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:24:12.587545"
+                },
+                {
+                    "from": "Gemini 3 Pro Image Prev",
+                    "to": "Gemini 3.1 Flash Image Prev",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:24:12.692624"
+                },
+                {
+                    "from": "Gemini 3.1 Flash Image Prev",
+                    "to": "Gemini 2.5 Flash",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:24:12.804966"
+                },
+                {
+                    "from": "Gemini 2.5 Flash",
+                    "to": "Gemini 2.5 Flash Image",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:24:13.055075"
+                },
+                {
+                    "from": "Gemini 2.5 Flash Image",
+                    "to": "Gemini 2.5 Flash Lite",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:24:13.170570"
+                },
+                {
+                    "from": "Gemini 2.5 Flash Lite",
+                    "to": "Gemini 2.0 Flash",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:24:13.375005"
+                },
+                {
+                    "from": "Gemini 2.0 Flash",
+                    "to": "Gemini 2.0 Flash Lite",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:24:13.494613"
+                },
+                {
+                    "from": "Gemini 2.0 Flash Lite",
+                    "to": "Gemma 3 27B (Google)",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:24:13.595849"
+                },
+                {
+                    "from": "Gemma 3 27B (Google)",
+                    "to": "Gemma 3 4B (Google)",
+                    "reason": "error_skip",
+                    "time": "2026-03-06T18:25:04.940286"
+                },
+                {
+                    "from": "Gemma 3 4B (Google)",
+                    "to": "Gemma 3 27B (Google)",
+                    "reason": "best_available",
+                    "time": "2026-03-06T18:27:24.663542"
+                },
+                {
+                    "from": "Gemma 3 27B (Google)",
+                    "to": "Gemini 3.1 Pro Preview",
+                    "reason": "best_available",
+                    "time": "2026-03-06T18:29:12.177459"
+                },
+                {
+                    "from": "Gemini 3.1 Pro Preview",
+                    "to": "Gemini 3.0 Pro Preview",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:29:12.282133"
+                },
+                {
+                    "from": "Gemini 3.0 Pro Preview",
+                    "to": "Gemma 3 27B (Google)",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:29:12.391028"
+                },
+                {
+                    "from": "Gemma 3 27B (Google)",
+                    "to": "Gemini 3.0 Flash Preview",
+                    "reason": "best_available",
+                    "time": "2026-03-06T18:29:42.229332"
+                },
+                {
+                    "from": "Gemini 3.0 Flash Preview",
+                    "to": "Gemini 2.5 Pro",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:29:42.699735"
+                },
+                {
+                    "from": "Gemini 2.5 Pro",
+                    "to": "Gemini 3 Pro Image Prev",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:29:42.820309"
+                },
+                {
+                    "from": "Gemini 3 Pro Image Prev",
+                    "to": "Gemini 3.1 Flash Image Prev",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:29:42.955049"
+                },
+                {
+                    "from": "Gemini 3.1 Flash Image Prev",
+                    "to": "Gemini 2.5 Flash",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:29:43.088733"
+                },
+                {
+                    "from": "Gemini 2.5 Flash",
+                    "to": "Gemini 2.5 Flash Image",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:29:43.417698"
+                },
+                {
+                    "from": "Gemini 2.5 Flash Image",
+                    "to": "Gemini 2.5 Flash Lite",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:29:43.520430"
+                },
+                {
+                    "from": "Gemini 2.5 Flash Lite",
+                    "to": "Gemini 2.0 Flash",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:29:43.739545"
+                },
+                {
+                    "from": "Gemini 2.0 Flash",
+                    "to": "Gemini 2.0 Flash Lite",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:29:43.856434"
+                },
+                {
+                    "from": "Gemini 2.0 Flash Lite",
+                    "to": "Gemma 3 27B (Google)",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:29:43.963748"
+                },
+                {
+                    "from": "Gemma 3 27B (Google)",
+                    "to": "Gemini 3.1 Pro Preview",
+                    "reason": "best_available",
+                    "time": "2026-03-06T18:34:19.401351"
+                },
+                {
+                    "from": "Gemini 3.1 Pro Preview",
+                    "to": "Gemini 3.0 Pro Preview",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:34:19.636532"
+                },
+                {
+                    "from": "Gemini 3.0 Pro Preview",
+                    "to": "Gemma 3 27B (Google)",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:34:19.743167"
+                },
+                {
+                    "from": "Gemma 3 27B (Google)",
+                    "to": "Gemini 3.0 Flash Preview",
+                    "reason": "best_available",
+                    "time": "2026-03-06T18:34:47.749337"
+                },
+                {
+                    "from": "Gemini 3.0 Flash Preview",
+                    "to": "Gemini 2.5 Pro",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:34:48.182714"
+                },
+                {
+                    "from": "Gemini 2.5 Pro",
+                    "to": "Gemini 3 Pro Image Prev",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:34:48.293249"
+                },
+                {
+                    "from": "Gemini 3 Pro Image Prev",
+                    "to": "Gemini 3.1 Flash Image Prev",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:34:48.400035"
+                },
+                {
+                    "from": "Gemini 3.1 Flash Image Prev",
+                    "to": "Gemini 2.5 Flash",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:34:48.500092"
+                },
+                {
+                    "from": "Gemini 2.5 Flash",
+                    "to": "Gemini 2.5 Flash Image",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:34:48.749887"
+                },
+                {
+                    "from": "Gemini 2.5 Flash Image",
+                    "to": "Gemini 2.5 Flash Lite",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:34:48.851801"
+                },
+                {
+                    "from": "Gemini 2.5 Flash Lite",
+                    "to": "Gemini 2.0 Flash",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:34:49.060389"
+                },
+                {
+                    "from": "Gemini 2.0 Flash",
+                    "to": "Gemini 2.0 Flash Lite",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:34:49.166975"
+                },
+                {
+                    "from": "Gemini 2.0 Flash Lite",
+                    "to": "Gemma 3 27B (Google)",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:34:49.278343"
+                },
+                {
+                    "from": "Gemma 3 27B (Google)",
+                    "to": "Gemini 3.1 Pro Preview",
+                    "reason": "best_available",
+                    "time": "2026-03-06T18:39:23.642682"
+                },
+                {
+                    "from": "Gemini 3.1 Pro Preview",
+                    "to": "Gemini 3.0 Pro Preview",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:39:23.829497"
+                },
+                {
+                    "from": "Gemini 3.0 Pro Preview",
+                    "to": "Gemma 3 27B (Google)",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:39:23.943375"
+                },
+                {
+                    "from": "Gemma 3 27B (Google)",
+                    "to": "Gemini 3.0 Flash Preview",
+                    "reason": "best_available",
+                    "time": "2026-03-06T18:39:51.019355"
+                },
+                {
+                    "from": "Gemini 3.0 Flash Preview",
+                    "to": "Gemini 2.5 Pro",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:39:51.263113"
+                },
+                {
+                    "from": "Gemini 2.5 Pro",
+                    "to": "Gemini 3 Pro Image Prev",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:39:51.371588"
+                },
+                {
+                    "from": "Gemini 3 Pro Image Prev",
+                    "to": "Gemini 3.1 Flash Image Prev",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:39:51.475245"
+                },
+                {
+                    "from": "Gemini 3.1 Flash Image Prev",
+                    "to": "Gemini 2.5 Flash",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:39:51.579348"
+                },
+                {
+                    "from": "Gemini 2.5 Flash",
+                    "to": "Gemini 2.5 Flash Image",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:39:51.818107"
+                },
+                {
+                    "from": "Gemini 2.5 Flash Image",
+                    "to": "Gemini 2.5 Flash Lite",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:39:52.305558"
+                },
+                {
+                    "from": "Gemini 2.5 Flash Lite",
+                    "to": "Gemini 2.0 Flash",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:39:52.519171"
+                },
+                {
+                    "from": "Gemini 2.0 Flash",
+                    "to": "Gemini 2.0 Flash Lite",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:39:52.621132"
+                },
+                {
+                    "from": "Gemini 2.0 Flash Lite",
+                    "to": "Gemma 3 27B (Google)",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:39:52.731861"
+                },
+                {
+                    "from": "Gemma 3 27B (Google)",
+                    "to": "Gemma 3 4B (Google)",
+                    "reason": "exhausted",
+                    "time": "2026-03-06T18:41:16.812148"
+                }
+            ],
+            "total_switches": 88
+        },
+        {
+            "name": "Team SambaNova",
+            "current_index": 4,
+            "exhausted_until": {
+                "6": 1772810339.7461567,
+                "5": 1772810481.4789996,
+                "0": 1772810251.3419197,
+                "1": 1772810255.3707533,
+                "2": 1772810257.6300466,
+                "3": 1772810261.44786,
+                "4": 1772810270.2532723
+            },
+            "switch_log": [
+                {
+                    "from": "Samba DeepSeek V3.1",
+                    "to": "Samba Llama 4 Maverick",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T17:52:11.641727"
+                },
+                {
+                    "from": "Samba Llama 4 Maverick",
+                    "to": "Samba DeepSeek V3",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T17:52:15.701682"
+                },
+                {
+                    "from": "Samba DeepSeek V3",
+                    "to": "Samba Qwen3 32B",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T17:52:18.379559"
+                },
+                {
+                    "from": "Samba Qwen3 32B",
+                    "to": "Samba Llama 3.3 70B",
+                    "reason": "error_skip",
+                    "time": "2026-03-06T17:53:19.480245"
+                },
+                {
+                    "from": "Samba Llama 3.3 70B",
+                    "to": "Samba DeepSeek R1 Distill 70B",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T17:53:32.851471"
+                },
+                {
+                    "from": "Samba DeepSeek R1 Distill 70B",
+                    "to": "Samba Llama 3.1 8B",
+                    "reason": "error_skip",
+                    "time": "2026-03-06T17:53:38.658368"
+                },
+                {
+                    "from": "Samba Llama 3.1 8B",
+                    "to": "Samba Qwen3 32B",
+                    "reason": "best_available",
+                    "time": "2026-03-06T17:55:25.493909"
+                },
+                {
+                    "from": "Samba Qwen3 32B",
+                    "to": "Samba DeepSeek V3.1",
+                    "reason": "best_available",
+                    "time": "2026-03-06T17:58:25.797209"
+                },
+                {
+                    "from": "Samba DeepSeek V3.1",
+                    "to": "Samba Llama 4 Maverick",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T17:58:29.070380"
+                },
+                {
+                    "from": "Samba Llama 4 Maverick",
+                    "to": "Samba DeepSeek V3",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T17:58:33.036628"
+                },
+                {
+                    "from": "Samba DeepSeek V3",
+                    "to": "Samba Qwen3 32B",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T17:58:43.361884"
+                },
+                {
+                    "from": "Samba Qwen3 32B",
+                    "to": "Samba Llama 3.3 70B",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T17:59:10.694459"
+                },
+                {
+                    "from": "Samba Llama 3.3 70B",
+                    "to": "Samba DeepSeek R1 Distill 70B",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T17:59:12.921913"
+                },
+                {
+                    "from": "Samba DeepSeek R1 Distill 70B",
+                    "to": "Samba Llama 3.1 8B",
+                    "reason": "error_skip",
+                    "time": "2026-03-06T17:59:19.248715"
+                },
+                {
+                    "from": "Samba Llama 3.1 8B",
+                    "to": "Samba DeepSeek V3.1",
+                    "reason": "best_available",
+                    "time": "2026-03-06T18:07:07.311685"
+                },
+                {
+                    "from": "Samba DeepSeek V3.1",
+                    "to": "Samba Llama 4 Maverick",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:07:16.408571"
+                },
+                {
+                    "from": "Samba Llama 4 Maverick",
+                    "to": "Samba DeepSeek V3",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:07:20.243797"
+                },
+                {
+                    "from": "Samba DeepSeek V3",
+                    "to": "Samba Qwen3 32B",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:07:22.667888"
+                },
+                {
+                    "from": "Samba Qwen3 32B",
+                    "to": "Samba Llama 3.3 70B",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:07:26.646195"
+                },
+                {
+                    "from": "Samba Llama 3.3 70B",
+                    "to": "Samba DeepSeek R1 Distill 70B",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:07:35.638946"
+                },
+                {
+                    "from": "Samba DeepSeek R1 Distill 70B",
+                    "to": "Samba Llama 3.1 8B",
+                    "reason": "error_skip",
+                    "time": "2026-03-06T18:07:41.085917"
+                },
+                {
+                    "from": "Samba Llama 3.1 8B",
+                    "to": "Samba DeepSeek R1 Distill 70B",
+                    "reason": "best_available",
+                    "time": "2026-03-06T18:09:59.746618"
+                },
+                {
+                    "from": "Samba DeepSeek R1 Distill 70B",
+                    "to": "Samba DeepSeek V3.1",
+                    "reason": "best_available",
+                    "time": "2026-03-06T18:12:21.479875"
+                },
+                {
+                    "from": "Samba DeepSeek V3.1",
+                    "to": "Samba Llama 4 Maverick",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:12:31.341928"
+                },
+                {
+                    "from": "Samba Llama 4 Maverick",
+                    "to": "Samba DeepSeek V3",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:12:35.370762"
+                },
+                {
+                    "from": "Samba DeepSeek V3",
+                    "to": "Samba Qwen3 32B",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:12:37.630055"
+                },
+                {
+                    "from": "Samba Qwen3 32B",
+                    "to": "Samba Llama 3.3 70B",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:12:41.447870"
+                }
+            ],
+            "total_switches": 22
+        },
+        {
+            "name": "Team Cohere",
+            "current_index": 0,
+            "exhausted_until": {
+                "1": 1772810375.139076,
+                "2": 1772810375.325714,
+                "3": 1772810375.5104759,
+                "4": 1772810375.6985066,
+                "5": 1772810375.8863614,
+                "6": 1772810376.0734737,
+                "7": 1772810376.260021,
+                "8": 1772810376.4488988,
+                "9": 1772810376.6370044,
+                "10": 1772810376.8251586,
+                "11": 1772810752.0202634,
+                "0": 1772810887.3864927
+            },
+            "switch_log": [
+                {
+                    "from": "Command A Reasoning",
+                    "to": "Command A 03-2025",
+                    "reason": "error_skip",
+                    "time": "2026-03-06T17:52:00.863308"
+                },
+                {
+                    "from": "Command A 03-2025",
+                    "to": "Command A Reasoning",
+                    "reason": "best_available",
+                    "time": "2026-03-06T17:54:10.647015"
+                },
+                {
+                    "from": "Command A Reasoning",
+                    "to": "Command A 03-2025",
+                    "reason": "error_skip",
+                    "time": "2026-03-06T17:54:16.483377"
+                },
+                {
+                    "from": "Command A 03-2025",
+                    "to": "Command A Reasoning",
+                    "reason": "best_available",
+                    "time": "2026-03-06T17:56:17.120475"
+                },
+                {
+                    "from": "Command A Reasoning",
+                    "to": "Command A 03-2025",
+                    "reason": "error_skip",
+                    "time": "2026-03-06T17:56:23.221119"
+                },
+                {
+                    "from": "Command A 03-2025",
+                    "to": "Command A Vision",
+                    "reason": "exhausted",
+                    "time": "2026-03-06T17:56:25.548573"
+                },
+                {
+                    "from": "Command A Vision",
+                    "to": "Command A Reasoning",
+                    "reason": "best_available",
+                    "time": "2026-03-06T17:58:47.990582"
+                },
+                {
+                    "from": "Command A Reasoning",
+                    "to": "Command A Vision",
+                    "reason": "error_skip",
+                    "time": "2026-03-06T17:58:53.702501"
+                },
+                {
+                    "from": "Command A Vision",
+                    "to": "Command A Reasoning",
+                    "reason": "best_available",
+                    "time": "2026-03-06T18:00:54.436718"
+                },
+                {
+                    "from": "Command A Reasoning",
+                    "to": "Command A Vision",
+                    "reason": "error_skip",
+                    "time": "2026-03-06T18:01:00.681189"
+                },
+                {
+                    "from": "Command A Vision",
+                    "to": "Command A Reasoning",
+                    "reason": "best_available",
+                    "time": "2026-03-06T18:06:55.604747"
+                },
+                {
+                    "from": "Command A Reasoning",
+                    "to": "Command A 03-2025",
+                    "reason": "error_skip",
+                    "time": "2026-03-06T18:07:02.264919"
+                },
+                {
+                    "from": "Command A 03-2025",
+                    "to": "Command A Reasoning",
+                    "reason": "best_available",
+                    "time": "2026-03-06T18:14:28.489789"
+                },
+                {
+                    "from": "Command A Reasoning",
+                    "to": "Command A 03-2025",
+                    "reason": "error_skip",
+                    "time": "2026-03-06T18:14:33.947838"
+                },
+                {
+                    "from": "Command A 03-2025",
+                    "to": "Command A Vision",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:14:35.139085"
+                },
+                {
+                    "from": "Command A Vision",
+                    "to": "Command R+ 08-2024",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:14:35.325723"
+                },
+                {
+                    "from": "Command R+ 08-2024",
+                    "to": "Command R 08-2024",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:14:35.510484"
+                },
+                {
+                    "from": "Command R 08-2024",
+                    "to": "Command Nightly",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:14:35.698519"
+                },
+                {
+                    "from": "Command Nightly",
+                    "to": "Aya Expanse 32B",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:14:35.886370"
+                },
+                {
+                    "from": "Aya Expanse 32B",
+                    "to": "Command A Translate",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:14:36.073482"
+                },
+                {
+                    "from": "Command A Translate",
+                    "to": "Aya Vision 32B",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:14:36.260030"
+                },
+                {
+                    "from": "Aya Vision 32B",
+                    "to": "Command R7B 12-2024",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:14:36.448909"
+                },
+                {
+                    "from": "Command R7B 12-2024",
+                    "to": "Aya Expanse 8B",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:14:36.637013"
+                },
+                {
+                    "from": "Aya Expanse 8B",
+                    "to": "Aya Vision 8B",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:14:36.825168"
+                },
+                {
+                    "from": "Aya Vision 8B",
+                    "to": "Command A Reasoning",
+                    "reason": "best_available",
+                    "time": "2026-03-06T18:16:52.020826"
+                }
+            ],
+            "total_switches": 18
+        },
+        {
+            "name": "Team OpenRouter",
+            "current_index": 1,
+            "exhausted_until": {
+                "2": 1772812335.2171772,
+                "3": 1772812035.9790561,
+                "4": 1772812036.3109078,
+                "6": 1772812038.37695,
+                "7": 1772812038.5763836,
+                "11": 1772812046.6077416,
+                "12": 1772812046.945634,
+                "13": 1772812047.1453207,
+                "14": 1772812047.4883542,
+                "15": 1772812422.6974728,
+                "5": 1772812003.6925309,
+                "8": 1772812005.0794537,
+                "9": 1772812009.6943526,
+                "10": 1772812011.0681643,
+                "1": 1772812207.7131279
+            },
+            "switch_log": [
+                {
+                    "from": "OR Free Auto-Router",
+                    "to": "OR Hermes 3 405B Free",
+                    "reason": "best_available",
+                    "time": "2026-03-06T17:52:24.800117"
+                },
+                {
+                    "from": "OR Hermes 3 405B Free",
+                    "to": "OR Trinity Large Free",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T17:52:25.492275"
+                },
+                {
+                    "from": "OR Trinity Large Free",
+                    "to": "OR Hermes 3 405B Free",
+                    "reason": "best_available",
+                    "time": "2026-03-06T17:57:28.704924"
+                },
+                {
+                    "from": "OR Hermes 3 405B Free",
+                    "to": "OR Trinity Large Free",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T17:57:29.050577"
+                },
+                {
+                    "from": "OR Trinity Large Free",
+                    "to": "OR Hermes 3 405B Free",
+                    "reason": "best_available",
+                    "time": "2026-03-06T18:19:26.724905"
+                },
+                {
+                    "from": "OR Hermes 3 405B Free",
+                    "to": "OR Trinity Large Free",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:19:27.405460"
+                },
+                {
+                    "from": "OR Trinity Large Free",
+                    "to": "OR Hermes 3 405B Free",
+                    "reason": "best_available",
+                    "time": "2026-03-06T18:24:28.874879"
+                },
+                {
+                    "from": "OR Hermes 3 405B Free",
+                    "to": "OR Trinity Large Free",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:24:29.493286"
+                },
+                {
+                    "from": "OR Trinity Large Free",
+                    "to": "OR Hermes 3 405B Free",
+                    "reason": "best_available",
+                    "time": "2026-03-06T18:29:38.596118"
+                },
+                {
+                    "from": "OR Hermes 3 405B Free",
+                    "to": "OR Trinity Large Free",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:29:38.929075"
+                },
+                {
+                    "from": "OR Trinity Large Free",
+                    "to": "OR Hermes 3 405B Free",
+                    "reason": "best_available",
+                    "time": "2026-03-06T18:34:42.920992"
+                },
+                {
+                    "from": "OR Hermes 3 405B Free",
+                    "to": "OR Trinity Large Free",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:34:43.254637"
+                },
+                {
+                    "from": "OR Trinity Large Free",
+                    "to": "OR Hermes 3 405B Free",
+                    "reason": "best_available",
+                    "time": "2026-03-06T18:40:00.755042"
+                },
+                {
+                    "from": "OR Hermes 3 405B Free",
+                    "to": "OR Trinity Large Free",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:40:01.270728"
+                },
+                {
+                    "from": "OR Trinity Large Free",
+                    "to": "OR Llama 3.3 70B Free",
+                    "reason": "exhausted",
+                    "time": "2026-03-06T18:42:15.217196"
+                },
+                {
+                    "from": "OR Llama 3.3 70B Free",
+                    "to": "OR Mistral Small 3.1 Free",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:42:15.979068"
+                },
+                {
+                    "from": "OR Mistral Small 3.1 Free",
+                    "to": "OR Gemma 3 27B Free",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:42:16.310919"
+                },
+                {
+                    "from": "OR Gemma 3 27B Free",
+                    "to": "OR Qwen3 Coder Free",
+                    "reason": "error_skip",
+                    "time": "2026-03-06T18:42:17.052468"
+                },
+                {
+                    "from": "OR Qwen3 Coder Free",
+                    "to": "OR Trinity Mini Free",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:42:18.376962"
+                },
+                {
+                    "from": "OR Trinity Mini Free",
+                    "to": "OR Gemma 3 12B Free",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:42:18.576394"
+                },
+                {
+                    "from": "OR Gemma 3 12B Free",
+                    "to": "OR Step 3.5 Flash Free",
+                    "reason": "error_skip",
+                    "time": "2026-03-06T18:42:18.975040"
+                },
+                {
+                    "from": "OR Step 3.5 Flash Free",
+                    "to": "OR Gemma 3 4B Free",
+                    "reason": "error_skip",
+                    "time": "2026-03-06T18:42:23.831763"
+                },
+                {
+                    "from": "OR Gemma 3 4B Free",
+                    "to": "OR Qwen3 4B Free",
+                    "reason": "error_skip",
+                    "time": "2026-03-06T18:42:25.209252"
+                },
+                {
+                    "from": "OR Qwen3 4B Free",
+                    "to": "OR Llama 3.2 3B Free",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:42:26.607755"
+                },
+                {
+                    "from": "OR Llama 3.2 3B Free",
+                    "to": "OR Nemotron Nano 9B V2 Free",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:42:26.945647"
+                },
+                {
+                    "from": "OR Nemotron Nano 9B V2 Free",
+                    "to": "OR Dolphin Mistral Venice",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:42:27.145333"
+                },
+                {
+                    "from": "OR Dolphin Mistral Venice",
+                    "to": "OR Liquid 2.5 1.2B Free",
+                    "reason": "rate_limit_skip",
+                    "time": "2026-03-06T18:42:27.488366"
+                },
+                {
+                    "from": "OR Liquid 2.5 1.2B Free",
+                    "to": "OR Gemma 3 27B Free",
+                    "reason": "best_available",
+                    "time": "2026-03-06T18:44:42.698231"
+                },
+                {
+                    "from": "OR Gemma 3 27B Free",
+                    "to": "OR Gemma 3 12B Free",
+                    "reason": "error_skip",
+                    "time": "2026-03-06T18:44:43.692545"
+                },
+                {
+                    "from": "OR Gemma 3 12B Free",
+                    "to": "OR Step 3.5 Flash Free",
+                    "reason": "error_skip",
+                    "time": "2026-03-06T18:44:45.079466"
+                },
+                {
+                    "from": "OR Step 3.5 Flash Free",
+                    "to": "OR Gemma 3 4B Free",
+                    "reason": "error_skip",
+                    "time": "2026-03-06T18:44:49.694365"
+                },
+                {
+                    "from": "OR Gemma 3 4B Free",
+                    "to": "OR Hermes 3 405B Free",
+                    "reason": "best_available",
+                    "time": "2026-03-06T18:45:07.068814"
+                }
+            ],
+            "total_switches": 23
+        }
+    ],
+    "active_matches": [
+        {
+            "table_id": 1,
+            "round_num": 3,
+            "white": "Team Google",
+            "black": "Team OpenRouter",
+            "fen": "8/3k1P1K/8/p6p/P6P/8/1p6/8 b - - 1 50",
+            "state": "Completed",
+            "annotations": [
+                "{Gemma 3 27B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 27B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 27B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 4B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 4B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 4B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 4B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 4B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 4B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 4B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 27B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 27B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 27B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 27B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 27B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 4B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 4B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 4B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 4B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 4B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 4B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 4B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 27B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 27B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 27B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 27B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 27B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 27B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 27B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 27B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 27B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 27B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 27B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 27B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 27B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 27B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 27B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 27B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 27B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 27B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 27B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 27B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 27B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 27B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 27B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 27B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 27B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 27B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 27B (Google)}",
+                "{OR Trinity Large Free}",
+                "{Gemma 3 4B (Google)}"
+            ]
+        },
+        {
+            "table_id": 2,
+            "round_num": 3,
+            "white": "Team SambaNova",
+            "black": "Team Cohere",
+            "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+            "state": "Completed",
+            "annotations": []
+        }
+    ]
+}

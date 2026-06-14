@@ -1,0 +1,9 @@
+[2026-03-08 10:49:33.443205] Team Google:Gemma 3 1B (Google) | FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 | d6
+[2026-03-08 10:55:11.705712] Team Google:Gemma 3 1B (Google) | FEN: rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2 | e4
+[2026-03-08 10:55:31.869292] Team Google:Gemma 3 1B (Google) | FEN: r1bqkbnr/pppp1ppp/2n5/4p3/4P3/2P5/PP1P1PPP/RNBQKBNR w KQkq - 1 3 | e4
+[2026-03-08 10:55:32.529178] Team Google:Gemma 3 1B (Google) | FEN: r1bqkbnr/pppp1ppp/2n5/4p3/4P3/2P5/PP1P1PPP/RNBQKBNR w KQkq - 1 3 | c3
+[2026-03-08 10:57:10.757639] Team OpenRouter:OR Gemma 3 27B Free | FEN: r1bqkb1r/pppp1ppp/2n2n2/4p3/3PP3/2P2P2/PP4PP/RNBQKBNR b KQkq - 0 4 | Nf6
+[2026-03-08 10:57:41.848394] Team OpenRouter:OR Liquid 2.5 1.2B Free | FEN: r1bqkb1r/pppp1ppp/2n2n2/4p3/3PP3/2P2P2/PP4PP/RNBQKBNR b KQkq - 0 4 | Bxc6
+[2026-03-08 10:57:43.050796] Team OpenRouter:OR Liquid 2.5 1.2B Free | FEN: r1bqkb1r/pppp1ppp/2n2n2/4p3/3PP3/2P2P2/PP4PP/RNBQKBNR b KQkq - 0 4 | Nc3
+[2026-03-08 10:57:43.708305] Team OpenRouter:OR Liquid 2.5 1.2B Free | FEN: r1bqkb1r/pppp1ppp/2n2n2/4p3/3PP3/2P2P2/PP4PP/RNBQKBNR b KQkq - 0 4 | Bxc6
+[2026-03-08 10:57:44.921461] Team OpenRouter:OR Liquid 2.5 1.2B Free | FEN: r1bqkb1r/pppp1ppp/2n2n2/4p3/3PP3/2P2P2/PP4PP/RNBQKBNR b KQkq - 0 4 | Ng5

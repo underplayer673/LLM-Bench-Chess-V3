@@ -1,0 +1,10 @@
+[Event "Provider Tournament R1"]
+[Site "LLM Chess v32.0"]
+[Date "2026-03-08"]
+[Round "?"]
+[White "Team Cerebras"]
+[Black "Team OpenRouter"]
+[Result "*"]
+
+1. Nf3 { {Cerebras Llama3.1 8B } 1... Nf6 { {OR Trinity Large Free } 2. Nc3 { {Cerebras Llama3.1 8B } 2... Ne4 { {OR Trinity Large Free } 3. Ng5 { {Cerebras Llama3.1 8B } 3... Nxg5 { {OR Trinity Large Free } 4. d4 { {Cerebras Llama3.1 8B } 4... Ne4 { {OR Trinity Large Free } 5. Nxe4 { {Cerebras Llama3.1 8B } 5... d5 { {OR Trinity Large Free } 6. Nc3 { {Cerebras Llama3.1 8B } 6... Bf5 { {OR Trinity Large Free } 7. Bg5 { {Cerebras Llama3.1 8B } 7... Be6 { {OR Trinity Large Free } 8. Bf6 { {Cerebras Llama3.1 8B } 8... Nc6 { {OR Trinity Large Free } 9. Nxd5 { {Cerebras Llama3.1 8B } 9... Bxd5 { {OR Trinity Large Free } 10. Qd3 { {Cerebras Llama3.1 8B } 10... Nxd4 { {OR Trinity Large Free } 11. Qxd4 { {Cerebras Llama3.1 8B } 11... Bxg2 { {OR Trinity Large Free } 12. Rg1 { {Cerebras Llama3.1 8B } 12... Bxf1 { {OR Trinity Large Free } 13. Qe5 { {Cerebras Llama3.1 8B } 13... Qc8 { {OR Trinity Large Free } 14. Qxe7+ { {Cerebras Llama3.1 8B } 14... Bxe7 { {OR Trinity Large Free } 15. Be5 { {Cerebras Llama3.1 8B } 15... Bf6 { {OR Trinity Large Free } 16. Bxf6 { {Cerebras Llama3.1 8B } 16... gxf6 { {OR Trinity Large Free } 17. f4 { {Cerebras Llama3.1 8B } *
+

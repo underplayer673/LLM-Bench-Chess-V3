@@ -1,0 +1,11 @@
+[Event "Provider Tournament R1"]
+[Site "LLM Chess v32.0"]
+[Date "2026-03-08"]
+[Round "?"]
+[White "Team Google"]
+[Black "Team GitHub"]
+[Result "1-0"]
+[Termination "DQ"]
+
+1. Nc3 { {Gemma 3 1B (Google) } 1... e5 { {GitHub GPT-4o Mini } 2. Nf3 { {Gemma 3 1B (Google) } 2... d5 { {GitHub GPT-4o Mini } 3. Ng5 { {Gemma 3 1B (Google) } 3... h6 { {GitHub GPT-4o Mini } 4. Nf3 { {Gemma 3 1B (Google) } 4... Nf6 { {GitHub GPT-4o Mini } 5. Ng5 { {Gemma 3 1B (Google) } 5... g6 { {GitHub GPT-4o Mini } 6. Nf3 { {Gemma 3 1B (Google) } 6... Bg7 { {GitHub GPT-4o Mini } 7. Ne4 { {Gemma 3 1B (Google) } 7... dxe4 { {GitHub GPT-4o Mini } 8. Ng1 { {Gemma 3 1B (Google) } 8... Qd5 { {GitHub GPT-4o Mini } 9. Nh3 { {Gemma 3 1B (Google) } 9... Qd4 { {GitHub GPT-4o Mini } 10. Ng5 { {Gemma 3 1B (Google) } 10... Qd5 { {GitHub GPT-4o Mini } 11. d4 { {Gemma 3 1B (Google) } 11... Qxd4 { {GitHub GPT-4o Mini } 12. Nxf7 { {Gemma 3 27B (Google) } 12... Kxf7 { {GitHub GPT-4o Mini } 13. Qd3 { {Gemma 3 27B (Google) } 13... Qd6 { {GitHub GPT-4o Mini } 14. Qxd6 { {Gemma 3 27B (Google) } 14... Bf5 { {GitHub GPT-4o Mini } 15. Qf8+ { {Gemma 3 27B (Google) } 1-0
+

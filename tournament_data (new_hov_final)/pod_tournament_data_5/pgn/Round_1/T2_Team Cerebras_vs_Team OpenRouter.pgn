@@ -1,0 +1,11 @@
+[Event "Provider Tournament R1"]
+[Site "LLM Chess v32.0"]
+[Date "2026-03-08"]
+[Round "?"]
+[White "Team Cerebras"]
+[Black "Team OpenRouter"]
+[Result "0-1"]
+[Termination "DQ"]
+
+1. e4 { {Cerebras Llama3.1 8B } 1... e5 { {OR Trinity Large Free } 2. d4 { {Cerebras Llama3.1 8B } 2... Nf6 { {OR Trinity Large Free } 3. Nf3 { {Cerebras Llama3.1 8B } 3... Nxe4 { {OR Trinity Large Free } 4. d5 { {Cerebras Llama3.1 8B } 4... Nc6 { {OR Llama 3.3 70B Free } 5. Nc3 { {Cerebras Llama3.1 8B } 5... b5 { {OR Trinity Large Free } 6. a3 { {Cerebras Llama3.1 8B } 6... Bb4 { {OR Trinity Large Free } 7. a4 { {Cerebras Llama3.1 8B } 7... f5 { {OR Trinity Large Free } 8. Bc4 { {Cerebras Llama3.1 8B } 8... Nxc3 { {OR Trinity Large Free } 9. Nd4 { {Cerebras Llama3.1 8B } 9... f4 { {OR Trinity Large Free } 10. Bd3 { {Cerebras Llama3.1 8B } 10... Nxd4 { {OR Trinity Large Free } 0-1
+

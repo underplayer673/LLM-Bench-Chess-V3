@@ -1,0 +1,84 @@
+{
+    "current_round": 3,
+    "active_roster": [
+        "Command R+",
+        "Command R7B",
+        "Command R",
+        "Trinity Large"
+    ],
+    "players": {
+        "Command R+": {
+            "name": "Command R+",
+            "points": 0.5,
+            "wins": 0,
+            "draws": 1,
+            "losses": 1,
+            "total_moves": 14,
+            "total_think_time": 801.4209995269775,
+            "api_errors": 2,
+            "played_opponents": [
+                "Command R7B",
+                "Command R"
+            ],
+            "color_history": [
+                "W",
+                "B"
+            ],
+            "is_disqualified": true
+        },
+        "Command R7B": {
+            "name": "Command R7B",
+            "points": 0.5,
+            "wins": 0,
+            "draws": 1,
+            "losses": 0,
+            "total_moves": 9,
+            "total_think_time": 101.15771102905273,
+            "api_errors": 0,
+            "played_opponents": [
+                "Command R+"
+            ],
+            "color_history": [
+                "B"
+            ],
+            "is_disqualified": true
+        },
+        "Command R": {
+            "name": "Command R",
+            "points": 2.0,
+            "wins": 2,
+            "draws": 0,
+            "losses": 0,
+            "total_moves": 25,
+            "total_think_time": 1310.9021890163422,
+            "api_errors": 0,
+            "played_opponents": [
+                "Trinity Large",
+                "Command R+"
+            ],
+            "color_history": [
+                "W",
+                "W"
+            ],
+            "is_disqualified": false
+        },
+        "Trinity Large": {
+            "name": "Trinity Large",
+            "points": 0.0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 1,
+            "total_moves": 19,
+            "total_think_time": 1026.6031556129456,
+            "api_errors": 1,
+            "played_opponents": [
+                "Command R"
+            ],
+            "color_history": [
+                "B"
+            ],
+            "is_disqualified": true
+        }
+    },
+    "active_matches": []
+}

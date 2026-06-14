@@ -1,0 +1,11 @@
+[Event "Provider Tournament R2"]
+[Site "LLM Chess v32.0"]
+[Date "2026-03-08"]
+[Round "?"]
+[White "Team Google"]
+[Black "Team Cerebras"]
+[Result "1-0"]
+[Termination "DQ"]
+
+1. e4 { {Gemini 3.0 Flash Preview } 1... e5 { {Cerebras Llama3.1 8B } 2. Nf3 { {Gemma 3 27B (Google) } 2... Nc6 { {Cerebras Llama3.1 8B } 3. Bb5 { {Gemma 3 27B (Google) } 3... a6 { {Cerebras Llama3.1 8B } 4. Ba4 { {Gemma 3 27B (Google) } 4... Nf6 { {Cerebras Llama3.1 8B } 5. O-O { {Gemma 3 27B (Google) } 5... d6 { {Cerebras Llama3.1 8B } 6. Nc3 { {Gemma 3 27B (Google) } 6... b5 { {Cerebras Llama3.1 8B } 7. d3 { {Gemma 3 27B (Google) } 7... b4 { {Cerebras Llama3.1 8B } 8. d4 { {Gemma 3 27B (Google) } 8... d5 { {Cerebras Llama3.1 8B } 9. Nxe5 { {Gemma 3 27B (Google) } 9... Nd7 { {Cerebras Llama3.1 8B } 10. Be3 { {Gemma 3 27B (Google) } 10... a5 { {Cerebras Llama3.1 8B } 11. Bb5 { {Gemma 3 27B (Google) } 11... a4 { {Cerebras Llama3.1 8B } 12. f4 { {Gemma 3 27B (Google) } 12... a3 { {Cerebras Llama3.1 8B } 13. g4 { {Gemma 3 27B (Google) } 13... Nf6 { {Cerebras Llama3.1 8B } 14. Rf3 { {Gemini 2.5 Flash Lite } 1-0
+

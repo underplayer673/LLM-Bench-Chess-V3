@@ -1,0 +1,11 @@
+[Event "Provider Tournament Round 1"]
+[Site "LLM Chess v31.1"]
+[Date "2026-02-07"]
+[Round "?"]
+[White "Team Cohere"]
+[Black "Team OpenRouter"]
+[Result "0-1"]
+[Termination "Disqualification"]
+
+1. e4 { {Command A } 1... e5 { {OR Llama 3.3 70B } 2. Nf3 { {Command A } 2... Nc6 { {OR Llama 3.3 70B } 3. Bc4 { {Command A } 3... Nf6 { {OR Llama 3.3 70B } 4. Bb5 { {Command A } 4... a6 { {OR Llama 3.3 70B } 5. Ba4 { {Command A } 5... b5 { {OR Llama 3.3 70B } 6. d4 { {Command A } 6... exd4 { {OR Llama 3.3 70B } 7. Nxd4 { {Command A } 7... Qe7 { {OR Llama 3.3 70B } 8. O-O { {Command A } 8... b4 { {OR Llama 3.3 70B } 9. c3 { {Command A } 9... a5 { {OR Llama 3.3 70B } 10. c4 { {Command A } 10... Qe5 { {OR Llama 3.3 70B } 11. Nf3 { {Command A } 11... Bb7 { {OR Llama 3.3 70B } 12. Qb3 { {Command R+ } 12... Nh5 { {OR Llama 3.3 70B } 13. Bg5 { {Command R+ } 13... h6 { {OR Llama 3.3 70B } 14. Be3 { {Command R+ } 14... Nf4 { {OR Llama 3.3 70B } 15. Qxb4 { {Command R+ } 15... Bc5 { {OR Llama 3.3 70B } 16. Bb3 { {Command R+ } 16... Qe7 { {OR Llama 3.3 70B } 17. Qc3 { {Command R+ } 17... a4 { {OR Llama 3.3 70B } 18. Qb4 { {Command R+ } 18... Na5 { {OR Llama 3.3 70B } 19. Qc3 { {Command R+ } 19... h5 { {OR Llama 3.3 70B } 20. g4 { {Command R+ } 20... h4 { {OR Llama 3.3 70B } 21. Bxf4 { {Command R+ } 21... Rh5 { {OR Llama 3.3 70B } 22. Qb4 { {Command R+ } 22... Bd4 { {OR Llama 3.3 70B } 23. Qc5 { {Command R+ } 23... Rxc5 { {Trinity Large } 24. Be5 { {Command R+ } 24... Bxe5 { {Trinity Large } 25. Re1 { {Command R+ } 25... Nxc4 { {Trinity Large } 26. Nbd2 { {Command R+ } 26... d5 { {Trinity Large } 27. Ng5 { {Command R+ } 27... Qe6 { {Trinity Large } 28. Nxe6 { {Command R+ } 28... fxe6 { {Trinity Large } 29. Re3 { {Command R+ } 29... d4 { {Trinity Large } 30. Nf3 { {Command R+ } 30... d3 { {Trinity Large } 31. Nxe5 { {Command R+ } 31... d2 { {Trinity Large } 0-1
+

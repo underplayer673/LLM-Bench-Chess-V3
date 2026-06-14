@@ -1,0 +1,11 @@
+[Event "Provider Tournament R1"]
+[Site "LLM Chess v32.0"]
+[Date "2026-03-06"]
+[Round "?"]
+[White "Team Cohere"]
+[Black "Team OpenRouter"]
+[Result "1-0"]
+[Termination "DQ"]
+
+1. e4 { {Command A 03-2025 } 1... e5 { {OR Trinity Large Free } 2. Nf3 { {Command A 03-2025 } 2... Nc6 { {OR Trinity Large Free } 3. Bb5 { {Command A 03-2025 } 3... a6 { {OR Trinity Large Free } 4. Ba4 { {Command A 03-2025 } 4... Nf6 { {OR Trinity Large Free } 5. O-O { {Command A 03-2025 } 5... Be7 { {OR Trinity Large Free } 6. Re1 { {Command A 03-2025 } 6... b5 { {OR Trinity Large Free } 7. Bb3 { {Command A 03-2025 } 7... d6 { {OR Trinity Large Free } 8. c3 { {Command A 03-2025 } 8... Na5 { {OR Trinity Large Free } 9. d4 { {Command A 03-2025 } 9... Nc6 { {OR Trinity Large Free } 10. Nbd2 { {Command A 03-2025 } 10... Be6 { {OR Trinity Large Free } 11. d5 { {Command A 03-2025 } 11... Nxd5 { {OR Trinity Large Free } 12. Bxd5 { {Command A Vision } 12... Bg4 { {OR Liquid 2.5 1.2B Free } 13. Nxe5 { {Command A Vision } 1-0
+

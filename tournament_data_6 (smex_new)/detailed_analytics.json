@@ -1,0 +1,129 @@
+[
+    {
+        "name": "Team Google",
+        "points": 0.0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 3,
+        "total_moves": 9,
+        "total_think_time": 68.92312383651733,
+        "api_errors": 24,
+        "model_switches": 27,
+        "illegal_moves": 20,
+        "stage1_calls": 30,
+        "stage2_calls": 29,
+        "models_used": [
+            "Gemini 3.0 Flash Preview",
+            "Gemini 2.5 Flash Lite",
+            "Gemma 3 27B (Google)",
+            "Gemini 2.5 Flash",
+            "Gemma 3 4B (Google)",
+            "Gemma 3 1B (Google)"
+        ],
+        "played_opponents": [
+            "Team SambaNova",
+            "Team Cohere",
+            "Team OpenRouter"
+        ],
+        "color_history": [
+            "W",
+            "W",
+            "W"
+        ],
+        "is_disqualified": true
+    },
+    {
+        "name": "Team SambaNova",
+        "points": 2.0,
+        "wins": 2,
+        "draws": 0,
+        "losses": 1,
+        "total_moves": 43,
+        "total_think_time": 1602.6448028087616,
+        "api_errors": 37,
+        "model_switches": 42,
+        "illegal_moves": 18,
+        "stage1_calls": 61,
+        "stage2_calls": 61,
+        "models_used": [
+            "Samba DeepSeek V3.1",
+            "Samba Llama 4 Maverick",
+            "Samba DeepSeek V3",
+            "Samba Qwen3 32B",
+            "Samba Llama 3.3 70B",
+            "Samba Llama 3.1 8B"
+        ],
+        "played_opponents": [
+            "Team Google",
+            "Team OpenRouter",
+            "Team Cohere"
+        ],
+        "color_history": [
+            "B",
+            "W",
+            "W"
+        ],
+        "is_disqualified": true
+    },
+    {
+        "name": "Team Cohere",
+        "points": 3.0,
+        "wins": 3,
+        "draws": 0,
+        "losses": 0,
+        "total_moves": 46,
+        "total_think_time": 842.062830209732,
+        "api_errors": 18,
+        "model_switches": 22,
+        "illegal_moves": 45,
+        "stage1_calls": 94,
+        "stage2_calls": 94,
+        "models_used": [
+            "Command A Reasoning",
+            "Command A 03-2025",
+            "Command A Vision",
+            "Command R+ 08-2024",
+            "Command R 08-2024"
+        ],
+        "played_opponents": [
+            "Team OpenRouter",
+            "Team Google",
+            "Team SambaNova"
+        ],
+        "color_history": [
+            "W",
+            "B",
+            "B"
+        ],
+        "is_disqualified": false
+    },
+    {
+        "name": "Team OpenRouter",
+        "points": 1.0,
+        "wins": 1,
+        "draws": 0,
+        "losses": 2,
+        "total_moves": 12,
+        "total_think_time": 146.95836806297302,
+        "api_errors": 39,
+        "model_switches": 42,
+        "illegal_moves": 13,
+        "stage1_calls": 25,
+        "stage2_calls": 25,
+        "models_used": [
+            "OR Trinity Large Free",
+            "OR Liquid 2.5 1.2B Free"
+        ],
+        "played_opponents": [
+            "Team Cohere",
+            "Team SambaNova",
+            "Team Google"
+        ],
+        "color_history": [
+            "B",
+            "B",
+            "B"
+        ],
+        "is_disqualified": true
+    }
+]

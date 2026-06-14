@@ -1,0 +1,191 @@
+[2026-03-07 15:45:00.565343] Team OpenRouter:OR Trinity Large Free | FEN: rnbqkb1r/pppppppp/8/6n1/3P4/2N5/PPP1PPPP/R1BQKB1R b KQkq - 0 4 | Nxg5
+[2026-03-07 15:45:46.358451] Team OpenRouter:OR Trinity Large Free | FEN: rnbqkb1r/pppppppp/8/8/3PN3/8/PPP1PPPP/R1BQKB1R b KQkq - 0 5 | Qd7
+[2026-03-07 15:46:19.696428] Team OpenRouter:OR Trinity Large Free | FEN: r1bqkb1r/pppppppp/2n5/3P4/4N3/8/PPP1PPPP/R1BQKB1R b KQkq - 0 6 | Bb7
+[2026-03-07 15:46:59.486093] Team OpenRouter:OR Trinity Large Free | FEN: r1bqkb1r/pppppppp/8/2NPn3/8/8/PPP1PPPP/R1BQKB1R b KQkq - 2 7 | Bb7
+[2026-03-07 15:51:24.253685] Team Cerebras:Cerebras Llama3.1 8B | FEN: r1q1kb1r/p3pppp/b1p5/6B1/8/8/PPP1PPPP/1R2KB1R w Kkq - 8 16 | Bg5
+[2026-03-07 15:52:34.015636] Team Cerebras:Cerebras Llama3.1 8B | FEN: r2qkb1r/p3pppp/b1p5/6B1/8/8/PPP1PPPP/1R2KB1R w Kkq - 12 18 | Bg5
+[2026-03-07 15:52:34.672321] Team Cerebras:Cerebras Llama3.1 8B | FEN: r2qkb1r/p3pppp/b1p5/6B1/8/8/PPP1PPPP/1R2KB1R w Kkq - 12 18 | Bd7
+[2026-03-07 15:59:48.885607] Team GitHub:GitHub GPT-4o Mini | FEN: 6r1/ppp4p/5b1k/5b2/3n2r1/4K3/PPP4P/6R1 b - - 10 31 | Rg7
+[2026-03-07 16:01:43.581558] Team Cerebras:Cerebras Llama3.1 8B | FEN: 2kr1br1/p3pppp/2p5/P7/8/4P3/1PP3PP/1R2K2R w - - 1 34 | a4
+[2026-03-07 16:04:44.594123] Team OpenRouter:OR Trinity Large Free | FEN: 3r1br1/p1k1pppp/P1p1P3/8/8/2P5/1P4PP/1R2K2R b - - 0 38 | Bxe6
+[2026-03-07 16:05:29.629024] Team OpenRouter:OR Trinity Large Free | FEN: 5br1/p1k1pPpp/P1pr4/8/8/2P5/1P4PP/1R2K2R b - - 0 39 | Bf7
+[2026-03-07 16:08:41.584155] Team OpenRouter:OR Trinity Large Free | FEN: r7/p1k1p1pp/P1p5/2P5/1P6/1R6/6PP/4K2R b - - 2 45 | Ra6
+[2026-03-07 16:08:57.476412] Team Cerebras:Cerebras Llama3.1 8B | FEN: r1k5/p3p1pp/P1p5/2P5/1P6/1R6/6PP/4K2R w - - 3 46 | Rb3
+[2026-03-07 16:08:58.312442] Team Cerebras:Cerebras Llama3.1 8B | FEN: r1k5/p3p1pp/P1p5/2P5/1P6/1R6/6PP/4K2R w - - 3 46 | a4
+[2026-03-07 16:30:32.421473] Team Google:Gemma 3 27B (Google) | FEN: 2k4r/6pp/8/5p2/1nb4n/2P5/PP3PPP/R2K1R2 w - - 1 25 | c4
+[2026-03-07 16:30:38.053515] Team Google:Gemma 3 27B (Google) | FEN: 2k4r/6pp/8/5p2/1nb4n/2P5/PP3PPP/R2K1R2 w - - 1 25 | Be3
+[2026-03-07 16:30:42.149450] Team Google:Gemma 3 27B (Google) | FEN: 2k4r/6pp/8/5p2/1nb4n/2P5/PP3PPP/R2K1R2 w - - 1 25 | Be3
+[2026-03-07 16:30:44.765813] Team Google:Gemma 3 27B (Google) | FEN: 2k4r/6pp/8/5p2/1nb4n/2P5/PP3PPP/R2K1R2 w - - 1 25 | Be3
+[2026-03-07 16:30:48.799318] Team Google:Gemma 3 27B (Google) | FEN: 2k4r/6pp/8/5p2/1nb4n/2P5/PP3PPP/R2K1R2 w - - 1 25 | Be3
+[2026-03-07 16:30:55.135575] Team Cerebras:Cerebras Llama3.1 8B | FEN: 2k4r/6pp/8/5p2/1nb4n/2P5/PP3PPP/R2K3R b - - 2 25 | Nh6
+[2026-03-07 16:33:07.564848] Team Google:Gemma 3 4B (Google) | FEN: 2k5/5rpp/8/8/1n4bn/2P5/PP1K1PPP/5R2 w - - 2 42 | Rf8
+[2026-03-07 16:34:22.466855] Team Google:Gemma 3 4B (Google) | FEN: 2k5/4r1pp/8/5R2/1n4bn/2P5/PP1K1PPP/8 w - - 20 51 | Rf5
+[2026-03-07 16:35:53.348831] Team OpenRouter:OR Trinity Large Free | FEN: rnbqkb1r/pppppppN/5n1p/8/8/8/PPPPPPPP/RNBQKB1R b KQkq - 1 3 | Bxh7
+[2026-03-07 16:36:01.107168] Team OpenRouter:OR Trinity Large Free | FEN: rnbqkb1r/pppppppN/5n1p/8/8/8/PPPPPPPP/RNBQKB1R b KQkq - 1 3 | Nf6
+[2026-03-07 16:38:12.138208] Team Google:Gemma 3 4B (Google) | FEN: r1bqkb1r/ppp1p2n/2n1pppp/8/8/8/PPPP1PPP/RNBQK2R w KQkq - 0 10 | Rg4
+[2026-03-07 16:38:28.867903] Team OpenRouter:OR Trinity Large Free | FEN: r1bqkb1r/ppp1p2n/2n1pppp/8/3P4/8/PPP2PPP/RNBQK2R b KQkq - 0 10 | Bxh7
+[2026-03-07 16:40:40.064147] Team OpenRouter:OR Trinity Large Free | FEN: r1bqk2r/ppp1p1bn/5Qpp/3p4/8/8/PPP2PPP/RNB1K1R1 b Qq - 0 16 | gxf6
+[2026-03-07 16:50:00.943567] Team OpenRouter:OR Trinity Large Free | FEN: 1r3k2/p7/1p4pp/2P5/8/P1b4K/8/7R b - - 0 38 | Bxc5
+[2026-03-07 17:56:32.102785] Team OpenRouter:OR Trinity Large Free | FEN: r2qkb1r/pb1p2p1/n2p2pp/1PP4n/8/8/PP3PPP/R1B1K2R b KQkq - 0 16 | Qxc5
+[2026-03-07 17:56:57.039490] Team Cerebras:Cerebras Llama3.1 8B | FEN: r2qkb2/pb1p2p1/3p2pr/1Pn4n/8/8/PP3PPP/R3K2R w KQq - 0 18 | Bb5
+[2026-03-07 17:58:49.464333] Team OpenRouter:OR Trinity Large Free | FEN: r3qb2/p2pk1p1/3p1npr/1Pn5/8/5P2/PP4bP/6K1 b - - 0 23 | Qxf3
+[2026-03-07 17:59:00.756892] Team OpenRouter:OR Trinity Large Free | FEN: r3qb2/p2pk1p1/3p1npr/1Pn5/8/5P2/PP4bP/6K1 b - - 0 23 | Ne4
+[2026-03-07 17:59:41.523081] Team OpenRouter:OR Trinity Large Free | FEN: r4b2/p2pkqp1/3p1npr/1Pn5/5P2/8/PP4bP/6K1 b - - 0 24 | Qxf4
+[2026-03-07 18:01:04.410319] Team OpenRouter:OR Trinity Large Free | FEN: r4b2/p2pk1p1/3p2qr/1Pn5/5n2/7P/PP4b1/6K1 b - - 0 27 | Nxg6
+[2026-03-07 18:09:14.671190] Team Cerebras:Cerebras Llama3.1 8B | FEN: 4r3/ppp2kp1/8/3P1K2/8/8/PPP2PPP/R7 b - - 0 32 | d5
+[2026-03-07 18:09:15.424337] Team Cerebras:Cerebras Llama3.1 8B | FEN: 4r3/ppp2kp1/8/3P1K2/8/8/PPP2PPP/R7 b - - 0 32 | gxf5
+[2026-03-07 18:09:52.228179] Team Google:Gemma 3 27B (Google) | FEN: 8/1p2rkp1/3p4/p4K2/P7/8/1PP2PPP/R7 w - - 0 35 | a4
+[2026-03-07 18:10:02.206386] Team Google:Gemma 3 27B (Google) | FEN: 8/1p2rkp1/3p4/p4K2/P7/8/1PP2PPP/R7 w - - 0 35 | Bb5
+[2026-03-07 18:10:09.009835] Team Google:Gemma 3 27B (Google) | FEN: 8/1p2rkp1/3p4/p4K2/P7/8/1PP2PPP/R7 w - - 0 35 | Nf3
+[2026-03-07 18:11:05.257095] Team Google:Gemma 3 27B (Google) | FEN: 8/1p2k1p1/8/p2K4/P7/R7/1PP2PPP/8 w - - 1 39 | a4
+[2026-03-07 18:18:24.536892] Team Google:Gemma 3 27B (Google) | FEN: 8/6k1/6P1/3K4/8/P7/7P/8 w - - 1 74 | h7
+[2026-03-07 18:18:32.407594] Team Google:Gemma 3 27B (Google) | FEN: 8/6k1/6P1/3K4/8/P7/7P/8 w - - 1 74 | g7
+[2026-03-07 18:27:21.179855] Team OpenRouter:OR Trinity Large Free | FEN: r1b4q/pppp4/2n3k1/8/8/2N5/PPPP1PPP/R1B1KB1R b KQ - 2 14 | Qxe4
+[2026-03-07 18:27:30.827390] Team OpenRouter:OR Trinity Large Free | FEN: r1b4q/pppp4/2n3k1/8/8/2N5/PPPP1PPP/R1B1KB1R b KQ - 2 14 | Qh8
+[2026-03-07 18:28:08.868616] Team OpenRouter:OR Trinity Large Free | FEN: r1b5/pppp4/2n3k1/3N4/8/8/PPPP1PPq/R1B1KB1R b KQ - 1 15 | Bb7
+[2026-03-07 18:42:14.562082] Team Google:Gemma 3 27B (Google) | FEN: 6R1/8/1p1K3k/8/8/5P2/P1P3P1/8 w - - 8 45 | Rg8
+[2026-03-07 18:43:20.936552] Team Google:Gemma 3 27B (Google) | FEN: 6R1/8/1p1K3k/8/8/5P2/P1P3P1/8 w - - 12 47 | Rg8
+[2026-03-07 18:59:40.304002] Team Google:Gemma 3 27B (Google) | FEN: 7Q/8/4K3/8/8/6k1/P1P5/8 w - - 39 84 | Qh8
+[2026-03-07 19:01:36.265817] Team Google:Gemma 3 27B (Google) | FEN: 8/5Q2/4K3/8/8/4k3/P1P5/8 w - - 47 88 | Qf7
+[2026-03-07 19:10:43.382051] Team Cerebras:Cerebras Llama3.1 8B | FEN: rnbqkb1r/pppppppp/5n2/8/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 2 2 | Nf3
+[2026-03-07 19:11:54.529013] Team Cerebras:Cerebras Llama3.1 8B | FEN: r1b1qb1r/pppppkp1/2n2n1p/8/8/2P5/PPQPPPPP/RNB1KB1R w KQ - 3 6 | Bc4
+[2026-03-07 19:12:27.801192] Team OpenRouter:OR Trinity Large Free | FEN: r1b1qb1r/pppppkp1/2n4p/8/2P1n3/8/PP1PPPPP/RNB1KB1R b KQ - 0 7 | Nxc4
+[2026-03-07 19:13:15.964669] Team OpenRouter:OR Trinity Large Free | FEN: r1b1qb1r/pppppkp1/3n3p/8/2Pn1B2/8/PP2PPPP/RN2KB1R b KQ - 1 9 | Nxf4
+[2026-03-07 19:13:25.854648] Team OpenRouter:OR Trinity Large Free | FEN: r1b1qb1r/pppppkp1/3n3p/8/2Pn1B2/8/PP2PPPP/RN2KB1R b KQ - 1 9 | Nf5
+[2026-03-07 19:15:09.823797] Team OpenRouter:OR Trinity Large Free | FEN: r1b1qb1r/pppppkp1/5n1p/6B1/2n5/3K4/PP2PPPP/RN3B1R b - - 5 14 | Nxg5
+[2026-03-07 19:15:36.810634] Team OpenRouter:OR Trinity Large Free | FEN: r1b1qb1r/pppppkp1/5n1p/6B1/2n5/3K4/PP2PPPP/RN3B1R b - - 5 14 | Nxf6
+[2026-03-07 19:18:01.534914] Team OpenRouter:OR Trinity Large Free | FEN: r1b2b1r/pp1p1kp1/2p4p/4p1q1/2K5/8/PP1NPnPP/R4BR1 b - - 1 21 | Qxg1
+[2026-03-07 19:18:14.804127] Team OpenRouter:OR Trinity Large Free | FEN: r1b2b1r/pp1p1kp1/2p4p/4p1q1/2K5/8/PP1NPnPP/R4BR1 b - - 1 21 | Qxg5
+[2026-03-08 10:42:12.852669] Team OpenRouter:OR Trinity Large Free | FEN: r1bk1b1r/p7/2p4p/P2Bp1p1/4P3/8/6PP/K5R1 b - - 0 37 | Nxe4
+[2026-03-08 10:42:21.766176] Team OpenRouter:OR Trinity Large Free | FEN: r1bk1b1r/p7/2p4p/P2Bp1p1/4P3/8/6PP/K5R1 b - - 0 37 | Nxg2
+[2026-03-08 10:42:47.712264] Team OpenRouter:OR Trinity Large Free | FEN: r1bk1b1r/p7/2p4p/P2Bp1p1/4P3/8/6PP/K5R1 b - - 0 37 | Rxh6
+[2026-03-08 10:42:58.532019] Team OpenRouter:OR Trinity Large Free | FEN: r1bk1b1r/p7/2p4p/P2Bp1p1/4P3/8/6PP/K5R1 b - - 0 37 | e4
+[2026-03-08 10:43:19.412893] Team OpenRouter:OR Trinity Large Free | FEN: r1bk1b1r/p7/2p4p/P2Bp1p1/4P3/8/6PP/K5R1 b - - 0 37 | Nxd5
+[2026-03-08 10:43:49.737334] Team OpenRouter:OR Liquid 2.5 1.2B Free | FEN: r1bk1b1r/p7/2p4p/P2Bp1p1/4P3/8/6PP/K5R1 b - - 0 37 | Nf3
+[2026-03-08 10:43:51.098079] Team OpenRouter:OR Liquid 2.5 1.2B Free | FEN: r1bk1b1r/p7/2p4p/P2Bp1p1/4P3/8/6PP/K5R1 b - - 0 37 | e5
+[2026-03-08 10:43:52.112125] Team OpenRouter:OR Liquid 2.5 1.2B Free | FEN: r1bk1b1r/p7/2p4p/P2Bp1p1/4P3/8/6PP/K5R1 b - - 0 37 | Bf6
+[2026-03-08 10:43:53.218733] Team OpenRouter:OR Liquid 2.5 1.2B Free | FEN: r1bk1b1r/p7/2p4p/P2Bp1p1/4P3/8/6PP/K5R1 b - - 0 37 | Bc4
+[2026-03-08 10:43:54.226295] Team OpenRouter:OR Liquid 2.5 1.2B Free | FEN: r1bk1b1r/p7/2p4p/P2Bp1p1/4P3/8/6PP/K5R1 b - - 0 37 | b5
+[2026-03-08 10:45:53.746091] Team Cerebras:Cerebras Llama3.1 8B | FEN: r1bqkb1r/2p2ppp/p1np1n2/1p2p3/B3P3/2NP1N2/PPP2PPP/R1BQ1RK1 b kq - 0 7 | c5
+[2026-03-08 10:46:01.196436] Team Google:Gemma 3 27B (Google) | FEN: r1bqkb1r/2p2ppp/p1np1n2/4p3/Bp2P3/2NP1N2/PPP2PPP/R1BQ1RK1 w kq - 0 8 | e5
+[2026-03-08 10:46:07.870959] Team Cerebras:Cerebras Llama3.1 8B | FEN: r1bqkb1r/2p2ppp/p1np1n2/4p3/Bp1PP3/2N2N2/PPP2PPP/R1BQ1RK1 b kq - 0 8 | e6
+[2026-03-08 10:46:08.879039] Team Cerebras:Cerebras Llama3.1 8B | FEN: r1bqkb1r/2p2ppp/p1np1n2/4p3/Bp1PP3/2N2N2/PPP2PPP/R1BQ1RK1 b kq - 0 8 | e6
+[2026-03-08 10:46:18.177533] Team Cerebras:Cerebras Llama3.1 8B | FEN: r1bqkb1r/2p2ppp/p1n2n2/3pN3/Bp1PP3/2N5/PPP2PPP/R1BQ1RK1 b kq - 0 9 | Nc6
+[2026-03-08 10:46:26.812309] Team Cerebras:Cerebras Llama3.1 8B | FEN: r1bqkb1r/2pn1ppp/p1n5/3pN3/Bp1PP3/2N1B3/PPP2PPP/R2Q1RK1 b kq - 2 10 | c5
+[2026-03-08 10:46:27.787272] Team Cerebras:Cerebras Llama3.1 8B | FEN: r1bqkb1r/2pn1ppp/p1n5/3pN3/Bp1PP3/2N1B3/PPP2PPP/R2Q1RK1 b kq - 2 10 | Nc6
+[2026-03-08 10:46:28.427169] Team Cerebras:Cerebras Llama3.1 8B | FEN: r1bqkb1r/2pn1ppp/p1n5/3pN3/Bp1PP3/2N1B3/PPP2PPP/R2Q1RK1 b kq - 2 10 | Qc7
+[2026-03-08 10:46:34.292087] Team Google:Gemma 3 27B (Google) | FEN: r1bqkb1r/2pn1ppp/2n5/p2pN3/Bp1PP3/2N1B3/PPP2PPP/R2Q1RK1 w kq - 0 11 | c3
+[2026-03-08 10:46:38.062465] Team Google:Gemma 3 27B (Google) | FEN: r1bqkb1r/2pn1ppp/2n5/p2pN3/Bp1PP3/2N1B3/PPP2PPP/R2Q1RK1 w kq - 0 11 | Bd3
+[2026-03-08 10:47:43.148402] Team Cerebras:Cerebras Llama3.1 8B | FEN: r1bqkb1r/2pn1ppp/2n5/1B1pN3/pp1PPP2/2N1B3/PPP3PP/R2Q1RK1 b kq - 0 12 | c5
+[2026-03-08 10:47:43.461922] Team Cerebras:Cerebras Llama3.1 8B | FEN: r1bqkb1r/2pn1ppp/2n5/1B1pN3/pp1PPP2/2N1B3/PPP3PP/R2Q1RK1 b kq - 0 12 | b5
+[2026-03-08 10:47:44.738894] Team Cerebras:Cerebras Llama3.1 8B | FEN: r1bqkb1r/2pn1ppp/2n5/1B1pN3/pp1PPP2/2N1B3/PPP3PP/R2Q1RK1 b kq - 0 12 | Nc6
+[2026-03-08 10:47:52.768559] Team Cerebras:Cerebras Llama3.1 8B | FEN: r1bqkb1r/2pn1ppp/2n5/1B1pN3/1p1PPPP1/p1N1B3/PPP4P/R2Q1RK1 b kq - 0 13 | b5
+[2026-03-08 10:47:53.130311] Team Cerebras:Cerebras Llama3.1 8B | FEN: r1bqkb1r/2pn1ppp/2n5/1B1pN3/1p1PPPP1/p1N1B3/PPP4P/R2Q1RK1 b kq - 0 13 | a5
+[2026-03-08 10:47:53.484544] Team Cerebras:Cerebras Llama3.1 8B | FEN: r1bqkb1r/2pn1ppp/2n5/1B1pN3/1p1PPPP1/p1N1B3/PPP4P/R2Q1RK1 b kq - 0 13 | Nh6
+[2026-03-08 10:47:54.264100] Team Cerebras:Cerebras Llama3.1 8B | FEN: r1bqkb1r/2pn1ppp/2n5/1B1pN3/1p1PPPP1/p1N1B3/PPP4P/R2Q1RK1 b kq - 0 13 | Nc6
+[2026-03-08 10:47:58.614720] Team Google:Gemma 3 27B (Google) | FEN: r1bqkb1r/2p2ppp/2n2n2/1B1pN3/1p1PPPP1/p1N1B3/PPP4P/R2Q1RK1 w kq - 1 14 | d5
+[2026-03-08 10:47:59.960416] Team Google:Gemma 3 27B (Google) | FEN: r1bqkb1r/2p2ppp/2n2n2/1B1pN3/1p1PPPP1/p1N1B3/PPP4P/R2Q1RK1 w kq - 1 14 | h5
+[2026-03-08 10:48:01.375830] Team Google:Gemma 3 27B (Google) | FEN: r1bqkb1r/2p2ppp/2n2n2/1B1pN3/1p1PPPP1/p1N1B3/PPP4P/R2Q1RK1 w kq - 1 14 | h5
+[2026-03-08 10:48:02.689656] Team Google:Gemma 3 27B (Google) | FEN: r1bqkb1r/2p2ppp/2n2n2/1B1pN3/1p1PPPP1/p1N1B3/PPP4P/R2Q1RK1 w kq - 1 14 | h5
+[2026-03-08 10:48:04.123270] Team Google:Gemma 3 27B (Google) | FEN: r1bqkb1r/2p2ppp/2n2n2/1B1pN3/1p1PPPP1/p1N1B3/PPP4P/R2Q1RK1 w kq - 1 14 | h5
+[2026-03-08 10:48:05.684192] Team Google:Gemma 3 4B (Google) | FEN: r1bqkb1r/2p2ppp/2n2n2/1B1pN3/1p1PPPP1/p1N1B3/PPP4P/R2Q1RK1 w kq - 1 14 | Bg7
+[2026-03-08 10:48:07.040015] Team Google:Gemma 3 4B (Google) | FEN: r1bqkb1r/2p2ppp/2n2n2/1B1pN3/1p1PPPP1/p1N1B3/PPP4P/R2Q1RK1 w kq - 1 14 | Bg5
+[2026-03-08 10:48:08.322620] Team Google:Gemma 3 4B (Google) | FEN: r1bqkb1r/2p2ppp/2n2n2/1B1pN3/1p1PPPP1/p1N1B3/PPP4P/R2Q1RK1 w kq - 1 14 | a4
+[2026-03-08 10:48:10.611016] Team Google:Gemma 3 4B (Google) | FEN: r1bqkb1r/2p2ppp/2n2n2/1B1pN3/1p1PPPP1/p1N1B3/PPP4P/R2Q1RK1 w kq - 1 14 | a4
+[2026-03-08 10:48:12.153924] Team Google:Gemma 3 4B (Google) | FEN: r1bqkb1r/2p2ppp/2n2n2/1B1pN3/1p1PPPP1/p1N1B3/PPP4P/R2Q1RK1 w kq - 1 14 | a4
+[2026-03-08 10:48:14.696894] Team Google:Gemini 2.5 Flash | FEN: r1bqkb1r/2p2ppp/2n2n2/1B1pN3/1p1PPPP1/p1N1B3/PPP4P/R2Q1RK1 w kq - 1 14 | a3
+[2026-03-08 10:48:18.408540] Team Cerebras:Cerebras Llama3.1 8B | FEN: r1bqkb1r/2p2ppp/2n2n2/1B1pN3/1p1PPPP1/p1N1BR2/PPP4P/R2Q2K1 b kq - 2 14 | c5
+[2026-03-08 10:48:19.062121] Team Cerebras:Cerebras Llama3.1 8B | FEN: r1bqkb1r/2p2ppp/2n2n2/1B1pN3/1p1PPPP1/p1N1BR2/PPP4P/R2Q2K1 b kq - 2 14 | b5
+[2026-03-08 10:48:20.422080] Team Cerebras:Cerebras Llama3.1 8B | FEN: r1bqkb1r/2p2ppp/2n2n2/1B1pN3/1p1PPPP1/p1N1BR2/PPP4P/R2Q2K1 b kq - 2 14 | b5
+[2026-03-08 10:48:20.810191] Team Cerebras:Cerebras Llama3.1 8B | FEN: r1bqkb1r/2p2ppp/2n2n2/1B1pN3/1p1PPPP1/p1N1BR2/PPP4P/R2Q2K1 b kq - 2 14 | a4
+[2026-03-08 10:48:21.326201] Team Cerebras:Cerebras Llama3.1 8B | FEN: r1bqkb1r/2p2ppp/2n2n2/1B1pN3/1p1PPPP1/p1N1BR2/PPP4P/R2Q2K1 b kq - 2 14 | c5
+[2026-03-08 10:49:24.811518] Team Google:Gemma 3 1B (Google) | FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 | d6
+[2026-03-08 10:49:33.443205] Team Google:Gemma 3 1B (Google) | FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 | d6
+[2026-03-08 10:55:11.705712] Team Google:Gemma 3 1B (Google) | FEN: rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2 | e4
+[2026-03-08 10:55:31.869292] Team Google:Gemma 3 1B (Google) | FEN: r1bqkbnr/pppp1ppp/2n5/4p3/4P3/2P5/PP1P1PPP/RNBQKBNR w KQkq - 1 3 | e4
+[2026-03-08 10:55:32.529178] Team Google:Gemma 3 1B (Google) | FEN: r1bqkbnr/pppp1ppp/2n5/4p3/4P3/2P5/PP1P1PPP/RNBQKBNR w KQkq - 1 3 | c3
+[2026-03-08 10:57:10.757639] Team OpenRouter:OR Gemma 3 27B Free | FEN: r1bqkb1r/pppp1ppp/2n2n2/4p3/3PP3/2P2P2/PP4PP/RNBQKBNR b KQkq - 0 4 | Nf6
+[2026-03-08 10:57:41.848394] Team OpenRouter:OR Liquid 2.5 1.2B Free | FEN: r1bqkb1r/pppp1ppp/2n2n2/4p3/3PP3/2P2P2/PP4PP/RNBQKBNR b KQkq - 0 4 | Bxc6
+[2026-03-08 10:57:43.050796] Team OpenRouter:OR Liquid 2.5 1.2B Free | FEN: r1bqkb1r/pppp1ppp/2n2n2/4p3/3PP3/2P2P2/PP4PP/RNBQKBNR b KQkq - 0 4 | Nc3
+[2026-03-08 10:57:43.708305] Team OpenRouter:OR Liquid 2.5 1.2B Free | FEN: r1bqkb1r/pppp1ppp/2n2n2/4p3/3PP3/2P2P2/PP4PP/RNBQKBNR b KQkq - 0 4 | Bxc6
+[2026-03-08 10:57:44.921461] Team OpenRouter:OR Liquid 2.5 1.2B Free | FEN: r1bqkb1r/pppp1ppp/2n2n2/4p3/3PP3/2P2P2/PP4PP/RNBQKBNR b KQkq - 0 4 | Ng5
+[2026-03-08 11:01:38.992175] Team Cerebras:Cerebras Llama3.1 8B | FEN: rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2 | e4
+[2026-03-08 11:02:25.082242] Team Cerebras:Cerebras Llama3.1 8B | FEN: rnbqkb1r/pppp1ppp/8/4p3/3Pn3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4 | e4
+[2026-03-08 11:02:25.417912] Team Cerebras:Cerebras Llama3.1 8B | FEN: rnbqkb1r/pppp1ppp/8/4p3/3Pn3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4 | d4
+[2026-03-08 11:02:52.623676] Team OpenRouter:OR Trinity Large Free | FEN: rnbqkb1r/pppp1ppp/8/3Pp3/4n3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 4 | Nd4
+[2026-03-08 11:02:56.759853] Team Cerebras:Cerebras Llama3.1 8B | FEN: r1bqkb1r/pppp1ppp/2n5/3Pp3/4n3/5N2/PPP2PPP/RNBQKB1R w KQkq - 1 5 | e4
+[2026-03-08 11:03:00.295067] Team OpenRouter:OR Llama 3.3 70B Free | FEN: r1bqkb1r/pppp1ppp/2n5/3Pp3/4n3/2N2N2/PPP2PPP/R1BQKB1R b KQkq - 2 5 | e5
+[2026-03-08 11:03:01.997128] Team OpenRouter:OR Llama 3.3 70B Free | FEN: r1bqkb1r/pppp1ppp/2n5/3Pp3/4n3/2N2N2/PPP2PPP/R1BQKB1R b KQkq - 2 5 | Nd7
+[2026-03-08 11:03:37.892299] Team OpenRouter:OR Trinity Large Free | FEN: r1bqkb1r/pppp1ppp/2n5/3Pp3/4n3/2N2N2/PPP2PPP/R1BQKB1R b KQkq - 2 5 | Be3
+[2026-03-08 11:03:55.958239] Team Cerebras:Cerebras Llama3.1 8B | FEN: r1bqkb1r/p1pp1ppp/2n5/1p1Pp3/4n3/2N2N2/PPP2PPP/R1BQKB1R w KQkq - 0 6 | Nxd5
+[2026-03-08 11:04:18.497304] Team Cerebras:Cerebras Llama3.1 8B | FEN: r1bqk2r/p1pp1ppp/2n5/1p1Pp3/1b2n3/P1N2N2/1PP2PPP/R1BQKB1R w KQkq - 1 7 | Nf3
+[2026-03-08 11:04:18.844944] Team Cerebras:Cerebras Llama3.1 8B | FEN: r1bqk2r/p1pp1ppp/2n5/1p1Pp3/1b2n3/P1N2N2/1PP2PPP/R1BQKB1R w KQkq - 1 7 | d4
+[2026-03-08 11:04:19.577525] Team Cerebras:Cerebras Llama3.1 8B | FEN: r1bqk2r/p1pp1ppp/2n5/1p1Pp3/1b2n3/P1N2N2/1PP2PPP/R1BQKB1R w KQkq - 1 7 | e4
+[2026-03-08 11:04:43.556173] Team OpenRouter:OR Trinity Large Free | FEN: r1bqk2r/p1pp1ppp/2n5/1p1Pp3/Pb2n3/2N2N2/1PP2PPP/R1BQKB1R b KQkq - 0 7 | Nc6
+[2026-03-08 11:05:16.205052] Team Cerebras:Cerebras Llama3.1 8B | FEN: r1bqk2r/p1pp2pp/2n5/1p1Ppp2/Pb2n3/2N2N2/1PP2PPP/R1BQKB1R w KQkq - 0 8 | Nf3
+[2026-03-08 11:05:16.828745] Team Cerebras:Cerebras Llama3.1 8B | FEN: r1bqk2r/p1pp2pp/2n5/1p1Ppp2/Pb2n3/2N2N2/1PP2PPP/R1BQKB1R w KQkq - 0 8 | e4
+[2026-03-08 11:05:17.597442] Team Cerebras:Cerebras Llama3.1 8B | FEN: r1bqk2r/p1pp2pp/2n5/1p1Ppp2/Pb2n3/2N2N2/1PP2PPP/R1BQKB1R w KQkq - 0 8 | d4
+[2026-03-08 11:05:17.912440] Team Cerebras:Cerebras Llama3.1 8B | FEN: r1bqk2r/p1pp2pp/2n5/1p1Ppp2/Pb2n3/2N2N2/1PP2PPP/R1BQKB1R w KQkq - 0 8 | e4
+[2026-03-08 11:06:23.775727] Team Cerebras:Cerebras Llama3.1 8B | FEN: r1bqk2r/p1pp2pp/2n5/1p1Pp3/PbBN1p2/2n5/1PP2PPP/R1BQK2R w KQkq - 0 10 | Nxd4
+[2026-03-08 11:06:24.679654] Team Cerebras:Cerebras Llama3.1 8B | FEN: r1bqk2r/p1pp2pp/2n5/1p1Pp3/PbBN1p2/2n5/1PP2PPP/R1BQK2R w KQkq - 0 10 | a4
+[2026-03-08 11:06:24.987021] Team Cerebras:Cerebras Llama3.1 8B | FEN: r1bqk2r/p1pp2pp/2n5/1p1Pp3/PbBN1p2/2n5/1PP2PPP/R1BQK2R w KQkq - 0 10 | d5
+[2026-03-08 11:06:25.313793] Team Cerebras:Cerebras Llama3.1 8B | FEN: r1bqk2r/p1pp2pp/2n5/1p1Pp3/PbBN1p2/2n5/1PP2PPP/R1BQK2R w KQkq - 0 10 | e4
+[2026-03-08 11:07:58.771828] Team Cerebras:Cerebras Llama3.1 8B | FEN: r1bqk2r/p1pp2pp/8/1p1Pp3/Pb1n1p2/2nB4/1PP2PPP/R1BQK2R w KQkq - 0 11 | e4
+[2026-03-08 11:07:59.353201] Team Cerebras:Cerebras Llama3.1 8B | FEN: r1bqk2r/p1pp2pp/8/1p1Pp3/Pb1n1p2/2nB4/1PP2PPP/R1BQK2R w KQkq - 0 11 | d3
+[2026-03-08 11:10:19.721800] Team OpenRouter:OR Trinity Large Free | FEN: r1bqkbnr/1ppp1ppp/p1B5/4p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 0 4 | Nc6
+[2026-03-08 11:10:56.693401] Team Google:Gemini 3.0 Flash Preview | FEN: r1bqkb1r/1ppp1ppp/p1B2n2/4p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 1 5 | dxc3
+[2026-03-08 11:10:58.768187] Team Google:Gemini 3.0 Flash Preview | FEN: r1bqkb1r/1ppp1ppp/p1B2n2/4p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 1 5 | bxc3
+[2026-03-08 11:11:00.470255] Team Google:Gemini 3.0 Flash Preview | FEN: r1bqkb1r/1ppp1ppp/p1B2n2/4p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 1 5 | dxc6
+[2026-03-08 11:11:01.447021] Team Google:Gemini 3.0 Flash Preview | FEN: r1bqkb1r/1ppp1ppp/p1B2n2/4p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 1 5 | dxc6
+[2026-03-08 11:11:03.350961] Team Google:Gemini 3.0 Flash Preview | FEN: r1bqkb1r/1ppp1ppp/p1B2n2/4p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 1 5 | bxc6
+[2026-03-08 11:11:04.794479] Team Google:Gemma 3 1B (Google) | FEN: r1bqkb1r/1ppp1ppp/p1B2n2/4p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 1 5 | e4
+[2026-03-08 11:11:31.735958] Team OpenRouter:OR Trinity Large Free | FEN: r1bqkb1r/1ppp1ppp/p1B2n2/4p3/3PP3/5N2/PPP2PPP/RNBQK2R b KQkq - 0 5 | d6
+[2026-03-08 11:11:44.412026] Team OpenRouter:OR Trinity Large Free | FEN: r1bqkb1r/1ppp1ppp/p1B2n2/4p3/3PP3/5N2/PPP2PPP/RNBQK2R b KQkq - 0 5 | e5
+[2026-03-08 11:12:09.311614] Team Google:Gemma 3 1B (Google) | FEN: r1bqk2r/1pppbppp/p1B2n2/4p3/3PP3/5N2/PPP2PPP/RNBQK2R w KQkq - 1 6 | e4
+[2026-03-08 11:12:10.217811] Team Google:Gemma 3 1B (Google) | FEN: r1bqk2r/1pppbppp/p1B2n2/4p3/3PP3/5N2/PPP2PPP/RNBQK2R w KQkq - 1 6 | d2
+[2026-03-08 11:12:10.991313] Team Google:Gemma 3 1B (Google) | FEN: r1bqk2r/1pppbppp/p1B2n2/4p3/3PP3/5N2/PPP2PPP/RNBQK2R w KQkq - 1 6 | c5
+[2026-03-08 11:12:42.568975] Team OpenRouter:OR Trinity Large Free | FEN: r1bqk2r/1pppbppp/p1B2n2/4p3/3PP3/2P2N2/PP3PPP/RNBQK2R b KQkq - 0 6 | Nxh3+
+[2026-03-08 11:13:10.376298] Team Google:Gemma 3 1B (Google) | FEN: r1bq1rk1/1pppbppp/p1B2n2/4p3/3PP3/2P2N2/PP3PPP/RNBQK2R w KQ - 1 7 | Nf3
+[2026-03-08 11:13:11.883077] Team Google:Gemma 3 1B (Google) | FEN: r1bq1rk1/1pppbppp/p1B2n2/4p3/3PP3/2P2N2/PP3PPP/RNBQK2R w KQ - 1 7 | Nf3
+[2026-03-08 11:13:13.609928] Team Google:Gemma 3 1B (Google) | FEN: r1bq1rk1/1pppbppp/p1B2n2/4p3/3PP3/2P2N2/PP3PPP/RNBQK2R w KQ - 1 7 | Nf3
+[2026-03-08 11:13:14.915267] Team Google:Gemma 3 1B (Google) | FEN: r1bq1rk1/1pppbppp/p1B2n2/4p3/3PP3/2P2N2/PP3PPP/RNBQK2R w KQ - 1 7 | Nf3
+[2026-03-08 11:13:16.155262] Team Google:Gemma 3 1B (Google) | FEN: r1bq1rk1/1pppbppp/p1B2n2/4p3/3PP3/2P2N2/PP3PPP/RNBQK2R w KQ - 1 7 | Nf3
+[2026-03-08 11:13:17.668001] Team Google:Gemma 3 27B (Google) | FEN: r1bq1rk1/1pppbppp/p1B2n2/4p3/3PP3/2P2N2/PP3PPP/RNBQK2R w KQ - 1 7 | Nf3
+[2026-03-08 11:18:26.503607] Team OpenRouter:OR Trinity Large Free | FEN: r5r1/1pN2kp1/p4n2/8/2b5/2P1K3/PP3PPP/R6R b - - 0 23 | Bxc7
+[2026-03-08 11:20:25.378631] Team OpenRouter:OR Trinity Large Free | FEN: 4r3/1p3k2/p7/6K1/8/2P5/PP3PPP/R6R b - - 0 28 | Re8
+[2026-03-08 11:23:30.421725] Team Google:Gemma 3 1B (Google) | FEN: 8/6k1/p7/2P2K2/8/8/P4PPP/R6R w - - 1 37 | Nf6
+[2026-03-08 11:23:32.361064] Team Google:Gemma 3 1B (Google) | FEN: 8/6k1/p7/2P2K2/8/8/P4PPP/R6R w - - 1 37 | Nf6
+[2026-03-08 11:23:33.711944] Team Google:Gemma 3 1B (Google) | FEN: 8/6k1/p7/2P2K2/8/8/P4PPP/R6R w - - 1 37 | Nf6
+[2026-03-08 11:23:35.067885] Team Google:Gemma 3 1B (Google) | FEN: 8/6k1/p7/2P2K2/8/8/P4PPP/R6R w - - 1 37 | Nf6
+[2026-03-08 11:23:37.260794] Team Google:Gemma 3 1B (Google) | FEN: 8/6k1/p7/2P2K2/8/8/P4PPP/R6R w - - 1 37 | Nf6
+[2026-03-08 11:25:36.683937] Team Google:Gemma 3 27B (Google) | FEN: 7k/8/4K3/p7/8/8/P4PPP/R6R w - - 0 42 | a7
+[2026-03-08 11:26:02.235991] Team Google:Gemma 3 27B (Google) | FEN: 6k1/8/4K3/p7/P7/8/5PPP/R6R w - - 1 43 | a4
+[2026-03-08 11:30:41.995177] Team OpenRouter:OR Trinity Large Free | FEN: rnbqkb1r/ppp1pppp/2Np1n2/8/8/8/PPPPPPPP/RNBQKB1R b KQkq - 1 3 | Bc6
+[2026-03-08 11:32:40.983949] Team OpenRouter:OR Trinity Large Free | FEN: r2qkb1r/ppp1pppp/8/3p1b2/3B4/8/PPP1P1PP/RN2KB1R b KQkq - 0 9 | Qxd4
+[2026-03-08 11:40:43.327632] Team OpenRouter:OR Trinity Large Free | FEN: r2k1b2/ppp1p1pB/8/5b2/8/8/PP2K3/RN5R b - - 0 34 | Bf4
+[2026-03-08 14:15:59.132098] Team Google:Gemma 3 1B (Google) | FEN: rnbqkb1r/ppp5/3p1npp/4p1p1/8/2N5/PPPPPPPP/R1BQKB1R w KQkq - 0 7 | Nf5
+[2026-03-08 14:16:00.610282] Team Google:Gemma 3 1B (Google) | FEN: rnbqkb1r/ppp5/3p1npp/4p1p1/8/2N5/PPPPPPPP/R1BQKB1R w KQkq - 0 7 | Nf5
+[2026-03-08 14:16:02.571717] Team Google:Gemma 3 1B (Google) | FEN: rnbqkb1r/ppp5/3p1npp/4p1p1/8/2N5/PPPPPPPP/R1BQKB1R w KQkq - 0 7 | Nf5
+[2026-03-08 14:16:04.208038] Team Google:Gemma 3 1B (Google) | FEN: rnbqkb1r/ppp5/3p1npp/4p1p1/8/2N5/PPPPPPPP/R1BQKB1R w KQkq - 0 7 | Nf5
+[2026-03-08 14:16:05.366562] Team Google:Gemma 3 1B (Google) | FEN: rnbqkb1r/ppp5/3p1npp/4p1p1/8/2N5/PPPPPPPP/R1BQKB1R w KQkq - 0 7 | Nf6
+[2026-03-08 14:36:12.233095] Team OpenRouter:OR Trinity Large Free | FEN: rnbqkb1r/ppp1pppp/5n2/3N4/4P3/8/PPPP1PPP/R1BQKBNR b KQkq - 0 3 | f6
+[2026-03-08 14:36:20.892394] Team OpenRouter:OR Trinity Large Free | FEN: rnbqkb1r/ppp1pppp/5n2/3N4/4P3/8/PPPP1PPP/R1BQKBNR b KQkq - 0 3 | d5
+[2026-03-08 14:40:05.308308] Team GitHub:GitHub GPT-4o | FEN: r4br1/pppbp2k/6p1/7n/4P3/8/PPPP1PP1/R1B1K1R1 w Q - 0 15 | hxg6
+[2026-03-08 15:11:20.475194] Team Google:Gemma 3 1B (Google) | FEN: rnbqkbnr/pppp1ppp/8/4p3/8/2N5/PPPPPPPP/R1BQKBNR w KQkq - 0 2 | Nc3
+[2026-03-08 15:12:44.830025] Team OpenRouter:OR Trinity Large Free | FEN: rnbqkb1r/pppppppp/8/8/3PN3/8/PPP1PPPP/R1BQKB1R b KQkq - 0 5 | dxe4
+[2026-03-08 15:13:20.388690] Team Google:Gemma 3 1B (Google) | FEN: rnbqk2r/ppp2pb1/5npp/3pp3/8/2N2N2/PPPPPPPP/R1BQKB1R w KQkq - 2 7 | Nc3
+[2026-03-08 15:13:22.052049] Team Google:Gemma 3 1B (Google) | FEN: rnbqk2r/ppp2pb1/5npp/3pp3/8/2N2N2/PPPPPPPP/R1BQKB1R w KQkq - 2 7 | Nf3
+[2026-03-08 15:13:23.202658] Team Google:Gemma 3 1B (Google) | FEN: rnbqk2r/ppp2pb1/5npp/3pp3/8/2N2N2/PPPPPPPP/R1BQKB1R w KQkq - 2 7 | Nf5
+[2026-03-08 15:13:50.905301] Team Google:Gemma 3 1B (Google) | FEN: rnbqk2r/ppp2pb1/5npp/4p3/4p3/5N2/PPPPPPPP/R1BQKB1R w KQkq - 0 8 | Nc3
+[2026-03-08 15:14:50.604588] Team Google:Gemma 3 1B (Google) | FEN: rnb1k2r/ppp2pb1/5npp/4p3/3qp3/7N/PPPPPPPP/R1BQKB1R w KQkq - 4 10 | Nc3
+[2026-03-08 15:15:23.689318] Team Google:Gemma 3 1B (Google) | FEN: rnb1k2r/ppp2pb1/5npp/3qp1N1/4p3/8/PPPPPPPP/R1BQKB1R w KQkq - 6 11 | Nf6
+[2026-03-08 15:15:55.929221] Team Google:Gemma 3 1B (Google) | FEN: rnb1k2r/ppp2pb1/5npp/4p1N1/3qp3/8/PPP1PPPP/R1BQKB1R w KQkq - 0 12 | Nf6
+[2026-03-08 15:15:57.807156] Team Google:Gemma 3 1B (Google) | FEN: rnb1k2r/ppp2pb1/5npp/4p1N1/3qp3/8/PPP1PPPP/R1BQKB1R w KQkq - 0 12 | d4
+[2026-03-08 15:15:59.563007] Team Google:Gemma 3 1B (Google) | FEN: rnb1k2r/ppp2pb1/5npp/4p1N1/3qp3/8/PPP1PPPP/R1BQKB1R w KQkq - 0 12 | d4
+[2026-03-08 15:16:01.221335] Team Google:Gemma 3 1B (Google) | FEN: rnb1k2r/ppp2pb1/5npp/4p1N1/3qp3/8/PPP1PPPP/R1BQKB1R w KQkq - 0 12 | d4
+[2026-03-08 15:16:02.377851] Team Google:Gemma 3 1B (Google) | FEN: rnb1k2r/ppp2pb1/5npp/4p1N1/3qp3/8/PPP1PPPP/R1BQKB1R w KQkq - 0 12 | d4
+[2026-03-08 15:16:27.631254] Team OpenRouter:OR Trinity Large Free | FEN: r2qkb1r/ppp1pppp/5B2/8/3Q4/8/PPP1PPbP/R3KBR1 b Qkq - 1 12 | Kxf1
+[2026-03-08 15:20:16.823664] Team OpenRouter:OR Trinity Large Free | FEN: r1q1k2r/ppp1bppp/8/4B3/8/8/PPP1PP1P/R3KbR1 b Qkq - 1 15 | Qxg1
+[2026-03-08 15:20:50.268619] Team OpenRouter:OR Trinity Large Free | FEN: r1q1k2r/ppp2ppp/5B2/8/8/8/PPP1PP1P/R3KbR1 b Qkq - 0 16 | f1
+[2026-03-08 15:21:10.396757] Team OpenRouter:OR Trinity Large Free | FEN: r1q1k2r/ppp2ppp/5B2/8/8/8/PPP1PP1P/R3KbR1 b Qkq - 0 16 | Qxf6
+[2026-03-08 15:21:33.051396] Team OpenRouter:OR Trinity Large Free | FEN: r1q1k2r/ppp2ppp/5B2/8/8/8/PPP1PP1P/R3KbR1 b Qkq - 0 16 | f6

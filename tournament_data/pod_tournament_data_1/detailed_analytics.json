@@ -1,0 +1,300 @@
+{
+    "tournament_cycle": 1,
+    "continuous_tournaments": true,
+    "team_elo": [
+        {
+            "name": "Team Nemotron Ultra",
+            "elo": 1234.352606594792,
+            "games": 3,
+            "wins": 3,
+            "draws": 0,
+            "losses": 0
+        },
+        {
+            "name": "Team Owl Alpha",
+            "elo": 1212.0,
+            "games": 3,
+            "wins": 2,
+            "draws": 0,
+            "losses": 1
+        },
+        {
+            "name": "Team Nex N2 Pro",
+            "elo": 1188.0,
+            "games": 3,
+            "wins": 1,
+            "draws": 0,
+            "losses": 2
+        },
+        {
+            "name": "Team Laguna XS 2",
+            "elo": 1165.647393405208,
+            "games": 3,
+            "wins": 0,
+            "draws": 0,
+            "losses": 3
+        }
+    ],
+    "teams": [
+        {
+            "name": "Team Nex N2 Pro",
+            "points": 1.0,
+            "wins": 1,
+            "draws": 0,
+            "losses": 2,
+            "total_moves": 3,
+            "total_think_time": 28.093202590942383,
+            "api_errors": 5,
+            "model_switches": 6,
+            "illegal_moves": 0,
+            "stage1_calls": 3,
+            "stage2_calls": 3,
+            "models_used": [
+                "Nex N2 Pro Free",
+                "Liquid 2.5 1.2B Free"
+            ],
+            "played_opponents": [
+                "Team Laguna XS 2",
+                "Team Nemotron Ultra",
+                "Team Owl Alpha"
+            ],
+            "color_history": [
+                "W",
+                "W",
+                "W"
+            ],
+            "is_disqualified": true
+        },
+        {
+            "name": "Team Laguna XS 2",
+            "points": 0.0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 3,
+            "total_moves": 2,
+            "total_think_time": 9.281321287155151,
+            "api_errors": 4,
+            "model_switches": 6,
+            "illegal_moves": 7,
+            "stage1_calls": 9,
+            "stage2_calls": 9,
+            "models_used": [
+                "Poolside Laguna XS 2",
+                "Liquid 2.5 1.2B Free"
+            ],
+            "played_opponents": [
+                "Team Nex N2 Pro",
+                "Team Owl Alpha",
+                "Team Nemotron Ultra"
+            ],
+            "color_history": [
+                "B",
+                "W",
+                "W"
+            ],
+            "is_disqualified": true
+        },
+        {
+            "name": "Team Nemotron Ultra",
+            "points": 3.0,
+            "wins": 3,
+            "draws": 0,
+            "losses": 0,
+            "total_moves": 3,
+            "total_think_time": 157.27323818206787,
+            "api_errors": 0,
+            "model_switches": 0,
+            "illegal_moves": 0,
+            "stage1_calls": 3,
+            "stage2_calls": 3,
+            "models_used": [
+                "Nemotron 3 Ultra 550B"
+            ],
+            "played_opponents": [
+                "Team Owl Alpha",
+                "Team Nex N2 Pro",
+                "Team Laguna XS 2"
+            ],
+            "color_history": [
+                "W",
+                "B",
+                "B"
+            ],
+            "is_disqualified": false
+        },
+        {
+            "name": "Team Owl Alpha",
+            "points": 2.0,
+            "wins": 2,
+            "draws": 0,
+            "losses": 1,
+            "total_moves": 2,
+            "total_think_time": 83.2188310623169,
+            "api_errors": 3,
+            "model_switches": 4,
+            "illegal_moves": 0,
+            "stage1_calls": 3,
+            "stage2_calls": 2,
+            "models_used": [
+                "Owl Alpha"
+            ],
+            "played_opponents": [
+                "Team Nemotron Ultra",
+                "Team Laguna XS 2",
+                "Team Nex N2 Pro"
+            ],
+            "color_history": [
+                "B",
+                "B",
+                "B"
+            ],
+            "is_disqualified": true
+        }
+    ],
+    "models": [
+        {
+            "key": "Team Nex N2 Pro::Liquid 2.5 1.2B Free::openrouter/liquid/lfm-2.5-1.2b-instruct:free",
+            "team": "Team Nex N2 Pro",
+            "name": "Liquid 2.5 1.2B Free",
+            "model": "openrouter/liquid/lfm-2.5-1.2b-instruct:free",
+            "elo": 1212.0,
+            "games": 1,
+            "wins": 1,
+            "draws": 0,
+            "losses": 0,
+            "illegal_moves": 0
+        },
+        {
+            "key": "Team Nemotron Ultra::Nemotron 3 Ultra 550B::openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+            "team": "Team Nemotron Ultra",
+            "name": "Nemotron 3 Ultra 550B",
+            "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+            "elo": 1212.0,
+            "games": 1,
+            "wins": 1,
+            "draws": 0,
+            "losses": 0,
+            "illegal_moves": 0
+        },
+        {
+            "key": "Team Nex N2 Pro::Nex N2 Pro Free::openrouter/nex-agi/nex-n2-pro:free",
+            "team": "Team Nex N2 Pro",
+            "name": "Nex N2 Pro Free",
+            "model": "openrouter/nex-agi/nex-n2-pro:free",
+            "elo": 1200.0,
+            "games": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0,
+            "illegal_moves": 0
+        },
+        {
+            "key": "Team Nex N2 Pro::Nemotron Nano 9B V2 Free::openrouter/nvidia/nemotron-nano-9b-v2:free",
+            "team": "Team Nex N2 Pro",
+            "name": "Nemotron Nano 9B V2 Free",
+            "model": "openrouter/nvidia/nemotron-nano-9b-v2:free",
+            "elo": 1200.0,
+            "games": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0,
+            "illegal_moves": 0
+        },
+        {
+            "key": "Team Laguna XS 2::Poolside Laguna XS 2::openrouter/poolside/laguna-xs.2:free",
+            "team": "Team Laguna XS 2",
+            "name": "Poolside Laguna XS 2",
+            "model": "openrouter/poolside/laguna-xs.2:free",
+            "elo": 1200.0,
+            "games": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0,
+            "illegal_moves": 0
+        },
+        {
+            "key": "Team Laguna XS 2::Nemotron Nano 9B V2 Free::openrouter/nvidia/nemotron-nano-9b-v2:free",
+            "team": "Team Laguna XS 2",
+            "name": "Nemotron Nano 9B V2 Free",
+            "model": "openrouter/nvidia/nemotron-nano-9b-v2:free",
+            "elo": 1200.0,
+            "games": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0,
+            "illegal_moves": 0
+        },
+        {
+            "key": "Team Nemotron Ultra::Nemotron Nano 9B V2 Free::openrouter/nvidia/nemotron-nano-9b-v2:free",
+            "team": "Team Nemotron Ultra",
+            "name": "Nemotron Nano 9B V2 Free",
+            "model": "openrouter/nvidia/nemotron-nano-9b-v2:free",
+            "elo": 1200.0,
+            "games": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0,
+            "illegal_moves": 0
+        },
+        {
+            "key": "Team Nemotron Ultra::Liquid 2.5 1.2B Free::openrouter/liquid/lfm-2.5-1.2b-instruct:free",
+            "team": "Team Nemotron Ultra",
+            "name": "Liquid 2.5 1.2B Free",
+            "model": "openrouter/liquid/lfm-2.5-1.2b-instruct:free",
+            "elo": 1200.0,
+            "games": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0,
+            "illegal_moves": 0
+        },
+        {
+            "key": "Team Owl Alpha::Liquid 2.5 1.2B Free::openrouter/liquid/lfm-2.5-1.2b-instruct:free",
+            "team": "Team Owl Alpha",
+            "name": "Liquid 2.5 1.2B Free",
+            "model": "openrouter/liquid/lfm-2.5-1.2b-instruct:free",
+            "elo": 1200.0,
+            "games": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0,
+            "illegal_moves": 0
+        },
+        {
+            "key": "Team Owl Alpha::Nemotron Nano 9B V2 Free::openrouter/nvidia/nemotron-nano-9b-v2:free",
+            "team": "Team Owl Alpha",
+            "name": "Nemotron Nano 9B V2 Free",
+            "model": "openrouter/nvidia/nemotron-nano-9b-v2:free",
+            "elo": 1200.0,
+            "games": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0,
+            "illegal_moves": 0
+        },
+        {
+            "key": "Team Laguna XS 2::Liquid 2.5 1.2B Free::openrouter/liquid/lfm-2.5-1.2b-instruct:free",
+            "team": "Team Laguna XS 2",
+            "name": "Liquid 2.5 1.2B Free",
+            "model": "openrouter/liquid/lfm-2.5-1.2b-instruct:free",
+            "elo": 1188.0,
+            "games": 1,
+            "wins": 0,
+            "draws": 0,
+            "losses": 1,
+            "illegal_moves": 7
+        },
+        {
+            "key": "Team Owl Alpha::Owl Alpha::openrouter/openrouter/owl-alpha",
+            "team": "Team Owl Alpha",
+            "name": "Owl Alpha",
+            "model": "openrouter/openrouter/owl-alpha",
+            "elo": 1188.0,
+            "games": 1,
+            "wins": 0,
+            "draws": 0,
+            "losses": 1,
+            "illegal_moves": 0
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+[Event "Provider Tournament R2"]
+[Site "LLM Chess v32.0"]
+[Date "2026-03-06"]
+[Round "?"]
+[White "Team SambaNova"]
+[Black "Team OpenRouter"]
+[Result "0-1"]
+[Termination "DQ"]
+
+1. e4 { {Samba Qwen3 32B } 1... e5 { {OR Trinity Large Free } 2. Nf3 { {Samba Llama 3.1 8B } 2... Nf6 { {OR Trinity Large Free } 3. Ng5 { {Samba Llama 3.1 8B } 3... Nxe4 { {OR Trinity Large Free } 4. Nh3 { {Samba Llama 3.1 8B } 4... Nxf2 { {OR Trinity Large Free } 5. Nf4 { {Samba Llama 3.1 8B } 5... Nxh1 { {OR Trinity Large Free } 6. Nh5 { {Samba Llama 3.1 8B } 6... g6 { {OR Trinity Large Free } 7. Ng7+ { {Samba Llama 3.1 8B } 7... Ke7 { {OR Trinity Large Free } 0-1
+

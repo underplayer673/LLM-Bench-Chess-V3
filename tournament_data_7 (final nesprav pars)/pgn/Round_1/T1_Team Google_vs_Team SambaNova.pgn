@@ -1,0 +1,10 @@
+[Event "Provider Tournament R1"]
+[Site "LLM Chess v32.0"]
+[Date "2026-03-06"]
+[Round "?"]
+[White "Team Google"]
+[Black "Team SambaNova"]
+[Result "0-1"]
+
+1. e4 { {Gemini 2.5 Flash } 1... e5 { {Samba Qwen3 32B } 2. Nf3 { {Gemini 2.5 Flash } 2... Nc6 { {Samba Qwen3 32B } 3. Nc3 { {Gemini 2.5 Flash } 3... Bc5 { {Samba Qwen3 32B } 4. Ng5 { {Gemini 2.5 Flash } 4... Nh6 { {Samba Llama 3.1 8B } 5. Nxf7 { {Gemini 2.5 Flash } 5... Qf6 { {Samba Llama 3.1 8B } 6. Nxh8 { {Gemini 2.5 Flash } 6... Qf8 { {Samba Llama 3.1 8B } 7. Ng6 { {Gemini 2.5 Flash } 7... Qf7 { {Samba Llama 3.1 8B } 8. Nh8 { {Gemini 2.5 Flash } 8... Qxf2# { {Samba Qwen3 32B } 0-1
+
