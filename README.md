@@ -1,47 +1,61 @@
-# 🏆 LLM Chess Arena v3.0
+# LLM Chess Arena API
 
-**LLM Chess Arena** is a professional CLI-based tournament manager designed to benchmark Large Language Models (LLMs) through chess. It utilizes a **Swiss-system pairing algorithm** and is specifically optimized for a **Human-in-the-loop** workflow, allowing you to test top-tier models via their web interfaces without needing expensive API keys.
+Локальная CLI-арена для шахматных турниров между LLM-провайдерами. Проект проверяет, как модели держат правила шахмат, выбирают легальные ходы, переживают rate limit и меняются по failover-цепочке.
 
-![Version](https://img.shields.io/badge/version-3.0.0-blue)
-![Python](https://img.shields.io/badge/python-3.8%2B-green)
-![License](https://img.shields.io/badge/license-MIT-orange)
+## Состав
 
-## 🌟 1. Overview
+- `python arena_v3_API_new_versu.py` - основная API-арена: партии, failover, ELO команд и моделей, continuous tournaments.
+- `python arena_v3_API.py` - старая API-версия.
+- `python arena_v3.py` - ручная human-in-the-loop версия.
+- `keys.py` - безопасная загрузка и сохранение API-ключей в `keys_local.json`.
+- `scout.py` - проверка доступности моделей из `scout_models.json`.
+- `analysis.py` - анализ PGN через Stockfish.
+- `stockfish/` - локальный Stockfish и его исходники/документация.
+- `tournament_data*/` - результаты запусков, PGN, JSON-аналитика и hallucination logs.
 
-While most AI benchmarks focus on text or code, chess is a perfect proxy for testing **spatial reasoning**, **sustained attention**, and **logical consistency**. 
+## Установка
 
-This engine allows researchers to observe:
-* How well models "see" the board without specialized chess engines.
-* The frequency of **"Spatial Hallucinations"** (attempting illegal moves).
-* How "Thinking" models utilize their processing time in complex strategic positions.
+```bash
+python -m pip install -r requirements.txt
+```
 
-## 🚀 2. Key Features
+Для тестов:
 
-*   **🏆 Swiss System Integration:** Automatically generates fair pairings based on current standings (Winners vs. Winners). No early eliminations—every model plays every round.
-*   **🧠 Hallucination Tracker:** Every illegal move or syntax error is logged in `hallucinations.log` with a timestamp and FEN, providing a dataset for AI reliability research.
-*   **📋 Turbo Workflow:** The script automatically copies the current FEN and formatted prompt to your clipboard (`pyperclip`). Just press `Ctrl+V` in your AI chat.
-*   **💾 Persistent State:** Tournament data is saved after every single move. You can close the terminal and resume the tournament later exactly where you left off.
-*   **📊 Professional Data Export:** 
-    *   **PGN:** Full game histories compatible with Chess.com, Lichess, and Fritz.
-    *   **JSON:** Final standings including "Time Spent" and "Error Rate" metrics.
+```bash
+python -m pip install -r requirements-dev.txt
+python -m pytest
+```
 
-## 🛠 3. Installation
+## Запуск
 
-1. download the repository
-2. Install dependencies:
-   ```bash
-   pip install python-chess pyperclip colorama
-3. Run the manager:
-    ```bash   
-   python arena.py
-📖 4. Tournament Workflow
-Setup: Add your model names to the PARTICIPANTS list inside arena.py.
-The Pipeline:
-Select a Table ID (1-4).
-The prompt is auto-copied. Paste it into your AI's chat (GPT, Claude, Gemini, etc.).
-Type the AI's response (e.g., Nf3) back into the terminal.
-Validation: The engine checks move legality instantly. If the AI "hallucinates," the error is logged, and you can request a retry.
-Final Standings: After 3 rounds, the engine generates a final_standings.json leaderboard.
-📜 5. The Story Behind the Project
-This project was born from a casual chess match against my grandmother. I was using a "state-of-the-art" AI to assist, and it unexpectedly hung its Queen for no reason. This inspired me to build a system that objectively measures whether these "superintelligences" can actually follow rigid rules under pressure.
-The outcome of a match depends not only on the chess engine but also on the current load on data centers worldwide, your API quota allocations, and which model comes online at the last minute. You might see a perfect game between the flagships, or you might witness the server crash, a 1.2B model seizes control, and accidentally loses the queen.
+```bash
+python "python arena_v3_API_new_versu.py"
+```
+
+При первом запуске программа спросит API-ключи. Они сохраняются в `keys_local.json`, который должен оставаться локальным и не попадать в репозиторий.
+
+## Команды Внутри Арены
+
+- `start` - начать или продолжить турнир.
+- `test` - проверить подключение к моделям.
+- `top` - таблица текущего турнира.
+- `elo` - ELO моделей.
+- `teamelo` - ELO команд.
+- `teams` - цепочки моделей и cooldown.
+- `logs` - последние нелегальные ходы.
+- `mode`, `submode`, `ormode` - режим игры и выбора моделей.
+- `key` - редактировать ключи.
+- `delays` - изменить задержки и cooldown.
+- `reset` - удалить `tournament_data` и начать заново.
+
+## Безопасность
+
+- Не храните реальные ключи в `keys.py`.
+- Не коммитьте `keys_local.json` и `scout_keys.json`.
+- Не публикуйте `tournament_data*`, если в логах могут быть приватные prompt/ответы или внутренние имена моделей.
+
+## Ограничения
+
+- Это исследовательский CLI-инструмент, не production-сервис.
+- Результаты зависят от доступности API, лимитов провайдеров и текущих версий моделей.
+- Для строгого бенчмарка фиксируйте дату, список моделей, режим, prompt, seed/температуру и полный state.

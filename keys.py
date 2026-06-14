@@ -1,55 +1,70 @@
-# LLM Chess API Keys
-# Shared across all arena_v3_API files
-#
-# HOW TO USE FOR GITHUB:
-#   1. Keep this file with empty strings (safe to commit)
-#   2. Run the app -> type 'key' -> enter your real keys
-#   3. Keys are saved to keys_local.json (NOT committed to git)
-#   4. keys_local.json is in .gitignore
+# Shared API key storage for the LLM chess tools.
+# Keep this file safe to commit. Real keys live in keys_local.json.
 
 import json
+import os
 from pathlib import Path
 
-_KEYS_LOCAL_FILE = Path(__file__).parent / "scout_keys.json"
+_KEYS_LOCAL_FILE = Path(__file__).parent / "keys_local.json"
+_LEGACY_KEYS_FILE = Path(__file__).parent / "scout_keys.json"
 
-# Default keys — empty strings, safe to upload to GitHub
-# Real keys are stored in keys_local.json (gitignored)
 _DEFAULT_KEYS = {
-    "GOOGLE":     "",
-    "COHERE":     "",
+    "GOOGLE": "",
+    "COHERE": "",
     "OPENROUTER": "",
-    "SAMBANOVA":  "",
-    "GITHUB":     "",
-    "CEREBRAS":   "",
+    "SAMBANOVA": "",
+    "OPENAI": "",
+    "ANTHROPIC": "",
+    "GROK": "",
+    "GROQ": "",
+    "GITHUB": "",
+    "HF": "",
+    "LM_STUDIO": "http://localhost:1234/v1",
+    "CEREBRAS": "",
+    "MISTRAL": "",
+    "CLOUDFLARE": "",
+    "TOGETHER": "",
+    "FIREWORKS": "",
+    "NVIDIA": "",
+    "AI21": "",
+    "GLHF": "",
+    "POLZA": "",
 }
 
+
 def _load_keys() -> dict:
-    """Load keys from keys_local.json if it exists, otherwise use defaults."""
-    if _KEYS_LOCAL_FILE.exists():
+    """Load keys_local.json, then legacy scout_keys.json, then defaults."""
+    source = _KEYS_LOCAL_FILE if _KEYS_LOCAL_FILE.exists() else _LEGACY_KEYS_FILE
+    if source.exists():
         try:
-            with open(_KEYS_LOCAL_FILE, "r", encoding="utf-8") as f:
+            with open(source, "r", encoding="utf-8") as f:
                 local = json.load(f)
             merged = dict(_DEFAULT_KEYS)
             merged.update({k: v for k, v in local.items() if k in _DEFAULT_KEYS})
             return merged
-        except Exception:
-            pass
+        except Exception as exc:
+            print(f"[keys] Warning: could not load {source}: {exc}")
     return dict(_DEFAULT_KEYS)
+
 
 def save_keys(keys: dict):
     """Persist current keys to keys_local.json so they survive restarts."""
     try:
-        with open(_KEYS_LOCAL_FILE, "w", encoding="utf-8") as f:
+        tmp_path = _KEYS_LOCAL_FILE.with_name(f"{_KEYS_LOCAL_FILE.name}.tmp")
+        with open(tmp_path, "w", encoding="utf-8") as f:
             json.dump(keys, f, indent=4)
-    except Exception as e:
-        print(f"[keys] Warning: could not save keys — {e}")
+        os.replace(tmp_path, _KEYS_LOCAL_FILE)
+    except Exception as exc:
+        print(f"[keys] Warning: could not save keys: {exc}")
+
 
 def check_keys_and_prompt(keys: dict):
     """
-    Check if required keys are set. If any are empty, prompt user interactively.
-    Returns True if all required keys are now set.
+    Prompt for missing keys at startup. Blank values are allowed; that provider
+    will fail fast or be skipped by the user.
     """
-    from colorama import Fore, Style, Back
+    from colorama import Back, Fore, Style
+
     required = ["GOOGLE", "COHERE", "OPENROUTER", "SAMBANOVA", "GITHUB", "CEREBRAS"]
     missing = [k for k in required if not keys.get(k, "").strip() and keys.get(k) != "EMPTY_KEY"]
     if not missing:
@@ -58,17 +73,19 @@ def check_keys_and_prompt(keys: dict):
     print(f"\n{Back.YELLOW}{Fore.BLACK} API KEYS NOT CONFIGURED {Style.RESET_ALL}")
     print(f"{Fore.YELLOW}Missing keys: {', '.join(missing)}{Style.RESET_ALL}")
     print(f"Keys are stored in {_KEYS_LOCAL_FILE} (gitignored).")
-    print("Enter keys now, or press Enter to skip (that provider will be unavailable).\n")
+    print("Enter keys now, or press Enter to skip that provider.\n")
+
     changed = False
-    for k in missing:
-        v = input(f"  Enter {k} key (blank to skip): ").strip()
-        if v:
-            keys[k] = v
+    for key_name in missing:
+        value = input(f"  Enter {key_name} key (blank to skip): ").strip()
+        if value:
+            keys[key_name] = value
             changed = True
     if changed:
         save_keys(keys)
-        print(f"{Fore.GREEN}Keys saved to keys_local.json.{Style.RESET_ALL}\n")
+        print(f"{Fore.GREEN}Keys saved to {_KEYS_LOCAL_FILE.name}.{Style.RESET_ALL}\n")
     return True
 
-# The shared mutable dict — all files import this reference
+
+# Shared mutable dict. All arena files import this reference.
 KEYS = _load_keys()

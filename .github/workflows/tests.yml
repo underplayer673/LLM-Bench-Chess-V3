@@ -1,0 +1,20 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: python -m pip install -r requirements-dev.txt
+      - name: Compile Python files
+        run: python -m py_compile "python arena_v3_API_new_versu.py" "python arena_v3_API.py" "python arena_v3.py" "analysis.py" "scout.py" "scout_rezerv.py" "keys.py"
+      - name: Run tests
+        run: python -m pytest

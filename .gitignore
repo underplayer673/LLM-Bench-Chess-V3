@@ -1,0 +1,14 @@
+keys_local.json
+scout_keys.json
+*.env
+.env
+.env.*
+*.tmp
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.sixth/
+stockfish/*.exe
+tournament_data/
+tournament_data*/

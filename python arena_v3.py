@@ -47,7 +47,7 @@ class Config:
     PARTICIPANTS = [
         "Gemini 3 Pro", "Kimi K2",
         "Claude Opus 4.5", "GPT-5.2",
-        "GLM-4.7", "Grok 4.1 Fast",
+        "GLM-4.7", "Grok 4.1",
         "DeepSeek V3.2", "Qwen3 Max Thinking"
     ]
 
